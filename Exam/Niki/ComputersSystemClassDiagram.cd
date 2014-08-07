@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ComputersBuildingSystem.ComputersSystemEntryPoint" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ComputersSystemEntryPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.ManufacturerSelector" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManufacturerSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.RandomGeneratorSingleton" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>RandomGeneratorSingleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.Cpu" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAAAAAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\Cpu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.Cpu128Bit" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\Cpu128Bit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.Cpu32Bit" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\Cpu32Bit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.Cpu64Bit" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\Cpu64Bit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.HardDrive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAASAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\HardDrive.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.LaptopBattery" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\LaptopBattery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.Motherboard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEQAAAAAAAAAAAAAAAAAAAAEAAAAAAIAACAAAA=</HashCode>
+      <FileName>DeviceComponents\Motherboard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.MotherboardComponent" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\MotherboardComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.RaidHardDrive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAASAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\RaidHardDrive.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.RamMemory" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAgAAAABAA=</HashCode>
+      <FileName>DeviceComponents\RamMemory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceComponents.VideoCard" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>DeviceComponents\VideoCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceManufacturers.Dell" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAgABAAAABAAEAAAAAAAAQAAgAKAIAEAAAIAAAAAA=</HashCode>
+      <FileName>DeviceManufacturers\Dell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceManufacturers.DeviceManufacturer" Collapsed="true">
+    <Position X="2.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceManufacturers\DeviceManufacturer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceManufacturers.HewlettPackard" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAgABAAAABAAEAAAAAAAAQAAgAKAIAEAAAIAAAAAA=</HashCode>
+      <FileName>DeviceManufacturers\HewlettPackard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.DeviceManufacturers.Lenovo" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAgABAAAABAAEAAAAAAAAQAAgAKAIAEAAAIAAAAAA=</HashCode>
+      <FileName>DeviceManufacturers\Lenovo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.Devices.Device" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAQAAAAAAAAAAAAAAAAAAACEAAAAAAAAACAAAA=</HashCode>
+      <FileName>Devices\Device.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.Devices.Laptop" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devices\Laptop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.Devices.PersonalComputer" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Devices\PersonalComputer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputersBuildingSystem.Devices.Server" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devices\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ComputersBuildingSystem.IMotherboard" Collapsed="true">
+    <Position X="15.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>IMotherboard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ComputersBuildingSystem.DeviceComponents.ICpu" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\ICpu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ComputersBuildingSystem.DeviceComponents.IHardDrive" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAASAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\IHardDrive.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ComputersBuildingSystem.DeviceComponents.IMotherboardComponent" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceComponents\IMotherboardComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
