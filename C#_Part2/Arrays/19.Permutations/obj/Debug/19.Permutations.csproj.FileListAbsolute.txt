@@ -1,0 +1,15 @@
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\19.Permutations\bin\Debug\19.Permutations.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\19.Permutations\bin\Debug\19.Permutations.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\19.Permutations\bin\Debug\19.Permutations.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\19.Permutations\obj\Debug\19.Permutations.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\19.Permutations\obj\Debug\19.Permutations.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\19.Permutations\obj\Debug\19.Permutations.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Arrays\19.Permutations\bin\Debug\19.Permutations.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Arrays\19.Permutations\obj\Debug\19.Permutations.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Arrays\19.Permutations\obj\Debug\19.Permutations.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\19.Permutations\bin\Debug\19.Permutations.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\19.Permutations\bin\Debug\19.Permutations.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\19.Permutations\bin\Debug\19.Permutations.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\19.Permutations\obj\Debug\19.Permutations.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\19.Permutations\obj\Debug\19.Permutations.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\19.Permutations\obj\Debug\19.Permutations.pdb

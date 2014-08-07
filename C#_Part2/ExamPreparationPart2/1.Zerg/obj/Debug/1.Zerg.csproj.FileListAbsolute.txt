@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\1.Zerg\bin\Debug\1.Zerg.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\1.Zerg\bin\Debug\1.Zerg.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\1.Zerg\bin\Debug\1.Zerg.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\1.Zerg\obj\Debug\1.Zerg.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\1.Zerg\obj\Debug\1.Zerg.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\1.Zerg\obj\Debug\1.Zerg.pdb

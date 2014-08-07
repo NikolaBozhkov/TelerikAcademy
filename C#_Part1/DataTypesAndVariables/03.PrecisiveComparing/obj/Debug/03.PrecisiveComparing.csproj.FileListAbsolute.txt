@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\03.PrecisiveComparing\bin\Debug\03.PrecisiveComparing.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\03.PrecisiveComparing\bin\Debug\03.PrecisiveComparing.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\03.PrecisiveComparing\bin\Debug\03.PrecisiveComparing.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\03.PrecisiveComparing\obj\Debug\03.PrecisiveComparing.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\03.PrecisiveComparing\obj\Debug\03.PrecisiveComparing.pdb

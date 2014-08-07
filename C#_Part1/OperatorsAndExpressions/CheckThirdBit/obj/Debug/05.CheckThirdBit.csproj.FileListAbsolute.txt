@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdBit\bin\Debug\CheckThirdBit.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdBit\obj\Debug\CheckThirdBit.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdBit\obj\Debug\CheckThirdBit.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdBit\bin\Debug\CheckThirdBit.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdBit\bin\Debug\CheckThirdBit.pdb

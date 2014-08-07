@@ -1,0 +1,15 @@
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\07.ReplaceStartWithFinish\bin\Debug\07.ReplaceStartWithFinish.exe.config
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\07.ReplaceStartWithFinish\bin\Debug\07.ReplaceStartWithFinish.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\07.ReplaceStartWithFinish\bin\Debug\07.ReplaceStartWithFinish.pdb
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\07.ReplaceStartWithFinish\obj\Debug\07.ReplaceStartWithFinish.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\07.ReplaceStartWithFinish\obj\Debug\07.ReplaceStartWithFinish.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\07.ReplaceStartWithFinish\obj\Debug\07.ReplaceStartWithFinish.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\07.ReplaceStartWithFinish\bin\Debug\07.ReplaceStartWithFinish.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\07.ReplaceStartWithFinish\obj\Debug\07.ReplaceStartWithFinish.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\07.ReplaceStartWithFinish\obj\Debug\07.ReplaceStartWithFinish.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\07.ReplaceStartWithFinish\bin\Debug\07.ReplaceStartWithFinish.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\07.ReplaceStartWithFinish\obj\Debug\07.ReplaceStartWithFinish.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\07.ReplaceStartWithFinish\obj\Debug\07.ReplaceStartWithFinish.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\07.ReplaceStartWithFinish\bin\Debug\07.ReplaceStartWithFinish.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\07.ReplaceStartWithFinish\bin\Debug\07.ReplaceStartWithFinish.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\07.ReplaceStartWithFinish\obj\Debug\07.ReplaceStartWithFinish.csprojResolveAssemblyReference.cache

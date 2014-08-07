@@ -1,0 +1,15 @@
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\2.BinaryToDecimal\bin\Debug\2.BinaryToDecimal.exe.config
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\2.BinaryToDecimal\bin\Debug\2.BinaryToDecimal.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\2.BinaryToDecimal\bin\Debug\2.BinaryToDecimal.pdb
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\2.BinaryToDecimal\obj\Debug\2.BinaryToDecimal.csprojResolveAssemblyReference.cache
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\2.BinaryToDecimal\obj\Debug\2.BinaryToDecimal.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\2.BinaryToDecimal\obj\Debug\2.BinaryToDecimal.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\2.BinaryToDecimal\bin\Debug\2.BinaryToDecimal.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\2.BinaryToDecimal\obj\Debug\2.BinaryToDecimal.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\2.BinaryToDecimal\obj\Debug\2.BinaryToDecimal.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\2.BinaryToDecimal\bin\Debug\2.BinaryToDecimal.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\2.BinaryToDecimal\obj\Debug\2.BinaryToDecimal.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\2.BinaryToDecimal\obj\Debug\2.BinaryToDecimal.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\2.BinaryToDecimal\bin\Debug\2.BinaryToDecimal.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\2.BinaryToDecimal\bin\Debug\2.BinaryToDecimal.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\2.BinaryToDecimal\obj\Debug\2.BinaryToDecimal.csprojResolveAssemblyReference.cache

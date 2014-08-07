@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\09.10.CatalanNumbers\bin\Debug\09.10.CatalanNumbers.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\09.10.CatalanNumbers\bin\Debug\09.10.CatalanNumbers.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\09.10.CatalanNumbers\bin\Debug\09.10.CatalanNumbers.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\09.10.CatalanNumbers\obj\Debug\09.10.CatalanNumbers.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\09.10.CatalanNumbers\obj\Debug\09.10.CatalanNumbers.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\09.10.CatalanNumbers\obj\Debug\09.10.CatalanNumbers.pdb

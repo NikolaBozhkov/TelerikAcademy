@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\05.CharVariable\bin\Debug\05.CharVariable.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\05.CharVariable\bin\Debug\05.CharVariable.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\05.CharVariable\bin\Debug\05.CharVariable.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\05.CharVariable\obj\Debug\05.CharVariable.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\05.CharVariable\obj\Debug\05.CharVariable.pdb

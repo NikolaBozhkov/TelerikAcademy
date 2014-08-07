@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.Crossword\bin\Debug\2.Crossword.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.Crossword\bin\Debug\2.Crossword.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.Crossword\bin\Debug\2.Crossword.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.Crossword\obj\Debug\2.Crossword.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.Crossword\obj\Debug\2.Crossword.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.Crossword\obj\Debug\2.Crossword.pdb

@@ -1,0 +1,15 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\09.MaxElemInPortionAndSort\bin\Debug\09.MaxElemInPortionAndSort.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\09.MaxElemInPortionAndSort\bin\Debug\09.MaxElemInPortionAndSort.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\09.MaxElemInPortionAndSort\bin\Debug\09.MaxElemInPortionAndSort.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\09.MaxElemInPortionAndSort\obj\Debug\09.MaxElemInPortionAndSort.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\09.MaxElemInPortionAndSort\obj\Debug\09.MaxElemInPortionAndSort.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\09.MaxElemInPortionAndSort\obj\Debug\09.MaxElemInPortionAndSort.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\09.MaxElemInPortionAndSort\bin\Debug\09.MaxElemInPortionAndSort.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\09.MaxElemInPortionAndSort\obj\Debug\09.MaxElemInPortionAndSort.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\09.MaxElemInPortionAndSort\obj\Debug\09.MaxElemInPortionAndSort.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\09.MaxElemInPortionAndSort\bin\Debug\09.MaxElemInPortionAndSort.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\09.MaxElemInPortionAndSort\bin\Debug\09.MaxElemInPortionAndSort.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\09.MaxElemInPortionAndSort\bin\Debug\09.MaxElemInPortionAndSort.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\09.MaxElemInPortionAndSort\obj\Debug\09.MaxElemInPortionAndSort.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\09.MaxElemInPortionAndSort\obj\Debug\09.MaxElemInPortionAndSort.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\09.MaxElemInPortionAndSort\obj\Debug\09.MaxElemInPortionAndSort.pdb

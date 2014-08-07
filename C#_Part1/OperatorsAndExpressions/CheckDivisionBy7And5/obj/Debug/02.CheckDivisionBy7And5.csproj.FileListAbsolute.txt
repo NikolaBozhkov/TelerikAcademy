@@ -1,0 +1,3 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckDivisionBy7And5\bin\Debug\CheckDivisionBy7And5.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckDivisionBy7And5\obj\Debug\CheckDivisionBy7And5.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckDivisionBy7And5\obj\Debug\CheckDivisionBy7And5.pdb

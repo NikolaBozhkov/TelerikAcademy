@@ -1,0 +1,15 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\2.FindMaxSumSquare\bin\Debug\2.FindMaxSumSquare.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\2.FindMaxSumSquare\bin\Debug\2.FindMaxSumSquare.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\2.FindMaxSumSquare\bin\Debug\2.FindMaxSumSquare.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\2.FindMaxSumSquare\obj\Debug\2.FindMaxSumSquare.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\2.FindMaxSumSquare\obj\Debug\2.FindMaxSumSquare.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\2.FindMaxSumSquare\obj\Debug\2.FindMaxSumSquare.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\MultidimensionalArrays\2.FindMaxSumSquare\bin\Debug\2.FindMaxSumSquare.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\MultidimensionalArrays\2.FindMaxSumSquare\obj\Debug\2.FindMaxSumSquare.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\MultidimensionalArrays\2.FindMaxSumSquare\obj\Debug\2.FindMaxSumSquare.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\2.FindMaxSumSquare\bin\Debug\2.FindMaxSumSquare.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\2.FindMaxSumSquare\obj\Debug\2.FindMaxSumSquare.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\2.FindMaxSumSquare\obj\Debug\2.FindMaxSumSquare.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\2.FindMaxSumSquare\bin\Debug\2.FindMaxSumSquare.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\2.FindMaxSumSquare\bin\Debug\2.FindMaxSumSquare.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\2.FindMaxSumSquare\obj\Debug\2.FindMaxSumSquare.csprojResolveAssemblyReference.cache

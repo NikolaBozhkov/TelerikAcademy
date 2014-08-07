@@ -1,0 +1,15 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\05.CompElemWithNeighbors\bin\Debug\05.CompElemWithNeighbors.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\05.CompElemWithNeighbors\bin\Debug\05.CompElemWithNeighbors.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\05.CompElemWithNeighbors\bin\Debug\05.CompElemWithNeighbors.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\05.CompElemWithNeighbors\obj\Debug\05.CompElemWithNeighbors.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\05.CompElemWithNeighbors\obj\Debug\05.CompElemWithNeighbors.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\05.CompElemWithNeighbors\obj\Debug\05.CompElemWithNeighbors.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\05.CompElemWithNeighbors\bin\Debug\05.CompElemWithNeighbors.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\05.CompElemWithNeighbors\obj\Debug\05.CompElemWithNeighbors.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\05.CompElemWithNeighbors\obj\Debug\05.CompElemWithNeighbors.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\05.CompElemWithNeighbors\bin\Debug\05.CompElemWithNeighbors.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\05.CompElemWithNeighbors\obj\Debug\05.CompElemWithNeighbors.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\05.CompElemWithNeighbors\obj\Debug\05.CompElemWithNeighbors.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\05.CompElemWithNeighbors\bin\Debug\05.CompElemWithNeighbors.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\05.CompElemWithNeighbors\bin\Debug\05.CompElemWithNeighbors.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\05.CompElemWithNeighbors\obj\Debug\05.CompElemWithNeighbors.csprojResolveAssemblyReference.cache

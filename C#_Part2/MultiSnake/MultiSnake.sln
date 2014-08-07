@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSnake", "MultiSnake\MultiSnake.csproj", "{9321999B-F517-4086-A171-54F20FA5C168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSnake2", "MultiSnake2\MultiSnake2.csproj", "{384C4717-B65C-4BCA-A074-290CC3302C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSnakeUpdate3", "MultiSnakeUpdate3\MultiSnakeUpdate3.csproj", "{6EE13EEA-BD97-4531-B38A-D6F2DE7B3D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSnakeBeta", "MultiSnakeBeta\MultiSnakeBeta.csproj", "{A9214F4F-F524-485A-9451-7287EF4D1846}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zdravko7.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = MultiSnakeUpdate3\\MultiSnakeUpdate3.csproj
+		SccProjectName0 = MultiSnakeUpdate3
+		SccAuxPath0 = https://zdravko7.visualstudio.com/defaultcollection
+		SccLocalPath0 = MultiSnakeUpdate3
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = MultiSnakeBeta\\MultiSnakeBeta.csproj
+		SccProjectName1 = MultiSnakeBeta
+		SccAuxPath1 = https://zdravko7.visualstudio.com/defaultcollection
+		SccLocalPath1 = MultiSnakeBeta
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9321999B-F517-4086-A171-54F20FA5C168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9321999B-F517-4086-A171-54F20FA5C168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9321999B-F517-4086-A171-54F20FA5C168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9321999B-F517-4086-A171-54F20FA5C168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384C4717-B65C-4BCA-A074-290CC3302C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384C4717-B65C-4BCA-A074-290CC3302C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384C4717-B65C-4BCA-A074-290CC3302C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384C4717-B65C-4BCA-A074-290CC3302C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE13EEA-BD97-4531-B38A-D6F2DE7B3D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE13EEA-BD97-4531-B38A-D6F2DE7B3D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE13EEA-BD97-4531-B38A-D6F2DE7B3D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE13EEA-BD97-4531-B38A-D6F2DE7B3D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9214F4F-F524-485A-9451-7287EF4D1846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9214F4F-F524-485A-9451-7287EF4D1846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9214F4F-F524-485A-9451-7287EF4D1846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9214F4F-F524-485A-9451-7287EF4D1846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

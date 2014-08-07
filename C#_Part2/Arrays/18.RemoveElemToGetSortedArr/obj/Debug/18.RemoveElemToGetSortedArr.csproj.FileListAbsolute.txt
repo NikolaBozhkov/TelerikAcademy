@@ -1,0 +1,18 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Arrays\18.RemoveElemToGetSortedArr\bin\Debug\18.RemoveElemToGetSortedArr.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Arrays\18.RemoveElemToGetSortedArr\bin\Debug\18.RemoveElemToGetSortedArr.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Arrays\18.RemoveElemToGetSortedArr\bin\Debug\18.RemoveElemToGetSortedArr.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Arrays\18.RemoveElemToGetSortedArr\obj\Debug\18.RemoveElemToGetSortedArr.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Arrays\18.RemoveElemToGetSortedArr\obj\Debug\18.RemoveElemToGetSortedArr.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Arrays\18.RemoveElemToGetSortedArr\obj\Debug\18.RemoveElemToGetSortedArr.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\18.RemoveElemToGetSortedArr\bin\Debug\18.RemoveElemToGetSortedArr.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\18.RemoveElemToGetSortedArr\obj\Debug\18.RemoveElemToGetSortedArr.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\18.RemoveElemToGetSortedArr\obj\Debug\18.RemoveElemToGetSortedArr.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\18.RemoveElemToGetSortedArr\bin\Debug\18.RemoveElemToGetSortedArr.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\18.RemoveElemToGetSortedArr\bin\Debug\18.RemoveElemToGetSortedArr.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Arrays\18.RemoveElemToGetSortedArr\obj\Debug\18.RemoveElemToGetSortedArr.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\18.RemoveElemToGetSortedArr\bin\Debug\18.RemoveElemToGetSortedArr.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\18.RemoveElemToGetSortedArr\obj\Debug\18.RemoveElemToGetSortedArr.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\18.RemoveElemToGetSortedArr\obj\Debug\18.RemoveElemToGetSortedArr.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\18.RemoveElemToGetSortedArr\bin\Debug\18.RemoveElemToGetSortedArr.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\18.RemoveElemToGetSortedArr\bin\Debug\18.RemoveElemToGetSortedArr.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\18.RemoveElemToGetSortedArr\obj\Debug\18.RemoveElemToGetSortedArr.csprojResolveAssemblyReference.cache

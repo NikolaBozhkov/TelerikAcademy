@@ -1,0 +1,3 @@
+This is a test, for deleting all testcontaining words from the file.
+Testing is just a testemony to the testmastering of testwording...
+wtf am I even testing.This is someTest that should not be morontest.

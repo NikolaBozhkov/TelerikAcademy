@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\11.CardDeck\bin\Debug\11.CardDeck.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\11.CardDeck\bin\Debug\11.CardDeck.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\11.CardDeck\bin\Debug\11.CardDeck.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\11.CardDeck\obj\Debug\11.CardDeck.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\11.CardDeck\obj\Debug\11.CardDeck.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\11.CardDeck\obj\Debug\11.CardDeck.pdb

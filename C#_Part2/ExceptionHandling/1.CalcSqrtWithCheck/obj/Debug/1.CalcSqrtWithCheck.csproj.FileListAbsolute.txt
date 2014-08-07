@@ -1,0 +1,15 @@
+c:\users\104ou-3\documents\visual studio 2012\Projects\ExeptionHandling\1.CalcSqrtWithCheck\bin\Debug\1.CalcSqrtWithCheck.exe.config
+c:\users\104ou-3\documents\visual studio 2012\Projects\ExeptionHandling\1.CalcSqrtWithCheck\bin\Debug\1.CalcSqrtWithCheck.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\ExeptionHandling\1.CalcSqrtWithCheck\bin\Debug\1.CalcSqrtWithCheck.pdb
+c:\users\104ou-3\documents\visual studio 2012\Projects\ExeptionHandling\1.CalcSqrtWithCheck\obj\Debug\1.CalcSqrtWithCheck.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\ExeptionHandling\1.CalcSqrtWithCheck\obj\Debug\1.CalcSqrtWithCheck.pdb
+C:\Users\104OU-3\documents\visual studio 2012\Projects\ExeptionHandling\1.CalcSqrtWithCheck\obj\Debug\1.CalcSqrtWithCheck.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExeptionHandling\1.CalcSqrtWithCheck\bin\Debug\1.CalcSqrtWithCheck.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExeptionHandling\1.CalcSqrtWithCheck\obj\Debug\1.CalcSqrtWithCheck.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExeptionHandling\1.CalcSqrtWithCheck\obj\Debug\1.CalcSqrtWithCheck.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExceptionHandling\1.CalcSqrtWithCheck\bin\Debug\1.CalcSqrtWithCheck.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExceptionHandling\1.CalcSqrtWithCheck\obj\Debug\1.CalcSqrtWithCheck.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExceptionHandling\1.CalcSqrtWithCheck\obj\Debug\1.CalcSqrtWithCheck.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExceptionHandling\1.CalcSqrtWithCheck\bin\Debug\1.CalcSqrtWithCheck.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExceptionHandling\1.CalcSqrtWithCheck\obj\Debug\1.CalcSqrtWithCheck.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExceptionHandling\1.CalcSqrtWithCheck\obj\Debug\1.CalcSqrtWithCheck.pdb

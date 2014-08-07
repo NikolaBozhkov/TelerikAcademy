@@ -1,0 +1,11 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\06.GetIndexOfBiggerElem\bin\Debug\06.GetIndexOfBiggerElem.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\06.GetIndexOfBiggerElem\bin\Debug\06.GetIndexOfBiggerElem.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\06.GetIndexOfBiggerElem\bin\Debug\06.GetIndexOfBiggerElem.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\06.GetIndexOfBiggerElem\obj\Debug\06.GetIndexOfBiggerElem.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\06.GetIndexOfBiggerElem\obj\Debug\06.GetIndexOfBiggerElem.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\06.GetIndexOfBiggerElem\bin\Debug\06.GetIndexOfBiggerElem.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\06.GetIndexOfBiggerElem\obj\Debug\06.GetIndexOfBiggerElem.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\06.GetIndexOfBiggerElem\obj\Debug\06.GetIndexOfBiggerElem.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\06.GetIndexOfBiggerElem\bin\Debug\06.GetIndexOfBiggerElem.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\06.GetIndexOfBiggerElem\obj\Debug\06.GetIndexOfBiggerElem.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\06.GetIndexOfBiggerElem\obj\Debug\06.GetIndexOfBiggerElem.pdb

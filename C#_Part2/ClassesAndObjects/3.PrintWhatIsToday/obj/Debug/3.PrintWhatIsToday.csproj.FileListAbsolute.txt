@@ -1,0 +1,12 @@
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\3.PrintWhatIsToday\bin\Debug\3.PrintWhatIsToday.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\3.PrintWhatIsToday\obj\Debug\3.PrintWhatIsToday.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\3.PrintWhatIsToday\bin\Debug\3.PrintWhatIsToday.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\3.PrintWhatIsToday\bin\Debug\3.PrintWhatIsToday.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\3.PrintWhatIsToday\obj\Debug\3.PrintWhatIsToday.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\3.PrintWhatIsToday\obj\Debug\3.PrintWhatIsToday.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\3.PrintWhatIsToday\bin\Debug\3.PrintWhatIsToday.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\3.PrintWhatIsToday\obj\Debug\3.PrintWhatIsToday.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\3.PrintWhatIsToday\obj\Debug\3.PrintWhatIsToday.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\3.PrintWhatIsToday\bin\Debug\3.PrintWhatIsToday.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\3.PrintWhatIsToday\obj\Debug\3.PrintWhatIsToday.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\3.PrintWhatIsToday\obj\Debug\3.PrintWhatIsToday.pdb

@@ -1,0 +1,14 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\07.ReverseDigitsMethod\bin\Debug\07.ReverseDigitsMethod.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\07.ReverseDigitsMethod\bin\Debug\07.ReverseDigitsMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\07.ReverseDigitsMethod\bin\Debug\07.ReverseDigitsMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\07.ReverseDigitsMethod\obj\Debug\07.ReverseDigitsMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\07.ReverseDigitsMethod\obj\Debug\07.ReverseDigitsMethod.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\07.ReverseDigitsMethod\bin\Debug\07.ReverseDigitsMethod.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\07.ReverseDigitsMethod\obj\Debug\07.ReverseDigitsMethod.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\07.ReverseDigitsMethod\obj\Debug\07.ReverseDigitsMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\07.ReverseDigitsMethod\bin\Debug\07.ReverseDigitsMethod.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\07.ReverseDigitsMethod\bin\Debug\07.ReverseDigitsMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\07.ReverseDigitsMethod\bin\Debug\07.ReverseDigitsMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\07.ReverseDigitsMethod\obj\Debug\07.ReverseDigitsMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\07.ReverseDigitsMethod\obj\Debug\07.ReverseDigitsMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\07.ReverseDigitsMethod\obj\Debug\07.ReverseDigitsMethod.csprojResolveAssemblyReference.cache

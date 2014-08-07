@@ -1,0 +1,4 @@
+This is the first part
+of the concatenated file.
+This is the second part
+of the concatenated file.

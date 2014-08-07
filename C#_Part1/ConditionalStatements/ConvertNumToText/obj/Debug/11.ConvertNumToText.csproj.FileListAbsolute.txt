@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\ConvertNumToText\bin\Debug\ConvertNumToText.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\ConvertNumToText\obj\Debug\ConvertNumToText.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\ConvertNumToText\obj\Debug\ConvertNumToText.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\ConvertNumToText\bin\Debug\ConvertNumToText.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\ConvertNumToText\bin\Debug\ConvertNumToText.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\ConvertNumToText\obj\Debug\11.ConvertNumToText.csprojResolveAssemblyReference.cache

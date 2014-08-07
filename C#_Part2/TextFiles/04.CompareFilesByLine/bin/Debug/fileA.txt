@@ -1,0 +1,5 @@
+fileA line.
+Both files line.
+Both files line.
+fileA line.
+fileA line.

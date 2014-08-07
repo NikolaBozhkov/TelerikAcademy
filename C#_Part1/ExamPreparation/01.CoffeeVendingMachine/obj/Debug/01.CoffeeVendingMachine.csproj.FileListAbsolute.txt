@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\01.CoffeeVendingMachine\bin\Debug\01.CoffeeVendingMachine.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\01.CoffeeVendingMachine\bin\Debug\01.CoffeeVendingMachine.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\01.CoffeeVendingMachine\bin\Debug\01.CoffeeVendingMachine.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\01.CoffeeVendingMachine\obj\Debug\01.CoffeeVendingMachine.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\01.CoffeeVendingMachine\obj\Debug\01.CoffeeVendingMachine.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\01.CoffeeVendingMachine\obj\Debug\01.CoffeeVendingMachine.pdb

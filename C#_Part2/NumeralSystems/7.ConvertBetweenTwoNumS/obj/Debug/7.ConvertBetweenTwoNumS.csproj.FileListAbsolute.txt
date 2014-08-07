@@ -1,0 +1,18 @@
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\7.ConvertBetweenTwoNumS\bin\Debug\7.ConvertBetweenTwoNumS.exe.config
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\7.ConvertBetweenTwoNumS\bin\Debug\7.ConvertBetweenTwoNumS.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\7.ConvertBetweenTwoNumS\bin\Debug\7.ConvertBetweenTwoNumS.pdb
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\7.ConvertBetweenTwoNumS\obj\Debug\7.ConvertBetweenTwoNumS.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\7.ConvertBetweenTwoNumS\obj\Debug\7.ConvertBetweenTwoNumS.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\7.ConvertBetweenTwoNumS\obj\Debug\7.ConvertBetweenTwoNumS.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\7.ConvertBetweenTwoNumS\bin\Debug\7.ConvertBetweenTwoNumS.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\7.ConvertBetweenTwoNumS\obj\Debug\7.ConvertBetweenTwoNumS.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\7.ConvertBetweenTwoNumS\obj\Debug\7.ConvertBetweenTwoNumS.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\7.ConvertBetweenTwoNumS\bin\Debug\7.ConvertBetweenTwoNumS.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\7.ConvertBetweenTwoNumS\bin\Debug\7.ConvertBetweenTwoNumS.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\7.ConvertBetweenTwoNumS\obj\Debug\7.ConvertBetweenTwoNumS.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\7.ConvertBetweenTwoNumS\bin\Debug\7.ConvertBetweenTwoNumS.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\7.ConvertBetweenTwoNumS\obj\Debug\7.ConvertBetweenTwoNumS.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\7.ConvertBetweenTwoNumS\obj\Debug\7.ConvertBetweenTwoNumS.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\7.ConvertBetweenTwoNumS\bin\Debug\7.ConvertBetweenTwoNumS.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\7.ConvertBetweenTwoNumS\bin\Debug\7.ConvertBetweenTwoNumS.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\7.ConvertBetweenTwoNumS\obj\Debug\7.ConvertBetweenTwoNumS.csprojResolveAssemblyReference.cache

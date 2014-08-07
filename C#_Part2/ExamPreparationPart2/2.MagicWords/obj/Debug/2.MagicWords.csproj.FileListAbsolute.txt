@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.MagicWords\bin\Debug\2.MagicWords.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.MagicWords\bin\Debug\2.MagicWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.MagicWords\bin\Debug\2.MagicWords.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.MagicWords\obj\Debug\2.MagicWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\2.MagicWords\obj\Debug\2.MagicWords.pdb

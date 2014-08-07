@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\09.IsoscelesTriangle\bin\Debug\09.IsoscelesTriangle.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\09.IsoscelesTriangle\bin\Debug\09.IsoscelesTriangle.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\09.IsoscelesTriangle\bin\Debug\09.IsoscelesTriangle.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\09.IsoscelesTriangle\obj\Debug\09.IsoscelesTriangle.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\09.IsoscelesTriangle\obj\Debug\09.IsoscelesTriangle.pdb

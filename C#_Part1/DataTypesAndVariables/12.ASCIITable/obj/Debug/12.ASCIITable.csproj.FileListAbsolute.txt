@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\12.ASCIITable\bin\Debug\12.ASCIITable.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\12.ASCIITable\bin\Debug\12.ASCIITable.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\12.ASCIITable\bin\Debug\12.ASCIITable.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\12.ASCIITable\obj\Debug\12.ASCIITable.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\12.ASCIITable\obj\Debug\12.ASCIITable.pdb

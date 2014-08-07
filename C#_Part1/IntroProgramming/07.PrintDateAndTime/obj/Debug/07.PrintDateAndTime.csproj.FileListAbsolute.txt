@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\07.PrintDateAndTime\bin\Debug\07.PrintDateAndTime.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\07.PrintDateAndTime\bin\Debug\07.PrintDateAndTime.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\07.PrintDateAndTime\bin\Debug\07.PrintDateAndTime.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\07.PrintDateAndTime\obj\Debug\07.PrintDateAndTime.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\07.PrintDateAndTime\obj\Debug\07.PrintDateAndTime.pdb

@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\Read3IntAndSum\bin\Debug\Read3IntAndSum.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\Read3IntAndSum\obj\Debug\Read3IntAndSum.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\Read3IntAndSum\obj\Debug\Read3IntAndSum.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\Read3IntAndSum\bin\Debug\Read3IntAndSum.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\Read3IntAndSum\bin\Debug\Read3IntAndSum.pdb

@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\StringsAndTextProcessing\23.GetDifferentWords\bin\Debug\23.GetDifferentWords.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\StringsAndTextProcessing\23.GetDifferentWords\bin\Debug\23.GetDifferentWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\StringsAndTextProcessing\23.GetDifferentWords\bin\Debug\23.GetDifferentWords.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\StringsAndTextProcessing\23.GetDifferentWords\obj\Debug\23.GetDifferentWords.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\StringsAndTextProcessing\23.GetDifferentWords\obj\Debug\23.GetDifferentWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\StringsAndTextProcessing\23.GetDifferentWords\obj\Debug\23.GetDifferentWords.pdb

@@ -1,0 +1,15 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\3.FindLongestSeqOfStrings\bin\Debug\3.FindLongestSeqOfStrings.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\3.FindLongestSeqOfStrings\bin\Debug\3.FindLongestSeqOfStrings.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\3.FindLongestSeqOfStrings\bin\Debug\3.FindLongestSeqOfStrings.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\3.FindLongestSeqOfStrings\obj\Debug\3.FindLongestSeqOfStrings.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\3.FindLongestSeqOfStrings\obj\Debug\3.FindLongestSeqOfStrings.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\MultidimensionalArrays\3.FindLongestSeqOfStrings\obj\Debug\3.FindLongestSeqOfStrings.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\MultidimensionalArrays\3.FindLongestSeqOfStrings\bin\Debug\3.FindLongestSeqOfStrings.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\MultidimensionalArrays\3.FindLongestSeqOfStrings\obj\Debug\3.FindLongestSeqOfStrings.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\MultidimensionalArrays\3.FindLongestSeqOfStrings\obj\Debug\3.FindLongestSeqOfStrings.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\3.FindLongestSeqOfStrings\bin\Debug\3.FindLongestSeqOfStrings.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\3.FindLongestSeqOfStrings\obj\Debug\3.FindLongestSeqOfStrings.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\3.FindLongestSeqOfStrings\obj\Debug\3.FindLongestSeqOfStrings.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\3.FindLongestSeqOfStrings\bin\Debug\3.FindLongestSeqOfStrings.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\3.FindLongestSeqOfStrings\bin\Debug\3.FindLongestSeqOfStrings.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\3.FindLongestSeqOfStrings\obj\Debug\3.FindLongestSeqOfStrings.csprojResolveAssemblyReference.cache

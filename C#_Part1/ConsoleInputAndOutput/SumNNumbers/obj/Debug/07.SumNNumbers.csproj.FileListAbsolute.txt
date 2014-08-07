@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\SumNNumbers\bin\Debug\SumNNumbers.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\SumNNumbers\obj\Debug\SumNNumbers.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\SumNNumbers\obj\Debug\SumNNumbers.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\SumNNumbers\bin\Debug\SumNNumbers.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\SumNNumbers\bin\Debug\SumNNumbers.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\SumNNumbers\obj\Debug\07.SumNNumbers.csprojResolveAssemblyReference.cache

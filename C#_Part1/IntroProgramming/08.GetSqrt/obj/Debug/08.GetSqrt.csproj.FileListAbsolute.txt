@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\08.GetSqrt\bin\Debug\08.GetSqrt.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\08.GetSqrt\bin\Debug\08.GetSqrt.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\08.GetSqrt\bin\Debug\08.GetSqrt.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\08.GetSqrt\obj\Debug\08.GetSqrt.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\08.GetSqrt\obj\Debug\08.GetSqrt.pdb

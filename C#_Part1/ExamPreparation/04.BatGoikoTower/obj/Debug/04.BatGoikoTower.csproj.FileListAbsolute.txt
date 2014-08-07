@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\04.BatGoikoTower\bin\Debug\04.BatGoikoTower.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\04.BatGoikoTower\bin\Debug\04.BatGoikoTower.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\04.BatGoikoTower\bin\Debug\04.BatGoikoTower.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\04.BatGoikoTower\obj\Debug\04.BatGoikoTower.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\04.BatGoikoTower\obj\Debug\04.BatGoikoTower.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ExamPreparation\04.BatGoikoTower\obj\Debug\04.BatGoikoTower.pdb

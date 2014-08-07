@@ -1,0 +1,15 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\2.Get10RandomValues\bin\Debug\2.Get10RandomValues.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\2.Get10RandomValues\bin\Debug\2.Get10RandomValues.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\2.Get10RandomValues\bin\Debug\2.Get10RandomValues.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\2.Get10RandomValues\obj\Debug\2.Get10RandomValues.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\2.Get10RandomValues\obj\Debug\2.Get10RandomValues.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\2.Get10RandomValues\obj\Debug\2.Get10RandomValues.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\2.Get10RandomValues\bin\Debug\2.Get10RandomValues.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\2.Get10RandomValues\obj\Debug\2.Get10RandomValues.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\2.Get10RandomValues\obj\Debug\2.Get10RandomValues.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\2.Get10RandomValues\bin\Debug\2.Get10RandomValues.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\2.Get10RandomValues\obj\Debug\2.Get10RandomValues.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\2.Get10RandomValues\obj\Debug\2.Get10RandomValues.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\2.Get10RandomValues\bin\Debug\2.Get10RandomValues.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\2.Get10RandomValues\bin\Debug\2.Get10RandomValues.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\2.Get10RandomValues\obj\Debug\2.Get10RandomValues.csprojResolveAssemblyReference.cache

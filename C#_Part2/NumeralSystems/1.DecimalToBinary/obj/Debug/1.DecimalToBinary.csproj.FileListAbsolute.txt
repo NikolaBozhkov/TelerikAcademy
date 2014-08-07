@@ -1,0 +1,18 @@
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\1.DecimalToBinary\bin\Debug\1.DecimalToBinary.exe.config
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\1.DecimalToBinary\bin\Debug\1.DecimalToBinary.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\1.DecimalToBinary\bin\Debug\1.DecimalToBinary.pdb
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\1.DecimalToBinary\obj\Debug\1.DecimalToBinary.csprojResolveAssemblyReference.cache
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\1.DecimalToBinary\obj\Debug\1.DecimalToBinary.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\NumeralSystems\1.DecimalToBinary\obj\Debug\1.DecimalToBinary.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\1.DecimalToBinary\bin\Debug\1.DecimalToBinary.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\1.DecimalToBinary\obj\Debug\1.DecimalToBinary.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\1.DecimalToBinary\obj\Debug\1.DecimalToBinary.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\1.DecimalToBinary\bin\Debug\1.DecimalToBinary.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\1.DecimalToBinary\bin\Debug\1.DecimalToBinary.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\1.DecimalToBinary\obj\Debug\1.DecimalToBinary.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\1.DecimalToBinary\bin\Debug\1.DecimalToBinary.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\1.DecimalToBinary\obj\Debug\1.DecimalToBinary.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\1.DecimalToBinary\obj\Debug\1.DecimalToBinary.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\1.DecimalToBinary\bin\Debug\1.DecimalToBinary.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\1.DecimalToBinary\bin\Debug\1.DecimalToBinary.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\1.DecimalToBinary\obj\Debug\1.DecimalToBinary.csprojResolveAssemblyReference.cache

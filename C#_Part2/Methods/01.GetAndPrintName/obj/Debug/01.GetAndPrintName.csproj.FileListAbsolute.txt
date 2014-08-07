@@ -1,0 +1,13 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\01.GetAndPrintName\bin\Debug\01.GetAndPrintName.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\01.GetAndPrintName\bin\Debug\01.GetAndPrintName.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\01.GetAndPrintName\bin\Debug\01.GetAndPrintName.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\01.GetAndPrintName\obj\Debug\01.GetAndPrintName.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\01.GetAndPrintName\obj\Debug\01.GetAndPrintName.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\01.GetAndPrintName\bin\Debug\01.GetAndPrintName.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\01.GetAndPrintName\obj\Debug\01.GetAndPrintName.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\01.GetAndPrintName\obj\Debug\01.GetAndPrintName.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\01.GetAndPrintName\bin\Debug\01.GetAndPrintName.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\01.GetAndPrintName\obj\Debug\01.GetAndPrintName.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\01.GetAndPrintName\obj\Debug\01.GetAndPrintName.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\01.GetAndPrintName\bin\Debug\01.GetAndPrintName.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\01.GetAndPrintName\bin\Debug\01.GetAndPrintName.pdb

@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\14.ComplexMatrix\bin\Debug\14.ComplexMatrix.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\14.ComplexMatrix\bin\Debug\14.ComplexMatrix.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\14.ComplexMatrix\bin\Debug\14.ComplexMatrix.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\14.ComplexMatrix\obj\Debug\14.ComplexMatrix.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\14.ComplexMatrix\obj\Debug\14.ComplexMatrix.pdb

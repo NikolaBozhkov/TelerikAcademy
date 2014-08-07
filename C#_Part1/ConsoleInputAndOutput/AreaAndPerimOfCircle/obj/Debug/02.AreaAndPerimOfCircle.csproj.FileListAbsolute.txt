@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\AreaAndPerimOfCircle\bin\Debug\AreaAndPerimOfCircle.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\AreaAndPerimOfCircle\obj\Debug\AreaAndPerimOfCircle.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\AreaAndPerimOfCircle\obj\Debug\AreaAndPerimOfCircle.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\AreaAndPerimOfCircle\bin\Debug\AreaAndPerimOfCircle.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\AreaAndPerimOfCircle\bin\Debug\AreaAndPerimOfCircle.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\AreaAndPerimOfCircle\obj\Debug\02.AreaAndPerimOfCircle.csprojResolveAssemblyReference.cache

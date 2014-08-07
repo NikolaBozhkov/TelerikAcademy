@@ -1,0 +1,12 @@
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\05.WorkWithMatrixFromFile\bin\Debug\05.WorkWithMatrixFromFile.exe.config
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\05.WorkWithMatrixFromFile\bin\Debug\05.WorkWithMatrixFromFile.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\05.WorkWithMatrixFromFile\bin\Debug\05.WorkWithMatrixFromFile.pdb
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\05.WorkWithMatrixFromFile\obj\Debug\05.WorkWithMatrixFromFile.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\05.WorkWithMatrixFromFile\obj\Debug\05.WorkWithMatrixFromFile.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\05.WorkWithMatrixFromFile\obj\Debug\05.WorkWithMatrixFromFile.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\05.WorkWithMatrixFromFile\bin\Debug\05.WorkWithMatrixFromFile.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\05.WorkWithMatrixFromFile\obj\Debug\05.WorkWithMatrixFromFile.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\05.WorkWithMatrixFromFile\obj\Debug\05.WorkWithMatrixFromFile.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\05.WorkWithMatrixFromFile\bin\Debug\05.WorkWithMatrixFromFile.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\05.WorkWithMatrixFromFile\obj\Debug\05.WorkWithMatrixFromFile.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\05.WorkWithMatrixFromFile\obj\Debug\05.WorkWithMatrixFromFile.pdb

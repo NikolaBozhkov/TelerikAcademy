@@ -1,0 +1,15 @@
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\5.HexadecimalToBin\bin\Debug\5.HexadecimalToBin.exe.config
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\5.HexadecimalToBin\bin\Debug\5.HexadecimalToBin.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\5.HexadecimalToBin\bin\Debug\5.HexadecimalToBin.pdb
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\5.HexadecimalToBin\obj\Debug\5.HexadecimalToBin.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\5.HexadecimalToBin\obj\Debug\5.HexadecimalToBin.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\NumeralSystems\5.HexadecimalToBin\obj\Debug\5.HexadecimalToBin.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\5.HexadecimalToBin\bin\Debug\5.HexadecimalToBin.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\5.HexadecimalToBin\obj\Debug\5.HexadecimalToBin.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\5.HexadecimalToBin\obj\Debug\5.HexadecimalToBin.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\5.HexadecimalToBin\bin\Debug\5.HexadecimalToBin.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\5.HexadecimalToBin\bin\Debug\5.HexadecimalToBin.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\NumeralSystems\5.HexadecimalToBin\obj\Debug\5.HexadecimalToBin.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\5.HexadecimalToBin\bin\Debug\5.HexadecimalToBin.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\5.HexadecimalToBin\obj\Debug\5.HexadecimalToBin.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\NumeralSystems\5.HexadecimalToBin\obj\Debug\5.HexadecimalToBin.pdb

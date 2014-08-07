@@ -1,0 +1,18 @@
+C:\Users\104OU-3\documents\visual studio 2012\Projects\ExeptionHandling\2.ReadNumberMethod\bin\Debug\2.ReadNumberMethod.exe.config
+C:\Users\104OU-3\documents\visual studio 2012\Projects\ExeptionHandling\2.ReadNumberMethod\bin\Debug\2.ReadNumberMethod.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\ExeptionHandling\2.ReadNumberMethod\bin\Debug\2.ReadNumberMethod.pdb
+C:\Users\104OU-3\documents\visual studio 2012\Projects\ExeptionHandling\2.ReadNumberMethod\obj\Debug\2.ReadNumberMethod.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\ExeptionHandling\2.ReadNumberMethod\obj\Debug\2.ReadNumberMethod.pdb
+C:\Users\104OU-3\documents\visual studio 2012\Projects\ExeptionHandling\2.ReadNumberMethod\obj\Debug\2.ReadNumberMethod.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExeptionHandling\2.ReadNumberMethod\bin\Debug\2.ReadNumberMethod.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExeptionHandling\2.ReadNumberMethod\obj\Debug\2.ReadNumberMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExeptionHandling\2.ReadNumberMethod\obj\Debug\2.ReadNumberMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExeptionHandling\2.ReadNumberMethod\bin\Debug\2.ReadNumberMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExeptionHandling\2.ReadNumberMethod\bin\Debug\2.ReadNumberMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ExeptionHandling\2.ReadNumberMethod\obj\Debug\2.ReadNumberMethod.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExceptionHandling\2.ReadNumberMethod\bin\Debug\2.ReadNumberMethod.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExceptionHandling\2.ReadNumberMethod\obj\Debug\2.ReadNumberMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExceptionHandling\2.ReadNumberMethod\obj\Debug\2.ReadNumberMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExceptionHandling\2.ReadNumberMethod\bin\Debug\2.ReadNumberMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExceptionHandling\2.ReadNumberMethod\bin\Debug\2.ReadNumberMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExceptionHandling\2.ReadNumberMethod\obj\Debug\2.ReadNumberMethod.csprojResolveAssemblyReference.cache

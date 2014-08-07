@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\5.FeaturingWithGrisko\bin\Debug\5.FeaturingWithGrisko.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\5.FeaturingWithGrisko\bin\Debug\5.FeaturingWithGrisko.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\5.FeaturingWithGrisko\bin\Debug\5.FeaturingWithGrisko.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\5.FeaturingWithGrisko\obj\Debug\5.FeaturingWithGrisko.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\5.FeaturingWithGrisko\obj\Debug\5.FeaturingWithGrisko.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ExamPreparationPart2\5.FeaturingWithGrisko\obj\Debug\5.FeaturingWithGrisko.pdb

@@ -1,0 +1,12 @@
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\01.ReadAndPrintOddLines\bin\Debug\01.ReadAndPrintOddLines.exe.config
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\01.ReadAndPrintOddLines\bin\Debug\01.ReadAndPrintOddLines.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\01.ReadAndPrintOddLines\bin\Debug\01.ReadAndPrintOddLines.pdb
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\01.ReadAndPrintOddLines\obj\Debug\01.ReadAndPrintOddLines.csprojResolveAssemblyReference.cache
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\01.ReadAndPrintOddLines\obj\Debug\01.ReadAndPrintOddLines.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\01.ReadAndPrintOddLines\obj\Debug\01.ReadAndPrintOddLines.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\01.ReadAndPrintOddLines\bin\Debug\01.ReadAndPrintOddLines.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\01.ReadAndPrintOddLines\obj\Debug\01.ReadAndPrintOddLines.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\01.ReadAndPrintOddLines\obj\Debug\01.ReadAndPrintOddLines.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\01.ReadAndPrintOddLines\bin\Debug\01.ReadAndPrintOddLines.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\01.ReadAndPrintOddLines\obj\Debug\01.ReadAndPrintOddLines.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\01.ReadAndPrintOddLines\obj\Debug\01.ReadAndPrintOddLines.pdb

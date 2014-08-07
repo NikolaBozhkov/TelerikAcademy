@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\06.BoolIsFemale\bin\Debug\06.BoolIsFemale.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\06.BoolIsFemale\bin\Debug\06.BoolIsFemale.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\06.BoolIsFemale\bin\Debug\06.BoolIsFemale.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\06.BoolIsFemale\obj\Debug\06.BoolIsFemale.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\DataTypesAndVariables\06.BoolIsFemale\obj\Debug\06.BoolIsFemale.pdb

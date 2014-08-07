@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\13.TrailingZeros\bin\Debug\13.TrailingZeros.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\13.TrailingZeros\bin\Debug\13.TrailingZeros.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\13.TrailingZeros\bin\Debug\13.TrailingZeros.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\13.TrailingZeros\obj\Debug\13.TrailingZeros.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\13.TrailingZeros\obj\Debug\13.TrailingZeros.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\Loops\13.TrailingZeros\obj\Debug\13.TrailingZeros.pdb

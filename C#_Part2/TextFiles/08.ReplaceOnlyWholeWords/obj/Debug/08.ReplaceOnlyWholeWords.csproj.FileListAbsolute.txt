@@ -1,0 +1,13 @@
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\08.ReplaceOnlyWholeWords\bin\Debug\08.ReplaceOnlyWholeWords.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\08.ReplaceOnlyWholeWords\bin\Debug\08.ReplaceOnlyWholeWords.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\08.ReplaceOnlyWholeWords\bin\Debug\08.ReplaceOnlyWholeWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\08.ReplaceOnlyWholeWords\bin\Debug\08.ReplaceOnlyWholeWords.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\08.ReplaceOnlyWholeWords\obj\Debug\08.ReplaceOnlyWholeWords.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\08.ReplaceOnlyWholeWords\obj\Debug\08.ReplaceOnlyWholeWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\08.ReplaceOnlyWholeWords\obj\Debug\08.ReplaceOnlyWholeWords.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\08.ReplaceOnlyWholeWords\bin\Debug\08.ReplaceOnlyWholeWords.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\08.ReplaceOnlyWholeWords\obj\Debug\08.ReplaceOnlyWholeWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\08.ReplaceOnlyWholeWords\obj\Debug\08.ReplaceOnlyWholeWords.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\08.ReplaceOnlyWholeWords\bin\Debug\08.ReplaceOnlyWholeWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\08.ReplaceOnlyWholeWords\bin\Debug\08.ReplaceOnlyWholeWords.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\08.ReplaceOnlyWholeWords\obj\Debug\08.ReplaceOnlyWholeWords.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\NumberInWords\bin\Debug\NumberInWords.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\NumberInWords\obj\Debug\NumberInWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\NumberInWords\obj\Debug\NumberInWords.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\NumberInWords\bin\Debug\NumberInWords.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\NumberInWords\bin\Debug\NumberInWords.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConditionalStatements\NumberInWords\obj\Debug\05.NumberInWords.csprojResolveAssemblyReference.cache

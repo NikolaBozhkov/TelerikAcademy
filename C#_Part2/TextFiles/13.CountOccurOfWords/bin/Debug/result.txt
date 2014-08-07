@@ -1,0 +1,7 @@
+test has 6 occurunces.
+word has 3 occurunces.
+french has 2 occurunces.
+read has 2 occurunces.
+project has 2 occurunces.
+c# has 1 occurunces.
+file has 1 occurunces.

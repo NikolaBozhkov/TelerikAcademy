@@ -1,0 +1,15 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\04.CountRepsOfNumInArr\bin\Debug\04.CountRepsOfNumInArr.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\04.CountRepsOfNumInArr\bin\Debug\04.CountRepsOfNumInArr.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\04.CountRepsOfNumInArr\bin\Debug\04.CountRepsOfNumInArr.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\04.CountRepsOfNumInArr\obj\Debug\04.CountRepsOfNumInArr.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\04.CountRepsOfNumInArr\obj\Debug\04.CountRepsOfNumInArr.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\04.CountRepsOfNumInArr\obj\Debug\04.CountRepsOfNumInArr.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\04.CountRepsOfNumInArr\bin\Debug\04.CountRepsOfNumInArr.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\04.CountRepsOfNumInArr\obj\Debug\04.CountRepsOfNumInArr.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\04.CountRepsOfNumInArr\obj\Debug\04.CountRepsOfNumInArr.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\04.CountRepsOfNumInArr\bin\Debug\04.CountRepsOfNumInArr.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\04.CountRepsOfNumInArr\obj\Debug\04.CountRepsOfNumInArr.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\04.CountRepsOfNumInArr\obj\Debug\04.CountRepsOfNumInArr.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\04.CountRepsOfNumInArr\bin\Debug\04.CountRepsOfNumInArr.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\04.CountRepsOfNumInArr\bin\Debug\04.CountRepsOfNumInArr.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\04.CountRepsOfNumInArr\obj\Debug\04.CountRepsOfNumInArr.csprojResolveAssemblyReference.cache

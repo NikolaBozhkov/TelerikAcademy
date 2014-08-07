@@ -1,0 +1,12 @@
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\12.PolynomialsExtended\bin\Debug\12.PolynomialsExtended.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\12.PolynomialsExtended\bin\Debug\12.PolynomialsExtended.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\12.PolynomialsExtended\bin\Debug\12.PolynomialsExtended.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\12.PolynomialsExtended\obj\Debug\12.PolynomialsExtended.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\12.PolynomialsExtended\obj\Debug\12.PolynomialsExtended.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\12.PolynomialsExtended\obj\Debug\12.PolynomialsExtended.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\12.PolynomialsExtended\bin\Debug\12.PolynomialsExtended.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\12.PolynomialsExtended\bin\Debug\12.PolynomialsExtended.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\12.PolynomialsExtended\bin\Debug\12.PolynomialsExtended.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\12.PolynomialsExtended\obj\Debug\12.PolynomialsExtended.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\12.PolynomialsExtended\obj\Debug\12.PolynomialsExtended.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\12.PolynomialsExtended\obj\Debug\12.PolynomialsExtended.pdb

@@ -1,0 +1,3 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\ExtractBitFromInt\bin\Debug\ExtractBitFromInt.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\ExtractBitFromInt\obj\Debug\ExtractBitFromInt.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\ExtractBitFromInt\obj\Debug\ExtractBitFromInt.pdb

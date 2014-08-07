@@ -1,0 +1,13 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\10.CalcFactFor1To100\bin\Debug\10.CalcFactFor1To100.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\10.CalcFactFor1To100\bin\Debug\10.CalcFactFor1To100.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\10.CalcFactFor1To100\bin\Debug\10.CalcFactFor1To100.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\10.CalcFactFor1To100\bin\Debug\10.CalcFactFor1To100.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\10.CalcFactFor1To100\obj\Debug\10.CalcFactFor1To100.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\10.CalcFactFor1To100\obj\Debug\10.CalcFactFor1To100.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\10.CalcFactFor1To100\obj\Debug\10.CalcFactFor1To100.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\10.CalcFactFor1To100\bin\Debug\10.CalcFactFor1To100.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\10.CalcFactFor1To100\bin\Debug\10.CalcFactFor1To100.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\10.CalcFactFor1To100\bin\Debug\10.CalcFactFor1To100.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\10.CalcFactFor1To100\obj\Debug\10.CalcFactFor1To100.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\10.CalcFactFor1To100\obj\Debug\10.CalcFactFor1To100.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\10.CalcFactFor1To100\obj\Debug\10.CalcFactFor1To100.pdb

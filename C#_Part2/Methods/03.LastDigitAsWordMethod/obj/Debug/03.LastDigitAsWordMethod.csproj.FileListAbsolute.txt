@@ -1,0 +1,14 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\03.LastDigitAsWordMethod\bin\Debug\03.LastDigitAsWordMethod.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\03.LastDigitAsWordMethod\bin\Debug\03.LastDigitAsWordMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\03.LastDigitAsWordMethod\bin\Debug\03.LastDigitAsWordMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\03.LastDigitAsWordMethod\obj\Debug\03.LastDigitAsWordMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Methods\03.LastDigitAsWordMethod\obj\Debug\03.LastDigitAsWordMethod.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\03.LastDigitAsWordMethod\bin\Debug\03.LastDigitAsWordMethod.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\03.LastDigitAsWordMethod\obj\Debug\03.LastDigitAsWordMethod.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\Methods\03.LastDigitAsWordMethod\obj\Debug\03.LastDigitAsWordMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\03.LastDigitAsWordMethod\bin\Debug\03.LastDigitAsWordMethod.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\03.LastDigitAsWordMethod\obj\Debug\03.LastDigitAsWordMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\03.LastDigitAsWordMethod\obj\Debug\03.LastDigitAsWordMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\03.LastDigitAsWordMethod\bin\Debug\03.LastDigitAsWordMethod.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\03.LastDigitAsWordMethod\bin\Debug\03.LastDigitAsWordMethod.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Methods\03.LastDigitAsWordMethod\obj\Debug\03.LastDigitAsWordMethod.csprojResolveAssemblyReference.cache

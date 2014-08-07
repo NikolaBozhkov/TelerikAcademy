@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\01.OddOrEven\bin\Debug\01.OddOrEven.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\01.OddOrEven\bin\Debug\01.OddOrEven.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\01.OddOrEven\bin\Debug\01.OddOrEven.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\01.OddOrEven\obj\Debug\01.OddOrEven.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\01.OddOrEven\obj\Debug\01.OddOrEven.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\01.OddOrEven\obj\Debug\01.OddOrEven.pdb

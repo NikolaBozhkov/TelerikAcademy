@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdDigit\bin\Debug\CheckThirdDigit.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdDigit\obj\Debug\CheckThirdDigit.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdDigit\obj\Debug\CheckThirdDigit.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdDigit\bin\Debug\CheckThirdDigit.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\OperatorsAndExpressions\CheckThirdDigit\bin\Debug\CheckThirdDigit.pdb

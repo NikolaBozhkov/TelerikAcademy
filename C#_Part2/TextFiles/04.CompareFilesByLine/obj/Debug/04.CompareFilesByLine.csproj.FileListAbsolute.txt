@@ -1,0 +1,12 @@
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\04.CompareFilesByLine\bin\Debug\04.CompareFilesByLine.exe.config
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\04.CompareFilesByLine\bin\Debug\04.CompareFilesByLine.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\04.CompareFilesByLine\bin\Debug\04.CompareFilesByLine.pdb
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\04.CompareFilesByLine\obj\Debug\04.CompareFilesByLine.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\04.CompareFilesByLine\obj\Debug\04.CompareFilesByLine.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\04.CompareFilesByLine\obj\Debug\04.CompareFilesByLine.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\04.CompareFilesByLine\bin\Debug\04.CompareFilesByLine.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\04.CompareFilesByLine\obj\Debug\04.CompareFilesByLine.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\04.CompareFilesByLine\obj\Debug\04.CompareFilesByLine.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\04.CompareFilesByLine\bin\Debug\04.CompareFilesByLine.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\04.CompareFilesByLine\obj\Debug\04.CompareFilesByLine.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\04.CompareFilesByLine\obj\Debug\04.CompareFilesByLine.pdb

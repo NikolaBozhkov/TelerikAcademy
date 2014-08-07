@@ -1,0 +1,11 @@
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\06.SortStringsFromFile\bin\Debug\06.SortStringsFromFile.exe.config
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\06.SortStringsFromFile\bin\Debug\06.SortStringsFromFile.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\06.SortStringsFromFile\bin\Debug\06.SortStringsFromFile.pdb
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\06.SortStringsFromFile\obj\Debug\06.SortStringsFromFile.exe
+C:\Users\104OU-3\documents\visual studio 2012\Projects\TextFiles\06.SortStringsFromFile\obj\Debug\06.SortStringsFromFile.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\06.SortStringsFromFile\bin\Debug\06.SortStringsFromFile.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\06.SortStringsFromFile\obj\Debug\06.SortStringsFromFile.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\06.SortStringsFromFile\obj\Debug\06.SortStringsFromFile.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\06.SortStringsFromFile\bin\Debug\06.SortStringsFromFile.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\06.SortStringsFromFile\obj\Debug\06.SortStringsFromFile.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\06.SortStringsFromFile\obj\Debug\06.SortStringsFromFile.pdb

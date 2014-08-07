@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\7.LargestAreaElements\bin\Debug\7.LargestAreaElements.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\7.LargestAreaElements\bin\Debug\7.LargestAreaElements.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\7.LargestAreaElements\bin\Debug\7.LargestAreaElements.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\7.LargestAreaElements\obj\Debug\7.LargestAreaElements.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\7.LargestAreaElements\obj\Debug\7.LargestAreaElements.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\7.LargestAreaElements\obj\Debug\7.LargestAreaElements.csprojResolveAssemblyReference.cache

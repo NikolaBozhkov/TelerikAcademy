@@ -1,0 +1,5 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\PrintNumFrom1ToN\bin\Debug\PrintNumFrom1ToN.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\PrintNumFrom1ToN\obj\Debug\PrintNumFrom1ToN.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\PrintNumFrom1ToN\obj\Debug\PrintNumFrom1ToN.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\PrintNumFrom1ToN\bin\Debug\PrintNumFrom1ToN.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part1\ConsoleInputAndOutput\PrintNumFrom1ToN\bin\Debug\PrintNumFrom1ToN.pdb

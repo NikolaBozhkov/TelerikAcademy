@@ -1,0 +1,6 @@
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\09.FirstTenMembers\bin\Debug\09.FirstTenMembers.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\09.FirstTenMembers\bin\Debug\09.FirstTenMembers.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\09.FirstTenMembers\bin\Debug\09.FirstTenMembers.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\09.FirstTenMembers\obj\Debug\09.FirstTenMembers.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\09.FirstTenMembers\obj\Debug\09.FirstTenMembers.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\OOP\IntroProgramming\09.FirstTenMembers\obj\Debug\09.FirstTenMembers.pdb

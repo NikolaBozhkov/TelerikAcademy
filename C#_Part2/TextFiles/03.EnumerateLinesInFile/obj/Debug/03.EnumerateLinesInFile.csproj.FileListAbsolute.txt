@@ -1,0 +1,12 @@
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\03.EnumerateLinesInFile\bin\Debug\03.EnumerateLinesInFile.exe.config
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\03.EnumerateLinesInFile\bin\Debug\03.EnumerateLinesInFile.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\03.EnumerateLinesInFile\bin\Debug\03.EnumerateLinesInFile.pdb
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\03.EnumerateLinesInFile\obj\Debug\03.EnumerateLinesInFile.csprojResolveAssemblyReference.cache
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\03.EnumerateLinesInFile\obj\Debug\03.EnumerateLinesInFile.exe
+c:\users\104ou-3\documents\visual studio 2012\Projects\TextFiles\03.EnumerateLinesInFile\obj\Debug\03.EnumerateLinesInFile.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\03.EnumerateLinesInFile\bin\Debug\03.EnumerateLinesInFile.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\03.EnumerateLinesInFile\obj\Debug\03.EnumerateLinesInFile.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\TextFiles\03.EnumerateLinesInFile\obj\Debug\03.EnumerateLinesInFile.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\03.EnumerateLinesInFile\bin\Debug\03.EnumerateLinesInFile.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\03.EnumerateLinesInFile\obj\Debug\03.EnumerateLinesInFile.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\TextFiles\03.EnumerateLinesInFile\obj\Debug\03.EnumerateLinesInFile.pdb

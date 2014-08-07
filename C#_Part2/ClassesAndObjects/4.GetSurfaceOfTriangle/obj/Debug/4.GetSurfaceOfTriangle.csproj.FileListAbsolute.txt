@@ -1,0 +1,12 @@
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\4.GetSurfaceOfTriangle\bin\Debug\4.GetSurfaceOfTriangle.exe.config
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\4.GetSurfaceOfTriangle\obj\Debug\4.GetSurfaceOfTriangle.csprojResolveAssemblyReference.cache
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\4.GetSurfaceOfTriangle\bin\Debug\4.GetSurfaceOfTriangle.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\4.GetSurfaceOfTriangle\bin\Debug\4.GetSurfaceOfTriangle.pdb
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\4.GetSurfaceOfTriangle\obj\Debug\4.GetSurfaceOfTriangle.exe
+C:\Users\104OU-3\Documents\Visual Studio 2012\Projects\ClassesAndObjects\4.GetSurfaceOfTriangle\obj\Debug\4.GetSurfaceOfTriangle.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\4.GetSurfaceOfTriangle\bin\Debug\4.GetSurfaceOfTriangle.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\4.GetSurfaceOfTriangle\obj\Debug\4.GetSurfaceOfTriangle.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\ClassesAndObjects\4.GetSurfaceOfTriangle\obj\Debug\4.GetSurfaceOfTriangle.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\4.GetSurfaceOfTriangle\bin\Debug\4.GetSurfaceOfTriangle.exe.config
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\4.GetSurfaceOfTriangle\obj\Debug\4.GetSurfaceOfTriangle.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\ClassesAndObjects\4.GetSurfaceOfTriangle\obj\Debug\4.GetSurfaceOfTriangle.pdb
