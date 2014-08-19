@@ -4,6 +4,10 @@
 
     public abstract class Cpu : MotherboardComponent, ICpu
     {
+        private const string NumberTooLowMessage = "Number too low.";
+        private const string NumberTooHighMessage = "Number too high.";
+        private const string SquareOfNumberMessage = "Square of {0} is {1}.";
+
         internal Cpu(byte numberOfCores)
         {
             this.NumberOfCores = numberOfCores;
@@ -19,17 +23,17 @@
 
             if (value < 0)
             {
-                this.Motherboard.DrawOnVideoCard("Number too low.");
+                this.Motherboard.DrawOnVideoCard(Cpu.NumberTooLowMessage);
             }
             else if (value > this.MaxValueForCalculation)
             {
-                this.Motherboard.DrawOnVideoCard("Number too high.");
+                this.Motherboard.DrawOnVideoCard(Cpu.NumberTooHighMessage);
             }
             else
             {
                 // Here was the useless for cycle(bottleneck)
                 var square = value * value;
-                this.Motherboard.DrawOnVideoCard(string.Format("Square of {0} is {1}.", value, square));
+                this.Motherboard.DrawOnVideoCard(string.Format(Cpu.SquareOfNumberMessage, value, square));
             }
         }
 

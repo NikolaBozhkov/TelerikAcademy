@@ -1,9 +1,8 @@
 ﻿namespace ComputersBuildingSystem.DeviceManufacturers
 {
+    using System.Collections.Generic;
     using ComputersBuildingSystem.DeviceComponents;
     using ComputersBuildingSystem.Devices;
-    using System;
-    using System.Collections.Generic;
 
     public class Dell : DeviceManufacturer
     {

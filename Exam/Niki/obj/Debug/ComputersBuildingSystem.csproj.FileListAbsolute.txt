@@ -12,3 +12,6 @@ C:\Users\nikolasofia\Desktop\Exam\Niki\obj\Debug\ComputersBuildingSystem.csprojR
 C:\Users\nikolasofia\Desktop\Exam\Niki\bin\Debug\ComputersBuildingSystem.exe
 C:\Users\nikolasofia\Desktop\Exam\Niki\bin\Debug\ComputersBuildingSystem.pdb
 C:\Users\nikolasofia\Desktop\Exam\Niki\bin\Debug\System.Collections.Generic.dll
+D:\Projects\TelerikAcademy\Exam\Niki\bin\Debug\ComputersBuildingSystem.exe.config
+D:\Projects\TelerikAcademy\Exam\Niki\obj\Debug\ComputersBuildingSystem.exe
+D:\Projects\TelerikAcademy\Exam\Niki\obj\Debug\ComputersBuildingSystem.pdb

@@ -1,8 +1,8 @@
 ﻿namespace ComputersBuildingSystem.Devices
 {
-    using ComputersBuildingSystem.DeviceComponents;
     using System;
     using System.Collections.Generic;
+    using ComputersBuildingSystem.DeviceComponents;
 
     public abstract class Device
     {

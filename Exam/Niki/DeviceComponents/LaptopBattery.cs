@@ -2,23 +2,29 @@
 {
     public class LaptopBattery
     {
+        private const int InitialCharge = 50;
+        private const int MinCharge = 0;
+        private const int MaxCharge = 100;
+
+        public LaptopBattery()
+        {
+            this.Percentage = LaptopBattery.InitialCharge;
+        }
+
         public int Percentage { get; set; }
+
         public void Charge(int percents)
         {
             this.Percentage += percents;
-            if (this.Percentage > 100)
+            if (this.Percentage > LaptopBattery.MaxCharge)
             {
-                this.Percentage = 100;
+                this.Percentage = LaptopBattery.MaxCharge;
             }
 
-            if (this.Percentage < 0)
+            if (this.Percentage < LaptopBattery.MinCharge)
             {
-                this.Percentage = 0;
+                this.Percentage = LaptopBattery.MinCharge;
             }
-        }
-        public LaptopBattery() 
-        { 
-            this.Percentage = 50;
         }
     }
 }

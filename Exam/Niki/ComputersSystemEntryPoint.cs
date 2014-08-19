@@ -1,10 +1,17 @@
 ﻿namespace ComputersBuildingSystem
 {
     using System;
+
     public class ComputersSystemEntryPoint
     {
         private static void Main()
         {
+            const string ExitCommand = "Exit";
+            const string InvalidCommandMessage = "Invalid command!";
+            const string ChargeCommand = "Charge";
+            const string ProcessCommand = "Process";
+            const string PlayCommand = "Play";
+
             var manufacturerCommand = Console.ReadLine();
             var manufacturer = ManufacturerSelector.GetManufacturer(manufacturerCommand);
 
@@ -16,7 +23,7 @@
             {
                 var command = Console.ReadLine();
 
-                if (command.Trim() == "Exit")
+                if (command.Trim() == ExitCommand)
                 {
                     break;
                 }
@@ -25,22 +32,22 @@
                 if (commandParameters.Length != 2)
                 {
                     {
-                        throw new ArgumentException("Invalid command!");
+                        throw new ArgumentException(InvalidCommandMessage);
                     }
                 }
 
                 var commandName = commandParameters[0];
                 var commandArgument = int.Parse(commandParameters[1]);
 
-                if (commandName == "Charge")
+                if (commandName == ChargeCommand)
                 {
                     laptop.ChargeBattery(commandArgument);
                 }
-                else if (commandName == "Process")
+                else if (commandName == ProcessCommand)
                 {
                     server.Process(commandArgument);
                 }
-                else if (commandName == "Play")
+                else if (commandName == PlayCommand)
                 {
                     personalComputer.Play(commandArgument);
                 }

@@ -6,12 +6,15 @@
 
     public class RaidHardDrive : IHardDrive
     {
+        private const string NoHardDrivesInRaidMessage = "No hard drive in the RAID array!";
+
         private readonly IList<IHardDrive> hardDrives = new List<IHardDrive>();
+
         public RaidHardDrive(int capacity, int count)
         {
             for (int i = 0; i < count; i++)
             {
-                hardDrives.Add(new HardDrive(capacity));
+                this.hardDrives.Add(new HardDrive(capacity));
             }
         }
 
@@ -19,12 +22,12 @@
         {
             get
             {
-                if (!(hardDrives.Any()))
+                if (!this.hardDrives.Any())
                 {
                     return 0;
                 }
 
-                return hardDrives.First().Capacity;
+                return this.hardDrives.First().Capacity;
             }
         }
 
@@ -40,7 +43,7 @@
         {
             if (!this.hardDrives.Any())
             {
-                throw new InvalidOperationException("No hard drive in the RAID array!");
+                throw new InvalidOperationException(NoHardDrivesInRaidMessage);
             }
 
             return this.hardDrives.First().LoadData(address);

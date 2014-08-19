@@ -1,9 +1,9 @@
 ﻿namespace ComputersBuildingSystem.DeviceManufacturers
 {
-    using ComputersBuildingSystem.DeviceComponents;
-    using ComputersBuildingSystem.Devices;
     using System;
     using System.Collections.Generic;
+    using ComputersBuildingSystem.DeviceComponents;
+    using ComputersBuildingSystem.Devices;
 
     public class Lenovo : DeviceManufacturer
     {
