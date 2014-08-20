@@ -1,0 +1,3 @@
+A primary key is a column which idenifies each row and makes it unique to the given table.
+Foreign key is a key used to relate data from one table to another. 
+The foreign key from one table usually refers to the primary key of another.

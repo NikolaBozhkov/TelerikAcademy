@@ -1,0 +1,3 @@
+A database schema is normalized when all repeating data is put into different tables.
+Normalized database provides storage efficency, faster searching, indexing, sorting, also
+better security, much more flexibility.

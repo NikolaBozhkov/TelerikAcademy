@@ -1,0 +1,19 @@
+Code:
+
+long CalcCount(int[,] matrix)
+{
+    long count = 0;
+    for (int row=0; row<matrix.GetLength(0); row++)
+        if (matrix[row, 0] % 2 == 0)
+            for (int col=0; col<matrix.GetLength(1); col++)
+                if (matrix[row,col] > 0)
+                    count++;
+    return count;
+}
+
+n * m for the matrix
+
+Complexity: best case O(n), worst case O(n * m), average O(n * (m/2))
+Explanation: Best case we only go through the rows, cuz the check fails
+Worst case, every check passes and the second "for" is run every time
+Average is n * (m/2), simple because the if can pass half the time

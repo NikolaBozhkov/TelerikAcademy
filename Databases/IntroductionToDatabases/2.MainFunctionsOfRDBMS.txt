@@ -1,0 +1,2 @@
+The main functions of a RDBMS are to manage databases,
+which usually have internal relations, between tables. 

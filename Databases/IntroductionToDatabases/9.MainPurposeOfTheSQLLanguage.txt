@@ -1,0 +1,2 @@
+The SQL language is used to create and manage databases,
+using it different queries can be created, extracting data in a specific way

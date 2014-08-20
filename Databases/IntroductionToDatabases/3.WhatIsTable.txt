@@ -1,0 +1,2 @@
+Tables in databases consist of data, which is arranged in rows and columns.
+All rows have the same structure, columns can be given name and data type(int, string,..)

@@ -1,0 +1,2 @@
+The classical NoSQL data model is object-oriented.
+Data is stored like JSON objects.

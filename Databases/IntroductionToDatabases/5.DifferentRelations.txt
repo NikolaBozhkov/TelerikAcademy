@@ -1,0 +1,4 @@
+The relationships between tables can be:
+1. one to one - where a single record in one table refers to only a single record from another table.
+2. one to many - where a single record from one table refers to many records from another table.
+3. many to many - where every record from one table can refer to every record in the other table.

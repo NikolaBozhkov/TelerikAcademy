@@ -1,0 +1,2 @@
+NoSQL databases are non-relational. They store data as documents, where a single record is a single document.
+The documents don't have a specific structure which needs to be preserved.

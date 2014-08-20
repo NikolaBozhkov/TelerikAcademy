@@ -1,0 +1,21 @@
+Code:
+
+long Compute(int[] arr)
+{
+    long count = 0;
+    for (int i=0; i<arr.Length; i++)
+    {
+        int start = 0, end = arr.Length-1;
+        while (start < end)
+            if (arr[start] < arr[end])
+                { start++; count++; }
+            else 
+                end--;
+    }
+    return count;
+}
+
+Complexity: runs in O(n * n)
+Explanation: From the for cycle we get "n" runs and from the while n-1 for every n,
+so n(n-1) + n + 2n(n-1)... (or sth like that)
+In the end we get n * n complexity

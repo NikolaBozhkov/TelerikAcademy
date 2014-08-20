@@ -1,0 +1,2 @@
+Integrity constraints are used as a check for valid data, not allowing invalid input.
+Used for keeping data valid.

@@ -1,0 +1,4 @@
+1. Hierarchical - tree like
+2. Graph
+3. Relational(tables)
+4. Object-oriented

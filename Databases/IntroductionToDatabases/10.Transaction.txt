@@ -1,0 +1,9 @@
+Transaction is a sequence of DB operations which are executed as a single operation,
+only if all inner operations succeed then the state of the database is saved, otherwise
+the transaction fails and nothing is changed.
+Example with bank transaction(again):
+	If a person sends money to another person and after the money has been withdrawn
+	there is an error(without transaction) the money will be lost and the other person won't recieve it
+	If the money transaction is done with database transaction, the state is saved and if error occurs
+	the state is rowbacked to(no money are lost), only if all operations succeed and the money is recieved,
+	then the state is saved and we say that the transaction is complete.

@@ -1,0 +1,2 @@
+I looked through the ones from the presentation.
+Redis, MongoDB, CouchDB, Cassandra

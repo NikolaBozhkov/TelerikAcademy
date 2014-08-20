@@ -1,0 +1,5 @@
+The pros of using indexing:
+	faster searching
+	faster sorting
+The cons:
+	altering the database(removing) is slower
