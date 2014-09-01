@@ -1,0 +1,4 @@
+SQL is Structured Query Language used for the manipulation of databases(CRUD control, Create, Read, Update, Delete).
+DML - data manipulation language, used to, you know, manipulate the data, SELECT, INSERT, UPDATE, DELETE
+DDL - data definition language, used to define the data, DROP, ALTER, CREATE
+The most important commands are SELECT, WHERE, FROM, JOIN, ORDER BY and maybe the rest of the crud commands and ddl commands

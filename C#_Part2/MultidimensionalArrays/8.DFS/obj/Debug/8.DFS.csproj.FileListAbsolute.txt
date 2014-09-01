@@ -4,3 +4,6 @@ D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\8.DFS\bin\Debug\8.DFS.pdb
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\8.DFS\obj\Debug\8.DFS.exe
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\MultidimensionalArrays\8.DFS\obj\Debug\8.DFS.pdb
+D:\Projects\TelerikAcademy\C#_Part2\MultidimensionalArrays\8.DFS\bin\Debug\8.DFS.exe.config
+D:\Projects\TelerikAcademy\C#_Part2\MultidimensionalArrays\8.DFS\obj\Debug\8.DFS.exe
+D:\Projects\TelerikAcademy\C#_Part2\MultidimensionalArrays\8.DFS\obj\Debug\8.DFS.pdb

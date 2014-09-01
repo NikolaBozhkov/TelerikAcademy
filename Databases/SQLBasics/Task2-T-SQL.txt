@@ -1,0 +1,2 @@
+Transact SQL is an extension of SQL. There are loops, statements and so on, like normal programming language.
+It is mainly used for optimization, normal queries are performed with just SQL.
