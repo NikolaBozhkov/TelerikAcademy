@@ -16,3 +16,9 @@ D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\20.Variations\obj\Debug\20.Variations.csprojResolveAssemblyReference.cache
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\20.Variations\obj\Debug\20.Variations.exe
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\20.Variations\obj\Debug\20.Variations.pdb
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\20.Variations\bin\Debug\20.Variations.exe.config
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\20.Variations\obj\Debug\20.Variations.exe
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\20.Variations\obj\Debug\20.Variations.pdb
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\20.Variations\bin\Debug\20.Variations.exe
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\20.Variations\bin\Debug\20.Variations.pdb
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\20.Variations\obj\Debug\20.Variations.csprojResolveAssemblyReference.cache

@@ -13,3 +13,6 @@ D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\01.ElemIndexMultBy5\bin\Debug\01.ElemIndexMultBy5.exe
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\01.ElemIndexMultBy5\bin\Debug\01.ElemIndexMultBy5.pdb
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\01.ElemIndexMultBy5\obj\Debug\01.ElemIndexMultBy5.csprojResolveAssemblyReference.cache
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\01.ElemIndexMultBy5\bin\Debug\01.ElemIndexMultBy5.exe.config
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\01.ElemIndexMultBy5\obj\Debug\01.ElemIndexMultBy5.exe
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\01.ElemIndexMultBy5\obj\Debug\01.ElemIndexMultBy5.pdb

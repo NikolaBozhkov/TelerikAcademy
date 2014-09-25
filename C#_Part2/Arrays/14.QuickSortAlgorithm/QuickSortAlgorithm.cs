@@ -50,11 +50,11 @@ public class QuickSortAlgorithm
 
     public static void Main()
     {
-        List<int> array = new List<int> { 1, 4, 3, 5, 2, 7, 6, 8, 9 };
-        List<int> sortedArray = QuickSort(array);
-        for (int i = 0; i < sortedArray.Count; i++)
+        List<int> array = new List<int> { 1, 4, 4, 3, 5, 2, 7, 6, 8, 9 };
+        array = QuickSort(array);
+        for (int i = 0; i < array.Count; i++)
         {
-            Console.WriteLine(sortedArray[i]);
+            Console.WriteLine(array[i]);
         }
     }
 }

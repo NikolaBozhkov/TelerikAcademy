@@ -13,3 +13,9 @@ D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\19.Permutations\obj\Debug\19.Permutations.csprojResolveAssemblyReference.cache
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\19.Permutations\obj\Debug\19.Permutations.exe
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\19.Permutations\obj\Debug\19.Permutations.pdb
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\19.Permutations\bin\Debug\19.Permutations.exe.config
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\19.Permutations\obj\Debug\19.Permutations.exe
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\19.Permutations\obj\Debug\19.Permutations.pdb
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\19.Permutations\bin\Debug\19.Permutations.exe
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\19.Permutations\bin\Debug\19.Permutations.pdb
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\19.Permutations\obj\Debug\19.Permutations.csprojResolveAssemblyReference.cache

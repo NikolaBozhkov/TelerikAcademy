@@ -5,3 +5,6 @@ D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\13.MergeSortAlgorithm\obj\Debug\13.MergeSortAlgorithm.csprojResolveAssemblyReference.cache
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\13.MergeSortAlgorithm\obj\Debug\13.MergeSortAlgorithm.exe
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\C#_Part2\Arrays\13.MergeSortAlgorithm\obj\Debug\13.MergeSortAlgorithm.pdb
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\13.MergeSortAlgorithm\bin\Debug\13.MergeSortAlgorithm.exe.config
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\13.MergeSortAlgorithm\obj\Debug\13.MergeSortAlgorithm.exe
+D:\Projects\TelerikAcademy\C#_Part2\Arrays\13.MergeSortAlgorithm\obj\Debug\13.MergeSortAlgorithm.pdb
