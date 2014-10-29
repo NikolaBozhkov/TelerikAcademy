@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+
+    <style name="ActionBarStyle"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#E77E23</item>
+    </style>
+
+    <style name="ListItemTextStyle">
+        <item name="android:textSize">27sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>
