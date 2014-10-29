@@ -81,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z3Q-qp-ZCB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1852" y="439"/>
+            <point key="canvasLocation" x="1865" y="-265"/>
         </scene>
         <!--Lists-->
         <scene sceneID="mT7-dL-Wym">
@@ -126,7 +126,7 @@
                                 <connections>
                                     <outlet property="categoryLabel" destination="2xp-AJ-8Sx" id="Bfq-i6-1wt"/>
                                     <outlet property="titleLabel" destination="ldB-Ge-umF" id="c64-FE-uh9"/>
-                                    <segue destination="hDQ-IS-4Yy" kind="show" identifier="NotesTableSegue" id="Gj5-f2-gnH"/>
+                                    <segue destination="OzX-fi-Jfo" kind="show" identifier="NotesTableSegue" id="RJJ-40-WoE"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -138,14 +138,14 @@
                     <navigationItem key="navigationItem" title="Lists" id="NDD-pR-eiv">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="5bc-2d-4PK">
                             <connections>
-                                <segue destination="r1h-cG-QM3" kind="presentation" id="AKY-Ja-8W9"/>
+                                <segue destination="qNz-9g-xcd" kind="presentation" id="8PM-27-dC6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uyN-Ce-kMY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1103" y="439"/>
+            <point key="canvasLocation" x="1047" y="443"/>
         </scene>
         <!--Add New List-->
         <scene sceneID="oyv-Cs-MNn">
@@ -201,7 +201,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AhR-t8-uFi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="CX8-yr-t4s" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1103" y="1186"/>
+            <point key="canvasLocation" x="2677" y="443"/>
         </scene>
         <!--Lists Navigation Controller-->
         <scene sceneID="2YF-zQ-lZl">
@@ -220,27 +220,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CoT-2Z-Bhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="290" y="443"/>
-        </scene>
-        <!--Notes Navigation Controller-->
-        <scene sceneID="PsN-Ql-mUX">
-            <objects>
-                <navigationController title="Notes Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" id="hDQ-IS-4Yy" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sDf-Ek-Szs">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="GhO-FF-AYY">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
-                    <connections>
-                        <segue destination="OzX-fi-Jfo" kind="relationship" relationship="rootViewController" id="ZkE-Pk-ylS"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wba-ut-bXS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="290" y="-295"/>
         </scene>
         <!--Add New Note-->
         <scene sceneID="VMD-DX-suW">
@@ -320,7 +299,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N7K-3T-o3O" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="puC-Zc-keb" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1047" y="-1034"/>
+            <point key="canvasLocation" x="2677" y="-960"/>
         </scene>
         <!--Notes Table View Controller-->
         <scene sceneID="nnD-1u-5Ir">
@@ -349,71 +328,50 @@
                     <navigationItem key="navigationItem" id="PV4-PB-5iD">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Ttt-2d-PsF">
                             <connections>
-                                <segue destination="nkE-zB-l2m" kind="presentation" identifier="AddNewNoteSegue" id="k2s-0I-Wtp"/>
+                                <segue destination="pJH-SE-5zE" kind="presentation" id="P4m-Di-GPW"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X1H-eM-bOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047" y="-295"/>
+            <point key="canvasLocation" x="1047" y="-265"/>
         </scene>
-        <!--Note Details Navigation Controller-->
-        <scene sceneID="OKh-TJ-JtJ">
+        <!--Navigation Controller-->
+        <scene sceneID="Qjk-m3-wfX">
             <objects>
-                <navigationController title="Note Details Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" id="hZR-iq-VyU" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pJH-SE-5zE" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="che-3P-tiF">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ayb-hX-uma">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="8RF-l7-Cfy" kind="relationship" relationship="rootViewController" id="ERY-UM-gkv"/>
+                        <segue destination="vgO-mP-p1O" kind="relationship" relationship="rootViewController" id="N5J-cN-fiw"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="s5V-WD-WDU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QSd-WD-4h3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1852" y="-295"/>
+            <point key="canvasLocation" x="1865" y="-960"/>
         </scene>
-        <!--Add New Note Navigation Controller-->
-        <scene sceneID="M5X-ab-SYs">
+        <!--Navigation Controller-->
+        <scene sceneID="VTM-W5-7Ad">
             <objects>
-                <navigationController title="Add New Note Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" id="nkE-zB-l2m" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qNz-9g-xcd" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DEj-gS-eyC">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WRk-uR-8H7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vgO-mP-p1O" kind="relationship" relationship="rootViewController" id="KYA-pa-eDx"/>
+                        <segue destination="ZcC-8R-GUN" kind="relationship" relationship="rootViewController" id="MmW-wZ-5JI"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Nh-Sj-mu7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hy4-8N-sCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="290" y="-1034"/>
-        </scene>
-        <!--Add New List Navigation Controller-->
-        <scene sceneID="SO1-ar-V5x">
-            <objects>
-                <navigationController title="Add New List Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" id="r1h-cG-QM3" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HsU-kp-c8A">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="ZcC-8R-GUN" kind="relationship" relationship="rootViewController" id="Idp-bV-DLS"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wEV-sr-OUA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="290" y="1186"/>
+            <point key="canvasLocation" x="1865" y="443"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="0ax-Ie-2ap"/>
-    </inferredMetricsTieBreakers>
 </document>

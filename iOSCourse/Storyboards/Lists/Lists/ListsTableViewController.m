@@ -93,8 +93,7 @@
     NSString *notesTableSegue = @"NotesTableSegue";
     
     if ([segue.identifier isEqualToString:notesTableSegue]) {
-        UINavigationController *navigation = segue.destinationViewController;
-        NotesTableViewController *notesVC = navigation.viewControllers[0];
+        NotesTableViewController *notesVC = segue.destinationViewController;
         
         NSIndexPath *indexPath = self.tableView.indexPathForSelectedRow;
         List *selectedList = self.listsData.lists[indexPath.row];
@@ -129,7 +128,13 @@
                                               otherButtonTitles:@"Delete", nil];
         
         self.currentDeletionIndexPath = indexPath;
-        [alert show];
+        List *currentList = self.listsData.lists[indexPath.row];
+        if (currentList.notes.count > 0) {
+            [alert show];
+        } else {
+            [self.listsData deleteList:(int)indexPath.row];
+            [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        }
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }
