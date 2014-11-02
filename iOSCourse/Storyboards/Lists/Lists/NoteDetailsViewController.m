@@ -13,8 +13,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
 @property (weak, nonatomic) IBOutlet UITextField *descriptionTextField;
 @property (weak, nonatomic) IBOutlet UILabel *dateLabel;
-@property (strong, nonatomic) UIBarButtonItem *editButton;
 
+@property (strong, nonatomic) UIBarButtonItem *editButton;
 @property (strong, nonatomic) UIBarButtonItem *doneButton;
 
 @end
