@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CheckIfBiggerThanNeighbors</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="array" placeholder="Enter array(by spaces):" />
+    <input type="text" id="index" placeholder="Enter index:" />
+    <button onclick="getValuesAndRunCIBTN()">Check</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function getValuesAndRunCIBTN() {
+            var array = jsConsole.read("#array").split(" ");
+            var index = jsConsole.readInteger("#index");
+            for (var i = 0; i < array.length; i++) {
+                array[i] = parseInt(array[i]);
+            }
+
+            var result = checkIfBiggerThanNeighbors(array, index);
+            if (result === 1) {
+                jsConsole.writeLine("The element at position " + index + " is bigger than it's 2 neighbors.");
+            }
+            else if (result === 0) {
+                jsConsole.writeLine("The element at position " + index + " is not bigger than it's 2 neighbors.");
+            }
+        }
+
+        function checkIfBiggerThanNeighbors(array, index) {
+            // Error proof
+            if (array === undefined) {
+                jsConsole.writeLine("The array is undefined.");
+                return -1;
+            }
+            else if (array.length < 3) {
+                jsConsole.writeLine("There is no element with 2 neighbors.");
+                return -1;
+            }
+            else if (isNaN(index)) {
+                jsConsole.writeLine("Please enter an index.");
+                return -1;
+            }
+            else if (index < 1 || index >= array.length - 1) {
+                jsConsole.writeLine("The index cannot point to the first or last element or to be out of the array.");
+                return -1;
+            }
+
+            if (array[index - 1] < array[index] && array[index + 1] < array[index]) {
+                return 1;
+            }
+            else {
+                return 0;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Slider</title>
+</head>
+<body>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script>
+        // I wanted to learn jquery so I did everything with it
+        var $slidesContainer = $('<div />')
+            .css('position', 'relative')
+            .css('width', 320)
+            .css('height', 320);
+
+        for (var i = 0; i < 5; i++) {
+            var $slide = $('<div />')
+                .addClass('slide')
+                .html($('<div />'))
+                .css('position', 'absolute')
+                .css('background-color', 'rgb(' + i * 50 + ', 100, 0)')
+                .css('width', 320)
+                .css('height', 320);
+
+            $slidesContainer.append($slide);
+        }
+
+        $slidesContainer.children()
+            .css('display', 'none')
+            .first().addClass('selected').fadeIn(1000);
+
+        $(document.body).append($slidesContainer);
+
+        $('<button />').html('Prev')
+            .on('click', function () {
+                shiftSelected(true);
+                resetTimer();
+            })
+            .appendTo(document.body);
+
+        $('<button />').html('Next')
+            .on('click', function () {
+                shiftSelected(false);
+                resetTimer();
+            })
+            .appendTo(document.body);   
+
+        // Previous, true or false
+        function shiftSelected(prev) {
+            var $curr = $('.selected');
+
+            if (prev) {
+                if ($curr.prev().length === 0) {
+                    $curr.fadeOut(1000).removeClass('selected');
+                    $slidesContainer.children().last().addClass('selected').fadeIn(1000);
+                }
+                else {
+                    $curr.fadeOut(1000).removeClass('selected');
+                    $curr.prev('.slide').fadeIn(1000).addClass('selected');
+                }
+            }
+            else {
+                if ($curr.next().length === 0) {
+                    $curr.fadeOut(1000).removeClass('selected');
+                    $slidesContainer.children().first().addClass('selected').fadeIn(1000);
+                }
+                else {
+                    $curr.fadeOut(1000).removeClass('selected');
+                    $curr.next('.slide').fadeIn(1000).addClass('selected');
+                }
+            }
+        };
+
+        function resetTimer() {
+            clearInterval(autoChange);
+            autoChange = setInterval(function () {
+                shiftSelected(false);
+            }, 5000);
+        };
+
+        var autoChange = setInterval(function () {
+            shiftSelected(false);
+        }, 5000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SelectDivsDirectlyInOtherDivs</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <link href="styles/taskOneStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <div>
+        outer
+        <div>
+            inner
+            <div>inner</div>
+            <div>inner</div>
+        </div>
+        <div>inner</div>
+    </div>
+    <div>
+        outer
+        <div>inner</div>
+        <div>inner</div>
+        <div>inner</div>
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        jsConsole.writeLine("Divs selected with query selector are orange, and border is for get element by...");
+
+        // Selected using query selector
+        var nestedDivsWithQuery = document.querySelectorAll("div > div");
+        for (var i = 0; i < nestedDivsWithQuery.length; i++) {
+            nestedDivsWithQuery[i].style.backgroundColor = "orange";
+        }
+
+        // Selected using get elements by
+        var allDivs = document.getElementsByTagName("div");
+        var nestedDivs = [];
+        for (var i = 0, length = allDivs.length; i < length; i++) {
+            if (allDivs[i].parentNode instanceof HTMLDivElement) {
+                nestedDivs.push(allDivs[i]);
+                allDivs[i].style.border = "2px solid red";
+            }
+        }
+    </script>
+</body>
+</html>

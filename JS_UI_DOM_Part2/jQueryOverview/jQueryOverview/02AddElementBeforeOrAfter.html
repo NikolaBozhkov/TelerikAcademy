@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>AddElementBeforeOrAfter</title>
+</head>
+<body>
+    <div id="center">Central div</div>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script>
+        function addBefore(selector, element) {
+            $(element).insertBefore(selector);
+        };
+
+        function addAfter(selector, element) {
+            $(element).insertAfter(selector);
+        };
+
+        addAfter('#center', $('<div />').html('after'));
+        addBefore('#center', $('<div />').html('before'));
+    </script>
+</body>
+</html>

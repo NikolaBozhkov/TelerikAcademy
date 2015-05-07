@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JoroTheNaughty</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function Solve(args) {
+            function createPos(roll, col) {
+                var pos = {
+                    roll: roll,
+                    col: col
+                }
+
+                return pos;
+            }
+
+            // Get info
+            var variables = args[0].split(" ");
+            var n = parseInt(variables[0]);
+            var m = parseInt(variables[1]);
+            var jumpsCount = parseInt(variables[2]);
+
+            variables = args[1].split(" ");
+            var current = createPos(parseInt(variables[0]),
+                parseInt(variables[1]));
+
+            // Create jump sequence
+            var jumps = [];
+            for (var i = 2; i < jumpsCount + 2; i++) {
+                variables = args[i].split(" ");
+                jumps.push(createPos(parseInt(variables[0]),
+                parseInt(variables[1])));
+            }
+
+            // Create matrix
+            var jumpField = [];
+            var fillNum = 1;
+            for (i = 0; i < n; i++) {
+                jumpField[i] = [];
+
+                for (var j = 0; j < m; j++, fillNum++) {
+                    jumpField[i][j] = fillNum;
+                }
+            }
+
+            // Solve
+            var jumpIndex = 0;
+            var sum = jumpField[current.roll][current.col];
+            var jumpsSum = 0;
+            jumpField[current.roll][current.col] = -1;
+
+            while (true) {
+                current.roll += jumps[jumpIndex].roll;
+                current.col += jumps[jumpIndex].col;
+                jumpsSum++;
+
+                if (current.roll < 0 || current.roll >= n
+                        || current.col < 0 || current.col >= m) {
+                    return "escaped " + sum;
+                }
+                else if (jumpField[current.roll][current.col] === -1) {
+                    return "caught" + jumpsSum;
+                }
+
+                sum += parseInt(jumpField[current.roll][current.col]);
+                jumpField[current.roll][current.col] === -1;
+                jumpIndex++;
+
+                if (jumpIndex >= jumps.length) {
+                    jumpIndex = 0;
+                }
+            }
+        }
+    </script>
+</body>
+</html>

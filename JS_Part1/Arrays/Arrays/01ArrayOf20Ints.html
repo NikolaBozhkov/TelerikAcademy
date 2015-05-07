@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ArrayOf20Ints</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <button onclick="createArray()">Create</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function createArray() {
+            var array = new Array(20); // Create array with length 20
+            for (var i = 0; i < 20; i++) {
+                array[i] = i * 5; // Assign value to each element
+                jsConsole.write(array[i] + " "); // Print it
+            }
+
+            jsConsole.writeLine(""); // Separation
+        }
+    </script>
+</body>
+</html>

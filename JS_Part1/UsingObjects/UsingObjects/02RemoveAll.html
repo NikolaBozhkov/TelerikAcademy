@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>RemoveAll</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        jsConsole.writeLine( "  sdsadas");
+        Array.prototype.removeAll = function (target) {
+            var newArray = [];
+            for (var i = 0; i < this.length; i++) {
+                if (this[i] !== target) {
+                    newArray.push(this[i]);
+                }
+            }
+            
+            return newArray;
+        };
+
+        var array = [1, 2, 1, 4, 1, 3, 4, 1, 111, 3, 2, 1, '1'];
+        array = array.removeAll(1);
+        jsConsole.writeLine(array.join(", "));
+    </script>
+</body>
+</html>

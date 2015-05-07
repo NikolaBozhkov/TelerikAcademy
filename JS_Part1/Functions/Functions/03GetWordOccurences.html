@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>GetWordOccurences</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="text" placeholder="Enter text:" />
+    <input type="text" id="targetWord" placeholder="Enter word to search:" />
+    <input type="text" id ="isCaseSensitive" placeholder="Case sensitive(yes or no): " />
+    <button onclick="getWordOccurences('#text', '#targetWord', '#isCaseSensitive')">Count</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function getWordOccurences(idText, idTargetWord, idIsCaseSensitive) {
+            var text = jsConsole.read(idText);
+            var targetWord = jsConsole.read(idTargetWord);
+            var isCaseSensitive = jsConsole.read(idIsCaseSensitive) === "yes" ? true :
+                jsConsole.read(idIsCaseSensitive) === "no" ? false : false;
+
+            var wordOccurences = 0;
+
+            if (isCaseSensitive) {
+                var index = text.indexOf(targetWord);
+
+                while (index >= 0) {
+                    wordOccurences++;
+                    index = text.indexOf(" " + targetWord + " ", index + 1);
+                }
+
+                jsConsole.writeLine("The word '" + targetWord + "' occured " + wordOccurences + " time(s), case sensitive.");
+            }
+            else {
+                var strArray = text.split(RegExp("\b" + targetWord + "\b"));
+
+                for (var str in strArray) {
+                    wordOccurences++;
+                }
+
+                jsConsole.writeLine("The word '" + targetWord + "' occured " + wordOccurences + " time(s), case insensitive.");
+            }
+
+        }
+    </script>
+</body>
+</html>

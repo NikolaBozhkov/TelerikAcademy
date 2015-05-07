@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Message Box</title>
+</head>
+<body>
+    <div id="message-box"></div>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script>
+        (function ($) {
+            $.fn.messageBox = function () {
+                var $self = $(this);
+                $self.css({
+                    'font-size': '36px',
+                    width: '300px'
+                });
+
+                var animate = function (msg) {
+                    $self.html(msg)
+                        .fadeIn(1000, function () {
+                            setTimeout(function () {
+                                $self.fadeOut(1000);
+                            }, 3000);
+                        });
+                };
+
+                var messageBox = {
+                    success: function (msg) {
+                        $self.css({
+                            color: 'yellow',
+                            'background-color': 'green',
+                            border: '2px solid lightgreen'
+                        });
+
+                        animate(msg);
+                    },
+
+                    error: function (msg) {
+                        $self.css({
+                            color: 'black',
+                            'background-color': 'red',
+                            border: '2px solid black'
+                        });
+
+                        animate(msg);
+                    }
+                };
+
+                return messageBox;
+            };
+        })(jQuery);
+
+        var msgBox = $('#message-box').messageBox();
+
+        msgBox.success('Success message!');
+        //msgBox.error('Error message!');
+    </script>
+</body>
+</html>

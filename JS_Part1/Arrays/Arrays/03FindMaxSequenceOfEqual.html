@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FindMaxSequenceOfEqual</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="array" placeholder="Enter the array(by spaces):" />
+    <button onclick="maxSequenceOfEqualElem()">Find</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function maxSequenceOfEqualElem() {
+            var array = jsConsole.read("#array").split(" ");
+
+            var bestSequence = [];
+            var currentSequence = [];
+            for (var i = 0; i < array.length; i++) {
+                currentSequence.push(array[i]);
+
+                if (array[i] !== array[i + 1]) {
+                    if (currentSequence.length >= bestSequence.length) {
+                        bestSequence = currentSequence.slice(0);
+                    }
+
+                    currentSequence.splice(0);
+                }
+            }
+
+            // Check, cuz the whole array can be 1 sequence
+            if (currentSequence.length >= bestSequence.length) {
+                bestSequence = currentSequence.slice(0);
+            }
+
+            jsConsole.writeLine("The maximum sequence of equal elements is: " + bestSequence.join(", "));
+        }
+    </script>
+</body>
+</html>

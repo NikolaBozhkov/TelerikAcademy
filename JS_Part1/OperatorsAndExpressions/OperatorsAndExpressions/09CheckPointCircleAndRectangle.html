@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CheckPointCircleAndRectangle</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="pointX" placeholder="Type the x coordinate:" />
+    <input type="text" id="pointY" placeholder="Type the y coordinate:" />
+    <button onclick="CheckPoint()">Check It</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function CheckPoint() {
+            var pointX = jsConsole.readInteger("#pointX");
+            var pointY = jsConsole.readInteger("#pointY");
+
+            // Put the constants here for easy change
+            var circleX = 1;
+            var circleY = 1;
+            var circleR = 3;
+            var rectTop = 1;
+            var rectLeft = -1;
+            var rectWidth = 6;
+            var rectHeight = 2;
+
+            if (!isNaN(pointX) && !isNaN(pointY)) {
+                if ((Math.pow(pointX - circleX, 2) + Math.pow(pointY - circleY, 2) <= circleR * circleR) 
+                    && !((pointX >= rectLeft && pointX <= rectWidth + rectLeft)
+                    && (pointY <= rectTop && pointY >= rectTop - rectHeight))) {
+                    jsConsole.writeLine("The point with coordinates(" + pointX + ", " + pointY + ") is within the cirle K((1, 1), 3) and out of the rectangle((1, -1), 6, 2)");
+                }
+                else {
+                    jsConsole.writeLine("The point with coordinates(" + pointX + ", " + pointY + ") is not, within the cirle K((1, 1), 3) and out of the rectangle((1, -1), 6, 2)");
+                }
+            }
+            else {
+                jsConsole.writeLine("Please enter x and y coordinates.");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CreateHtmlUl</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <input type="button" value="Load HTML" onclick="run()" />
+    <script src="scripts/js-console.js"></script>
+    <div data-type="template" id="list-item"> 
+        <strong>-{name}-</strong> <span>-{age}-</span>
+    </div>
+    <script>
+        // I didn't really understand what I was supposed to write
+        // Hope this is close to ok
+        function run() {
+            var people = [{ name: ' John Diggle ', age: 50 },
+                      { name: ' Akali Silver ', age: 60 },
+                      { name: ' Slade Moonwalker ', age: 55 }];
+            var template = document.getElementById("list-item").innerHTML;
+            var peopleList = generateList(people, template);
+            document.write(peopleList);
+        }
+
+        function generateList(people, template) {
+            template = template.replace(/<strong>/g, '<li><strong>'); //add <li> tag
+            template = template.replace(/<\/span>/g, '</span></li>'); //add</li> tag
+            var list = ["<ul>"];
+
+            for (var person in people) {
+                var currentLi = template.replace('-{name}-', people[person].name)
+                    .replace('-{age}-', people[person].age);
+                list.push(currentLi);
+            }
+
+            list.push("</ul>");
+            return list;
+        }
+    </script>
+</body>
+</html>

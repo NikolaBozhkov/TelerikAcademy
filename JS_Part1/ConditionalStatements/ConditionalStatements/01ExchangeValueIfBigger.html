@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ExchangeValueIfBigger</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="numberA" placeholder="Enter number A:" />
+    <input type="text" id="numberB" placeholder="Enter number B:" />
+    <button onclick="ExchangeValueIfBigger()">Exchange</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function ExchangeValueIfBigger() {
+            var numberA = jsConsole.readInteger("#numberA");
+            var numberB = jsConsole.readInteger("#numberB");
+
+            if (!isNaN(numberA) && !isNaN(numberB)) {
+                if (numberA > numberB) {
+                    var temp = numberA;
+                    numberA = numberB;
+                    numberB = temp;
+                }
+
+                jsConsole.writeLine("Number A: " + numberA + ", Number B: " + numberB);
+            }
+            else {
+                jsConsole.writeLine("Please enter numbers A and B.");
+            }
+        }
+    </script>
+</body>
+</html>

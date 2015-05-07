@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Telerik</title>
+</head>
+<body>
+    <div id="svg-container"></div>
+    <script src="scripts/raphael-min.js"></script>
+    <script>
+        var paper = Raphael('svg-container', 1280, 800);
+
+        paper.setStart();
+        // The logo symbol
+        paper.path('M100 100 l 15 -15 l 40 40 l -20 20 l -20 -20 l 40 -40 l 15 15')
+            .attr({
+                stroke: '#5CE600',
+                'stroke-width': 11
+            });
+
+        // The text
+        paper.text(310, 120, 'Telerik')
+            .attr({
+                fill: '#282828',
+                'font-size': '90',
+                'font-weight': 'bold',
+                'font-family': "Calibri, Arial"
+            });
+        paper.text(445, 120, '®')
+            .attr({
+                'font-size': 35,
+                'font-family': "Consolas, Arial"
+            });
+
+        paper.text(375, 170, 'Develop expreciences')
+            .attr({
+                'font-size': 40,
+                'font-family': "Calibri, Arial"
+            });
+        var logo = paper.setFinish();
+    </script>
+</body>
+</html>

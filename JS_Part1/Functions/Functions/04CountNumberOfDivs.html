@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CountNumberOfDivs</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <button onclick="countNumberOfDivs()">Count</button>
+    <button onclick="addDiv()">Add div</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function countNumberOfDivs() {
+            var divs = document.getElementsByTagName("div");
+
+            jsConsole.writeLine("The number of divs is " + divs.length);
+        }
+
+        function addDiv() {
+            document.body.appendChild(document.createElement("div"));
+        }
+    </script>
+</body>
+</html>

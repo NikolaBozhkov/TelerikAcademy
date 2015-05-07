@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Web Form</title>
+    <style type="text/css">
+        table, td, th {
+            border: 1px solid #615C5C;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        th {
+            text-align: right;
+        }
+        input {
+            width: 300px;
+        }
+        input[type="radio"] {
+            width: 20px;
+        }
+        tfoot {
+            background:#11CBEE;
+            text-align: center;
+        }
+        tfoot input {
+            width: auto;
+        }
+        #address {
+            width: 300px;
+            height: 70px;
+        }
+        #city, #state {
+            width: 100px;
+        }
+        #countryCode, #areaCode {
+            width: 40px;
+        }
+        #phone {
+            width: 80px;
+        }
+        #birthDay, #birthMonth {
+            width: 30px;
+        }
+        #birthYear {
+            width: 50px;
+        }
+        #comments {
+            width:300px;
+            height: 100px;
+        }
+        .left {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form action="01WebForm.html" method="post">
+    <table>
+        <colgroup>
+            <col class="left" />
+            <col class="first" />
+            <col class="second" />
+            <col class="third" />
+        </colgroup>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Clear This Form" />
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th>
+                    <label for="lastName">
+                        Last Name</label>
+                </th>
+                <td colspan="3">
+                    <input id="lastName" name="lastName" type="text" placeholder="First Name" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="firstName">
+                        First Name</label>
+                </th>
+                <td colspan="3">
+                    <input id="firstName" name="firstName" type="text" placeholder="Last Name" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="address">
+                        Address</label>
+                </th>
+                <td colspan="3">
+                    <textarea id="address" name="address" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="city">
+                        City</label>
+                </th>
+                <td>
+                    <input id="city" name="city" type="text" placeholder="City" />
+                </td>
+                <th>
+                    <label for="state">
+                        State</label>
+                </th>
+                <td>
+                    <input id="state" name="state" type="text" placeholder="State" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="postCode">
+                        Zip/Postal Code</label>
+                </th>
+                <td colspan="3">
+                    <input id="postCode" name="postCode" type="text" placeholder="Post code" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="country">
+                        Country</label>
+                </th>
+                <td colspan="3">
+                    <select id="country" name="country">
+                        <option>Bulgaria</option>
+                        <option>Romania</option>
+                        <option>Brazil</option>
+                        <option>Turkey</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="phone">
+                        Phone (country code,
+                        <br />
+                        area code, number)</label>
+                </th>
+                <td colspan="3">
+                    (+<input id="countryCode" name="countryCode" type="text" placeholder="359" />)
+                    <input id="areaCode" name="areaCode" type="text" placeholder="00" />-
+                    <input id="phone" name="phone" type="text" placeholder="0000000" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="eMail">
+                        E-mail</label>
+                </th>
+                <td colspan="3">
+                    <input id="eMail" name="eMail" type="email" placeholder="example@abv.bg" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Birth Date
+                </th>
+                <td colspan="3">
+                    <label for="birthMonth">
+                        Month</label>
+                    <input id="birthMonth" name="birthMonth" type="text" placeholder="Month" />
+                    <label for="birthDay">
+                        Day</label>
+                    <input id="birthDay" name="birthDay" type="text" placeholder="Day" />
+                    <label for="birthYear">
+                        Year(4 digit)</label>
+                    <input id="birthYear" name="birthYear" type="text" placeholder="Year" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="gender">
+                        Gender</label>
+                </th>
+                <td colspan="3">
+                    <select id="gender" name="gender">
+                        <option>male</option>
+                        <option>female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Starting Date
+                </th>
+                <td colspan="3">
+                    <input id="spring2006" name="startingDate" type="radio" checked="checked" />
+                    <label for="spring2006">
+                        Spring 2006</label>
+                    <input id="summer2006" name="startingDate" type="radio" />
+                    <label for="summer2006">
+                        Summer 2006</label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="comments">
+                        Comments/Questions</label>
+                </th>
+                <td colspan="3">
+                    <textarea id="comments" name="comments" placeholder="Comments or questions."></textarea>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+</body>
+</html>

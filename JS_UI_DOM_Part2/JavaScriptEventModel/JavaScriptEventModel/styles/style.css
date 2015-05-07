@@ -1,0 +1,12 @@
+#root {
+  display: inline-block;
+  background-color: #FDF3AE; }
+
+p {
+  padding: 5px;
+  margin: 0;
+  border-bottom: 1px solid black; }
+
+.selected {
+  background-color: red; }
+

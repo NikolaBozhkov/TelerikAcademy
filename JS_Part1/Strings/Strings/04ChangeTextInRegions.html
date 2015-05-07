@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ChangeTextInRegions</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function changeTextInRegions(str) {
+            var tags = [];
+            var pattern = /(<.*?>)/g;
+
+            var match = pattern.exec(str);
+
+            while (match !== null) {
+                tags.push(match[1]);
+
+                // Get the second char from the match
+                if (match[1][1] === '/') {
+                    var closing = tags.pop();
+                    var opening = tags.pop();
+                    
+                    var contentToReplace = str.substring(str.indexOf(opening),
+                        str.indexOf(closing) + closing.length);
+
+                    // The content without the tags
+                    var content = contentToReplace.substring(opening.length,
+                        contentToReplace.indexOf(closing));
+
+                    var replaceValue = []; // It will be converted to string
+                    if (opening[1] === 'm') {
+                        for (var i = 0; i < content.length; i++) {
+                            // Simple randomly generated casing
+                            var upOrLow = Math.round(Math.random());
+                            if (upOrLow === 1) {
+                                replaceValue.push(content[i].toLowerCase());
+                            }
+                            else {
+                                replaceValue.push(content[i].toUpperCase());
+                            }
+                        }
+
+                        replaceValue = replaceValue.join("");
+                    }
+                    else if (opening[1] === 'l') {
+                        replaceValue = content.toLowerCase();
+                    }
+                    else if (opening[1] === 'u') {
+                        replaceValue = content.toUpperCase();
+                    }
+
+                    str = str.replace(contentToReplace, replaceValue);
+
+                    // Reset regex search index
+                    pattern.lastIndex = 0;
+                }
+                
+                match = pattern.exec(str);
+            }
+
+            return str;
+        }
+
+        // Works with nested tags
+        var str = "We are <mixcase>living <upcase>and <lowcase>lots of</lowcase> nested</upcase></mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.";
+        jsConsole.writeLine(changeTextInRegions(str));
+    </script>
+</body>
+</html>

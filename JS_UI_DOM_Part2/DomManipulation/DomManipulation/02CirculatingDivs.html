@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Circulating Divs</title>
+    <style>
+        .rotating {
+            width: 30px;
+            height: 30px;
+            background-color: #D44942;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var initializeDivs = function (count) {
+            var dfrag = document.createDocumentFragment();
+            for (var i = 0; i < count; i++) {
+                var div = document.createElement('div');
+                div.style.position = 'absolute';
+                div.className = 'rotating';
+                dfrag.appendChild(div);
+            }
+
+            document.body.appendChild(dfrag);
+        };
+
+        var createCircle = function (x, y, radius) {
+            return {
+                x: x,
+                y: y,
+                radius: radius
+            };
+        };
+
+        var changePosition = function (circle, div, angle) {
+            div.style.left = Math.round(circle.x + circle.radius * Math.cos(angle)) + 'px';
+            div.style.top = Math.round(circle.y + circle.radius * Math.sin(angle)) + 'px';
+        };
+
+        var animate = function (circle, divs, angle) {
+            for (var i = 0; i < divs.length; i++) {
+                changePosition(circle, divs[i], angle + i * 2 * Math.PI / divs.length);
+            }
+
+            angle += 0.2;
+
+            setTimeout(function () {
+                animate(circle, divs, angle)
+            }, 100);
+        };
+
+        var count = 5;
+        initializeDivs(count);
+
+        var circle = createCircle(300, 300, 70),
+            angle = 0;
+
+        var divs = document.body.querySelectorAll('div.rotating');
+
+        animate(circle, divs, angle);
+    </script>
+</body>
+</html>

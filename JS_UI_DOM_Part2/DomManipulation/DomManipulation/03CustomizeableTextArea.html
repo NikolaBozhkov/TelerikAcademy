@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CustomizeableTextArea</title>
+</head>
+<body>
+    <script>
+        var textArea = document.createElement('textarea');
+        textArea.rows = 10;
+        textArea.cols = 60;
+        textArea.style.display = 'block'; // Just to make it more organised, I know it should be in the styles
+
+        var inputBgColor = document.createElement('input');
+        inputBgColor.type = 'color'
+        ;
+        var inputFontColor = document.createElement('input');
+        inputFontColor.type = 'color';
+
+        var dfrag = document.createDocumentFragment();
+        dfrag.appendChild(inputBgColor);
+        dfrag.appendChild(inputFontColor);
+        dfrag.appendChild(textArea);
+        document.body.appendChild(dfrag);
+
+        inputBgColor.addEventListener('change', function () {
+            textArea.style.backgroundColor = this.value;
+        }, false);
+
+        inputFontColor.addEventListener('change', function () {
+            textArea.style.color = this.value;
+        }, false);
+    </script>
+</body>
+</html>

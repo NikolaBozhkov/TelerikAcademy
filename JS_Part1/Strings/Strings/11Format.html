@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Format</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function formatText(text) {
+            for (var i = 1; i < arguments.length; i++) {
+                var pattern = new RegExp("\\{" + (i - 1) + "\\}", "g");
+                text = text.replace(pattern, arguments[i]);
+            }
+
+            return text;
+        }
+
+        var format = '{0}, {1}, {0} text {2}';
+        var text = formatText(format, 1, 'Pesho', 'Gosho');
+
+        jsConsole.writeLine(text);
+    </script>
+</body>
+</html>

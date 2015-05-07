@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CheckPointInCircle</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="x-coor" placeholder="Type the x coordinate:" />
+    <input type="text" id="y-coor" placeholder="Type the y coordinate:" />
+    <button onclick="CheckPoint()">Check It</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function CheckPoint() {
+            var xCoor = jsConsole.readInteger("#x-coor");
+            var yCoor = jsConsole.readInteger("#y-coor");
+            var radius = 5;
+
+            if (!isNaN(xCoor) && !isNaN(yCoor)) {
+                if (xCoor * xCoor + yCoor * yCoor < radius * radius) {
+                    jsConsole.writeLine("The point with coordinates(" + xCoor + ", " + yCoor + ") is within the cirle K(0, 5)");
+                }
+                else if (xCoor * xCoor + yCoor * yCoor == radius * radius) {
+                    jsConsole.writeLine("The point with coordinates(" + xCoor + ", " + yCoor + ") lies on the cirle K(0, 5)");
+                }
+                else {
+                    jsConsole.writeLine("The point with coordinates(" + xCoor + ", " + yCoor + ") is outside of the cirle K(0, 5)");
+                }
+            }
+            else {
+                jsConsole.writeLine("Please enter x and y coordinates.");
+            }
+        }
+    </script>
+</body>
+</html>

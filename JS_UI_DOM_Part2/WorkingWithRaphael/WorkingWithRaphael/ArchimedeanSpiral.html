@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Archimedean Spiral</title>
+</head>
+<body>
+    <div id="svg-container"></div>
+    <script src="scripts/raphael-min.js"></script>
+    <script>
+        var paper = Raphael('svg-container', 1280, 800);
+
+        var cx = paper.width / 2;
+        var cy = paper.height / 2;
+
+        var a = 2;
+        var b = 3;
+        var frame = 0;
+        var previousX = cx;
+        var previousY = cy;
+
+        function draw(a, b, cx, cy, frame) {
+            var angle = 0.08 * frame;
+
+            x = cx + (a + b * angle) * Math.cos(angle);
+            y = cy + (a + b * angle) * Math.sin(angle);
+
+            paper.path(['M', previousX, previousY, 'L', x, y]).attr('stroke-width', 2);
+        }
+
+        function animate() {
+            draw(a, b, cx, cy, frame);
+            previousX = x;
+            previousY = y;
+
+            frame++;
+            requestAnimationFrame(animate);
+        };
+
+        animate();
+    </script>
+</body>
+</html>

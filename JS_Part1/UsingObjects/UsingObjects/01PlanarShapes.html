@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>PlanarShapes</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function createPoint(x, y) {
+            var point = {
+                x: x,
+                y: y
+            };
+
+            return point;
+        }
+
+        function createLine(xA, yA, xB, yB) {
+            var line = {
+                pointA: createPoint(xA, yA),
+                pointB: createPoint(xB, yB),
+
+                length: function () {
+                    return Math.sqrt(Math.pow(this.pointA.x - this.pointB.x, 2)
+                        + Math.pow(this.pointA.y - this.pointB.y, 2));
+                }
+            };
+
+            return line;
+        }
+
+        function checkIfLinesCreateTriangle(lineA, lineB, lineC) {
+            if (lineA.length() + lineB.length() <= lineC.length() 
+                    || lineA.length() + lineC.length() <= lineB.length()
+                    || lineB.length() + lineC.length() <= lineA.length()) {
+                return false;
+            }
+
+            return true;
+        }
+
+        var pointA = createPoint(1, 3);
+        var pointB = createPoint(3, -1);
+        var pointC = createPoint(-2, 2);
+        var lineAB = createLine(pointA.x, pointA.y, pointB.x, pointB.y);
+        var lineAC = createLine(pointA.x, pointA.y, pointC.x, pointC.y);
+        var lineBC = createLine(pointB.x, pointB.y, pointC.x, pointC.y);
+
+        // Finding the distance by creating a line from the 2 points
+        jsConsole.writeLine("The length between points A and B is: " + lineAB.length());
+        jsConsole.writeLine("LineAB(" + lineAB.length() + "), lineAC("
+            + lineAC.length() + ") and lineBC(" + lineBC.length()
+            + ") can form triangle: " + checkIfLinesCreateTriangle(lineAB, lineAC, lineBC));
+    </script>
+</body>
+</html>

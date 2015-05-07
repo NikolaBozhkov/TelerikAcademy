@@ -1,0 +1,69 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: url(http://geprek.com/images/t/1280x800/82-cool-background-for-desktop-203-grapharoo-1280x800.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#wrapper {
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.65); 
+}
+
+#chat-window {
+    height: 400px;
+    margin: 10px 0;
+    text-align: left;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    font-size: 20px;
+}
+
+#chat-window .msg:nth-child(2n+1) {
+    color: #070;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 25px;
+    background-color: #000;
+    display: inline-block;
+    width: 100%;
+}
+
+    nav ul li {
+        float: left;
+    }
+
+        nav ul li:hover {
+            background-color: lightgreen;
+        }
+
+        nav ul li:hover a {
+            color: #000;
+        }
+
+        nav ul li a {
+            padding: 0 71px;
+            display: block;
+            text-decoration: none;
+            color: lightgreen;
+        }
+
+#main-content {
+    margin: 20px;
+}
+
+#msg-tb {
+    width: 80%;
+}

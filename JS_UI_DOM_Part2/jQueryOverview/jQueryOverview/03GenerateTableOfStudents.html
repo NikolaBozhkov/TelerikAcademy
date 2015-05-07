@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>GenerateTableOfStudents</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script>
+        var students = [
+            { firstName: 'Peter', lastName: 'ivanov', grade: 3 },
+            { firstName: 'Milena', lastName: 'Grigorova', grade: 6 },
+            { firstName: 'Gergana', lastName: 'Borisova', grade: 12 },
+            { firstName: 'Boyko', lastName: 'Petrov', grade: 7 }
+        ];
+
+        var $table = $('<table />')
+            .append($('<tr />')
+            .append($('<th />').html('First name'))
+            .append($('<th />').html('Last name'))
+            .append($('<th />').html('Grade')));
+
+        for (var i = 0; i < students.length; i++) {
+            var $row = $('<tr />');
+
+            for (var prop in students[i]) {
+                $row.append($('<td />')
+                    .html(students[i][prop]));
+            }
+
+            $table.append($row);
+        }
+
+        $table.appendTo(document.body);
+    </script>
+</body>
+</html>

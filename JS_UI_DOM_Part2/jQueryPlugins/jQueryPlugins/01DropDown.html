@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DropDown</title>
+    <style>
+        li {
+            padding: 5px;
+            margin: 5px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <select id="dropdown">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+    </select>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script>
+        (function ($) {
+            $.fn.dropdown = function (highlightColor) {
+                var $self = $(this);
+                $self.hide();
+
+                var $selfOptions = $self.children();
+
+                var $listContainer = $('<div />').addClass('dropdown-list-container');
+                var $listOptions = $('<ul />').addClass('dropdown-list-options');
+
+                $selfOptions.each(function (index, value) {
+                    $listOptions.append($('<li />')
+                        .addClass('dropdown-list-option')
+                        .attr('data-value', index)
+                        .html($selfOptions[index].innerHTML));
+                });
+
+                $listContainer.append($listOptions).appendTo(document.body);
+
+                $listOptions.find('.dropdown-list-option')
+                    .on('click', function () {
+                        var $option = $(this);
+                        var $selfOption = $($selfOptions[$option.attr('data-value')]);
+
+                        if ($selfOption.attr('selected') === 'selected') {
+                            $selfOption.removeAttr('selected');
+                            $option.css('background-color', '');
+                        }
+                        else {
+                            $selfOption.attr('selected', 'true');
+                            $option.css('background-color', highlightColor);
+                            $('#dropdown :selected').first().html(''); // Just for testing the requirment
+                        }                
+                    });
+
+                return $self;
+            };
+        })(jQuery);
+
+        $('#dropdown').dropdown('lightgreen');
+    </script>
+</body>
+</html>

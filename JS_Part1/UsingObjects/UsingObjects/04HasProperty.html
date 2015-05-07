@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HasProperty</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function hasProperty(obj, property) {
+            if (property in obj) {
+                return true;
+            }
+
+            return false;
+        }
+
+        var obj = {
+            fname: "First",
+            lname: "Last"
+        }
+
+        jsConsole.writeLine(hasProperty(obj, "length"));
+        jsConsole.writeLine(hasProperty(obj, "fname"));
+    </script>
+</body>
+</html>

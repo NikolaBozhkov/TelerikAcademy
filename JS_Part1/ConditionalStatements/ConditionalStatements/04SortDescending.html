@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SortDescending</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="numberA" placeholder="Enter number A:" />
+    <input type="text" id="numberB" placeholder="Enter number B:" />
+    <input type="text" id="numberC" placeholder="Enter number C:" />
+    <button onclick="SortDescending()">Sort</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function SortDescending() {
+            var numberA = jsConsole.readInteger("#numberA");
+            var numberB = jsConsole.readInteger("#numberB");
+            var numberC = jsConsole.readInteger("#numberC");
+            var temp;
+
+            if (!isNaN(numberA) && !isNaN(numberB) && !isNaN(numberC)) {
+                if (numberA > numberB) {
+                    if (numberA > numberC) {
+                        // A is bigger than both, we don't touch it
+                        if (numberC > numberB) {
+                            // Here we rearrange C and B
+                            temp = numberC;
+                            numberC = numberB;
+                            numberB = temp;
+                        }
+                    }
+                    else {
+                        // Again rearranging
+                        temp = numberC;
+                        numberC = numberA;
+                        numberA = temp;
+                        temp = numberC;
+                        numberC = numberB;
+                        numberB = temp;
+                    }
+                }
+                else {
+                    // Same as above
+                    if (numberB > numberC) {
+                        temp = numberA;
+                        numberA = numberB;
+                        numberB = temp;
+
+                        if (numberC > numberB) {
+                            temp = numberC;
+                            numberC = numberB;
+                            numberB = temp;
+                        }
+                    }
+                    else {
+                        temp = numberA;
+                        numberA = numberC;
+                        numberC = temp;
+
+                        if (numberC > numberB) {
+                            temp = numberC;
+                            numberC = numberB;
+                            numberB = temp;
+                        }
+                    }
+                }
+            }
+            else {
+                jsConsole.writeLine("Please enter numbers A, B and C.");
+            }
+
+            jsConsole.writeLine("Numbers A, B, C is descending order: " + numberA + ", " + numberB + ", " + numberC);
+        }
+    </script>
+</body>
+</html>

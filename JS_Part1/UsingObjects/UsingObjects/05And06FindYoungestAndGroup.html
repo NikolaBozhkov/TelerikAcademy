@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FindYoungest</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        // Both tasks 5 and 6 are here, task 5
+        function createPerson(firstname, lastname, age) {
+            var person = {
+                firstname: firstname,
+                lastname: lastname,
+                age: age,
+
+                fullname: firstname + " " + lastname
+            }
+
+            return person;
+        }
+
+        var people = [
+            createPerson("Lexy", "Jackson", 20),
+            createPerson("Tommy", "Michael", 21),
+            createPerson("Isabella", "Smoke", 18),
+            createPerson("Lexy", "Thinker", 20),
+            createPerson("Tommy", "Stopper", 21),
+            createPerson("Isabella", "Summer", 18)];
+
+        // using the reduce function, by returning the youngest of every 2 people
+        var youngest = people.reduce(function (a, b) {
+            return a.age < b.age ? a : b;
+        });
+
+        jsConsole.writeLine("task 5: " + youngest.fullname);
+
+        // Task 6
+        function group(people, key) {
+            var group = {};
+
+            if (key === "firstname") {
+                for (var i = 0; i < people.length; i++) {
+                    if (group[people[i].firstname] === undefined) {
+                        group[people[i].firstname] = [];
+                    }
+
+                    group[people[i].firstname].push(people[i]);
+                }
+            }
+
+            if (key === "lastname") {
+                for (i = 0; i < people.length; i++) {
+                    if (group[people[i].lastname] === undefined) {
+                        group[people[i].lastname] = [];
+                    }
+
+                    group[people[i].lastname].push(people[i]);
+                }
+            }
+
+            if (key === "age") {
+                for (i = 0; i < people.length; i++) {
+                    if (group[people[i].age] === undefined) {
+                        group[people[i].age] = [];
+                    }
+
+                    group[people[i].age].push(people[i]);
+                }
+            }
+
+            return group;
+        }
+
+        var groupedbyFname = group(people, "firstname");
+        var groupedbyAge = group(people, "age");
+
+        jsConsole.writeLine("Task 6:");
+        for (var group in groupedbyFname) {
+            // Just printing with the built in function forEach
+            jsConsole.writeLine(group + ": ");
+            groupedbyFname[group].forEach(function (person) {
+                jsConsole.writeLine(person.fullname);
+            });
+        }
+
+        for (var group in groupedbyAge) {
+            jsConsole.writeLine(group + ": ");
+            groupedbyAge[group].forEach(function (person) {
+                jsConsole.writeLine(person.fullname + " age:" + person.age);
+            });
+        }
+    </script>
+</body>
+</html>

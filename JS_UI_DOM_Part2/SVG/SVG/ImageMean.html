@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Image MEAN</title>
+</head>
+<body>
+    <div id="svg-container"></div>
+    <script src="scripts/raphael-min.js"></script>
+    <script>
+        // I went hardcore on this one, didn't use any generators
+        // I think I got the idea and the shapes, the second task is generated
+        var paper = Raphael('svg-container', 500, 500);
+        paper.rect(0, 0, paper.width, paper.height)
+            .attr({
+                fill: "#F5FFE0",
+                stroke: 'none'
+            });
+
+        var radiusOfCircle = 50;
+        var startingY = 70;
+
+        // Create the circles
+
+        // First
+        var leafCircle = paper.circle(250, startingY, radiusOfCircle)
+            .attr({
+                fill: '#3E3F37',
+                stroke: 'none'
+            });
+
+        // Draw the image inside
+        paper.path(['M', 250, startingY, 'v', -25, 'q', -25, 25, 0, 50, 'z'].join(' '))
+            .attr({
+                fill: '#5EB14A',
+                stroke: 'none'
+            });
+        paper.path(['M', 250, startingY, 'v', -25, 'q', 25, 25, 0, 50, 'z'].join(' '))
+            .attr({
+                fill: '#449644',
+                stroke: 'none'
+            });
+
+        // Second
+        var expressCircle = paper.circle(250, startingY + radiusOfCircle, radiusOfCircle)
+            .attr({
+                fill: '#282827',
+                stroke: 'none'
+            });
+
+        // Text inside
+        paper.text(250, startingY + radiusOfCircle - 7, "express")
+            .attr({
+                fill: '#fff',
+                'font-size': '21',
+                'font-family': 'Consolas'
+            });
+
+        // Third
+        var aCircle = paper.circle(250, startingY + (2 * radiusOfCircle), radiusOfCircle)
+            .attr({
+                fill: '#E23337',
+                stroke: 'none'
+            });
+
+        // Draw the image inside
+        // Darker part
+        paper.path(['M', 250, startingY + (2 * radiusOfCircle) - 22, 'l', 25, 10, 'l', -10, 80, 'h', -15, 'z'].join(' '))
+            .attr({
+                fill: '#B63032',
+                stroke: 'none'
+            });
+        // border
+        paper.path(['M', 250, startingY + (2 * radiusOfCircle) - 22, 'l', 25, 10, 'l', -10, 80, 'h', -30, 'l', -10, -80, 'z'].join(' '))
+            .attr({
+                'stroke-width': 2.5,
+                stroke: '#B3B6B7'
+            });
+
+        // left and right part of the A
+        paper.path(['M', 250, startingY + (2 * radiusOfCircle) - 10, 'v', -10, 'l', -35, 70, 'h', 5, 'z'].join(' '))
+            .attr({
+                fill: '#F1F1F1',
+                stroke: 'none'
+            });
+        paper.path(['M', 250, startingY + (2 * radiusOfCircle) - 10, 'v', -10, 'l', 35, 70, 'h', -5, 'z'].join(' '))
+            .attr({
+                fill: '#B3B5B5',
+                stroke: 'none'
+            });
+
+        // Fourth
+        var nodeCircle = paper.circle(250, startingY + (3 * radiusOfCircle), radiusOfCircle)
+            .attr({
+                fill: '#8EC74E',
+                stroke: 'none'
+            });
+
+        // node text
+        // the O
+        paper.path(['M', 248, startingY + (3 * radiusOfCircle) - 2, 'l', -8, -5, 'l', -8, 5, 'v', 8, 'l', 8, 5, 'l', 8, -5, 'z'].join(' '))
+            .attr({
+                fill: '#FFF',
+                stroke: 'none'
+            });
+
+        // The D
+        paper.path(['M', 252, startingY + (3 * radiusOfCircle) - 2, 'l', 8, -5, 'l', 3, 2, 'v', -10, 'l', 5, 2, 'v', 19, 'l', -8, 5, 'l', -8, -5, 'z'].join(' '))
+            .attr({
+                fill: '#47493F',
+                stroke: 'none'
+            });
+        paper.path(['M', 257, startingY + (3 * radiusOfCircle) + 0.5, 'l', 3, -2, 'l', 3, 2, 'v', 3, 'l', -3, 2, 'l', -3, -2, 'z'].join(' '))
+            .attr({
+                fill: '#8EC74E',
+                stroke: 'none'
+            });
+
+        // The E
+        paper.path(['M', 272, startingY + (3 * radiusOfCircle) - 2, 'l', 8, -5, 'l', 8, 5, 'v', 2, 'l', -5, 3, 'v', -2.5, 'l', -3, -2, 'l', -3, 2, 'v', 3, 'l', 7, 4, 'l', -4, 3, 'l', -8, -5, 'z'].join(' '))
+            .attr({
+                fill: '#47493F',
+                stroke: 'none'
+            });
+        paper.circle(280, startingY + (3 * radiusOfCircle) + 1.85, 2)
+            .attr({
+                fill: '#fff',
+                stroke: 'none'
+            });
+
+        // The N
+        paper.path(['M', 228, startingY + (3 * radiusOfCircle) - 2, 'l', -8, -5, 'l', -8, 5, 'v', 12, 'l', 5, -4, 'v', -5, 'q', 3, -3, 6, 0, 'v', 5, 'l', 5, 4, 'z'].join(' '))
+            .attr({
+                fill: '#47493F',
+                stroke: 'none'
+            });
+
+        // The mean text
+        paper.setStart();
+        paper.text(175, startingY + 2, "M").attr('fill', '#3E3F37');
+        paper.text(175, startingY + radiusOfCircle + 2, "E").attr('fill', '#282827');
+        paper.text(175, startingY + (2 * radiusOfCircle) + 2, "A").attr('fill', '#E23337');
+        paper.text(175, startingY + (3 * radiusOfCircle) + 2, "N").attr('fill', '#8EC74E');
+        paper.setFinish()
+            .attr({
+                'font-size': 26,
+                'font-weight': '900',
+                'font-family': 'sans-serif'
+            });
+    </script>
+</body>
+</html>

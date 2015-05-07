@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ReplaceWhiteSpaces</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function replaceWhiteSpaces(str) {
+            str = str.replace(/\s/g, "'&nbsp;'"); // I have put '' around the spaces so its easy to see!
+            return str;
+        }
+
+        var str = "Text with some white spaces in it, here are  two!";
+        jsConsole.writeLine(replaceWhiteSpaces(str));
+    </script>
+</body>
+</html>

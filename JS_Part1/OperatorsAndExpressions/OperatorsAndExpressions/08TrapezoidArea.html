@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TrapezoidArea</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="sideA" placeholder="Type the side A:" />
+    <input type="text" id="sideB" placeholder="Type the side B:" />
+    <input type="text" id="height" placeholder="Type the height:" />
+    <button onclick="CalcAreaOfTrapezoid()">Check It</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function CalcAreaOfTrapezoid() {
+            var sideA = jsConsole.readInteger("#sideA");
+            var sideB = jsConsole.readInteger("#sideB");
+            var height = jsConsole.readInteger("#height");
+
+            if (!isNaN(sideA) && !isNaN(sideB) && !isNaN(height)) {
+                var area = ((sideA + sideB) * height) / 2;
+                jsConsole.writeLine("The area of a trapezoid with sides(" + sideA + ", " + sideB + ") and height " + height + " is:" + area);
+            }
+            else {
+                jsConsole.writeLine("Please enter side A, side B and height.");
+            }
+        }
+    </script>
+</body>
+</html>

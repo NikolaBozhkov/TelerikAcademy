@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 3 - Handlebars</title>	
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="authors">
+	</div>
+	<script id="authors-template" type='text/x-handlebars-template'>
+		<div class="box">
+			<div class="inner">
+				<p><img alt="Дончо Минков" src="images/doncho.jpg" width="100" height="133"></p>
+				<div>
+					<h3>{{name}}</h3>
+					{{#titles}}
+					<p>
+						{{#titles}}
+						  {{#titles}}: {{this}}
+						{{/titles}}
+					</p>
+					{{/titles}}
+					<ul>
+					{{#urls}}
+						<li><a href="#/urls{{id}}" target="_blank">{{#urls}}</a></li>
+					{{/urls}}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script src="handlebars.js"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>

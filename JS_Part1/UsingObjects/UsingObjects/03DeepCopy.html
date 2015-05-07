@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DeepCopy</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function deepCopy(object) {
+            if (object === null || typeof object !== "object") {
+                return object;
+            }
+
+            if (true) {
+                var newObj = {};
+                for (var i in object) {
+                    newObj[i] = deepCopy(object[i]);
+                }
+
+                return newObj;
+            }
+        }
+
+        var object = {
+            fname: "First",
+            lname: "Last",
+            id: {
+                number: "1234",
+                type: "thing",
+                test: {
+                    sth: "sth"
+                }
+            }
+        }
+
+        var number = 5;
+
+        var coppiedReferenceType = deepCopy(object);
+        var coppiedPrimitiveType = deepCopy(number);
+
+        jsConsole.writeLine(coppiedPrimitiveType);
+        jsConsole.writeLine(coppiedReferenceType.id.test.sth); // just showing all nested objects are coppied
+    </script>
+</body>
+</html>

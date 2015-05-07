@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FindBiggestOfFive</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="numberA" placeholder="Enter number A:" />
+    <input type="text" id="numberB" placeholder="Enter number B:" />
+    <input type="text" id="numberC" placeholder="Enter number C:" />
+    <input type="text" id="numberD" placeholder="Enter number D:" />
+    <input type="text" id="numberE" placeholder="Enter number E:" />
+    <button onclick="FindBiggestOfFive()">Find biggest</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function FindBiggestOfFive() {
+            var numberA = jsConsole.readInteger("#numberA");
+            var numberB = jsConsole.readInteger("#numberB");
+            var numberC = jsConsole.readInteger("#numberC");
+            var numberD = jsConsole.readInteger("#numberD");
+            var numberE = jsConsole.readInteger("#numberE");
+
+            if (!isNaN(numberA) && !isNaN(numberB) && !isNaN(numberC) && !isNaN(numberD) && !isNaN(numberE)) {
+                var numbers = [numberA, numberB, numberC, numberD, numberE];
+
+                // Extending the array type, with a quick and memory efficient function
+                // We get the array and for every 2 elements we reduce the array by returning the bigger one till we find the biggest
+                Array.prototype.max = function () {
+                    return this.reduce(function (p, v) {
+                        return (p > v ? p : v);
+                    });
+                }
+
+                jsConsole.writeLine("The biggest number is " + numbers.max());
+            }
+            else {
+                jsConsole.writeLine("Please enter numbers A, B, C, D and E.");
+            }
+        }
+    </script>
+</body>
+</html>

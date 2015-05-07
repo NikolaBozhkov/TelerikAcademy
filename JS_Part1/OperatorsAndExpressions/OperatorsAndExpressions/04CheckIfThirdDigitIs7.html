@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CheckIfThirdDigitIs7</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="number" placeholder="Type the number:" />
+    <button onclick="CheckDigit()">Check It</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function CheckDigit() {
+            var number = jsConsole.readInteger("#number");
+
+            if (!isNaN(number) && !(number.toString().length < 3)) {
+                var digit = (number / 100) % 10;
+                if (Math.floor(digit) == 7) {
+                    jsConsole.writeLine(true);
+                }
+                else {
+                    jsConsole.writeLine(false);
+                }
+            }
+            else {
+                jsConsole.writeLine("Please enter a number with more than 2 digits.");
+            }
+        }
+    </script>
+</body>
+</html>

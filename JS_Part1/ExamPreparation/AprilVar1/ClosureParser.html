@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ClosureParser</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        // I tried to shorten the code but BGCoder doesn't allow more than 1 function
+        function Solve(args) {
+            var variables = {};
+            for (var i = 0; i < args.length; i++) {
+                // Clean the line
+                var line = args[i].trim().replace(/\)/g, " )").replace(/\(/g, "( ").replace(/\s+/g, " ");
+                line = line.substring(1, line.length - 1);
+                line[0] === " " ? line = line.substring(1, line.length) : line;
+                line[line.length - 1] === " " ? line = line.substring(0, line.length - 1) : line;
+
+                var words = line.split(" ");
+                if (words[0] === "def") {
+                    var value = 0;
+
+                    if (words[2] === "(") {
+                        switch (words[3]) {
+                            case "+":
+                                for (var j = 4; j < words.length - 1; j++) {
+                                    var num = parseInt(words[j]);
+                                    if (isNaN(num)) {
+                                        num = variables[words[j]];
+                                    }
+
+                                    value += num;
+                                }
+
+                                break;
+
+                            case "-":
+                                for (j = 4; j < words.length - 1; j++) {
+                                    num = parseInt(words[j]);
+                                    if (isNaN(num)) {
+                                        num = variables[words[j]];
+                                    }
+
+                                    if (j === 4) {
+                                        value = num;
+                                    }
+                                    else {
+                                        value -= num;
+                                    }
+                                }
+
+                                break;
+
+                            case "/":
+                                for (j = 4; j < words.length - 1; j++) {
+                                    num = parseInt(words[j]);
+                                    if (isNaN(num)) {
+                                        num = variables[words[j]];
+                                    }
+
+                                    if (j === 4) {
+                                        value = num;
+                                    }
+                                    else {
+                                        if (num === 0) {
+                                            return "Division by zero! At Line:" + (i + 1);
+                                        }
+                                        value = Math.floor(value / num);
+                                    }
+                                }
+
+                                break;
+
+                            case "*":
+                                for (j = 4; j < words.length - 1; j++) {
+                                    num = parseInt(words[j]);
+                                    if (isNaN(num)) {
+                                        num = variables[words[j]];
+                                    }
+
+                                    if (j === 4) {
+                                        value = num;
+                                    }
+                                    else {
+                                        value *= num;
+                                    }
+                                }
+
+                                break;
+                        }
+                    }
+                    else {
+                        value = parseInt(words[2]);
+                        if (isNaN(value)) {
+                            value = variables[words[2]];
+                        }
+                    }
+
+                    variables[words[1]] = value;
+                }
+                else {
+                    if (i === args.length - 1) {
+                        value = 0;
+
+                        switch (words[0]) {
+                            case "+":
+                                for (j = 1; j < words.length; j++) {
+                                    num = parseInt(words[j]);
+                                    if (isNaN(num)) {
+                                        num = variables[words[j]];
+                                    }
+
+                                    value += num;
+                                }
+
+                                break;
+
+                            case "-":
+                                for (j = 1; j < words.length; j++) {
+                                    num = parseInt(words[j]);
+                                    if (isNaN(num)) {
+                                        num = variables[words[j]];
+                                    }
+
+                                    if (j === 1) {
+                                        value = num;
+                                    }
+                                    else {
+                                        value -= num;
+                                    }
+                                }
+
+                                break;
+
+                            case "/":
+                                for (j = 1; j < words.length; j++) {
+                                    num = parseInt(words[j]);
+                                    if (isNaN(num)) {
+                                        num = variables[words[j]];
+                                    }
+
+                                    if (j === 1) {
+                                        value = num;
+                                    }
+                                    else {
+                                        if (num === 0) {
+                                            return "Division by zero! At Line:" + (i + 1);
+                                        }
+                                        value = Math.floor(value / num);
+                                    }
+                                }
+
+                                break;
+
+                            case "*":
+                                for (j = 1; j < words.length; j++) {
+                                    num = parseInt(words[j]);
+                                    if (isNaN(num)) {
+                                        num = variables[words[j]];
+                                    }
+
+                                    if (j === 1) {
+                                        value = num;
+                                    }
+                                    else {
+                                        value *= num;
+                                    }
+                                }
+
+                                break;
+                        }
+
+                        return value;
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

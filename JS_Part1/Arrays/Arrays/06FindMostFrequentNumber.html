@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FindMostFrequentNumber</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="array" placeholder="Enter the array(by spaces):" />
+    <button onclick="findMostFrequentNumber()">Find</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function findMostFrequentNumber() {
+            var array = jsConsole.read("#array").split(" ");
+            for (var i = 0; i < array.length; i++) {
+                array[i] = parseInt(array[i]);
+            }
+
+            var mostFrequent;
+            var currentCount = 0;
+            var maxCount = 0;
+            for (var i = 0; i < array.length - 1; i++) {
+                currentCount += 1; // Counting array[i]
+
+                for (var k = i + 1; k < array.length; k++) {
+                    if (array[i] === array[k]) {
+                        currentCount += 1;
+                    }
+                }
+
+                if (currentCount >= maxCount) {
+                    maxCount = currentCount;
+                    mostFrequent = array[i];
+                }
+
+                currentCount = 0;
+            }
+
+            jsConsole.writeLine("The most frequent number is " + mostFrequent + "(" + maxCount + " times).");
+        }
+    </script>
+</body>
+</html>

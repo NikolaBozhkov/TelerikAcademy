@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>You Tube</title>
+</head>
+<body>
+    <div id="svg-container"></div>
+    <script src="scripts/raphael-min.js"></script>
+    <script>
+        var paper = Raphael('svg-container', 1280, 800);
+
+        var you = paper.text(295, 300, "You");
+        you.scale(0.6, 1)
+          .attr({
+              "font-weight": "bold",
+              "font-size": 100,
+              "font-family": "Calibri, Consolas, Arial",
+              fill: "#4A4A4A"
+          });
+
+        var rect = paper.rect(347, 250, 145, 100, 25)
+            .attr({
+                fill: "#EC262A",
+                stroke: 'none'
+            });
+
+        var tube = paper.text(420, 300, "Tube");
+        tube.scale(0.6, 1)
+            .attr({
+                "font-weight": "bold",
+                "font-size": 100,
+                "font-family": "Calibri, Consolas, Arial",
+                fill: "white"
+            });
+    </script>
+</body>
+</html>

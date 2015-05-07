@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>GetColorAndSetTheBgToIt</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="color" />
+    <button id="changeColor">Change Color</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function getValueOfInputTypeColor() {
+            var input = document.querySelector("input[type='color']");
+            var color = input.value;
+            return color;
+        }
+
+        var colorButton = document.querySelector("#changeColor");
+        colorButton.addEventListener("click", function () {
+            color = getValueOfInputTypeColor();
+            document.body.style.backgroundColor = color;
+        });
+    </script>
+</body>
+</html>

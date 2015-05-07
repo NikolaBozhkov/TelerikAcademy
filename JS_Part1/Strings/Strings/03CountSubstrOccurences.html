@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CountSubstrOccurences</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function countSubstrOccurences(str, substr) {
+            // Converting both to lower so its case insensitive search
+            str = str.toLowerCase();
+            substr = substr.toLowerCase();
+
+            var occurences = 0;
+            var index = str.indexOf(substr);
+
+            while (index >= 0) {
+                index = str.indexOf(substr, index + 1);
+                occurences++;
+            }
+            
+            return occurences;
+        }
+
+        var str = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+        var substr = "in";
+
+        jsConsole.writeLine(countSubstrOccurences(str, substr));
+    </script>
+</body>
+</html>

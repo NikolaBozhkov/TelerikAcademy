@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FindMaxAndMin</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <link href="styles/03style.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="numbers" placeholder="Enter the sequence, divided by spaces:" />
+    <button onclick="getMinAndMax()">Find</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function getMinAndMax() {
+            // Taking the input and spliting + parsing it
+            var numbers = jsConsole.read("#numbers").split(" ");
+            for (var i = 0; i < numbers.length; i++) {
+                numbers[i] = parseInt(numbers[i]);
+            }
+
+            // Extending the array so we have min and max
+            // Basically they reduce the array by returning the bigger or smaller of 2 values
+            // Till there is 1 left
+            Array.prototype.max = function () {
+                return this.reduce(function (a, b) {
+                    return (a > b ? a : b);
+                });
+            };
+
+            Array.prototype.min = function () {
+                return this.reduce(function (a, b) {
+                    return (a < b ? a : b);
+                });
+            }
+
+            jsConsole.writeLine("The minimum of the sequence is: " + numbers.min() + " and the maximum: " + numbers.max());
+        }
+    </script>
+</body>
+</html>

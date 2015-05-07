@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Get Rectangle Area</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="width" placeholder="Type the width:" />
+    <input type="text" id="height" placeholder="Type the height:" />
+    <button onclick="CalcAreaOfRectangle()">Check It</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function CalcAreaOfRectangle() {
+            var width = jsConsole.readInteger("#width");
+            var height = jsConsole.readInteger("#height");
+
+            if (!isNaN(width) && !isNaN(height)) {
+                var area = width * height;
+                jsConsole.writeLine("The area of a rectangle with width:" + width + " and height:" + height + " is:" + area);
+            }
+            else {
+                jsConsole.writeLine("Please enter width and height.");
+            }
+        }
+    </script>
+</body>
+</html>

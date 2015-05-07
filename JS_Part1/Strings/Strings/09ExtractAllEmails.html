@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ExtractAllEmails</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function extractAllEmails(text) {
+            var pattern = /\b[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})\b/g;
+
+            var emails = [];
+            var match = pattern.exec(text);
+
+            while (match !== null) {
+                emails.push(match[0]);
+                match = pattern.exec(text);
+            }
+
+            return emails;
+        }
+
+        var text = "email@abv.bg, foo@gmail.com, sth@abv.bg, ..Email..@yahoo.com, test_sth@abv.bg";
+        jsConsole.writeLine(extractAllEmails(text).join(", "));
+    </script>
+</body>
+</html>

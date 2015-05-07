@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CountNumberOccurences</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="array" placeholder="Enter array(by spaces):" />
+    <input type="text" id="number" placeholder="Enter number:" />
+    <button onclick="getValuesAndRunCNO()">Count</button>
+    <button onclick="testCNO()">Run test</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        // Went a bit differently with this one(like it should be everywhere, with separate function)
+        function getValuesAndRunCNO() {
+            var array = jsConsole.read("#array").split(" ");
+            var number = jsConsole.readInteger("#number");
+            for (var i = 0; i < array.length; i++) {
+                array[i] = parseInt(array[i]);
+            }
+
+            jsConsole.writeLine(countNumberOccurences(array, number));
+        }
+
+        function countNumberOccurences(array, number) {
+            if (array === undefined) {
+                return "Array is undefined.";
+            }
+
+            if (number === undefined) {
+                return "Number is undefined.";
+            }
+
+            var numberCount = 0;
+            for (var i = 0; i < array.length; i++) {
+                if (array[i] === number) {
+                    numberCount++;
+                }
+            }
+
+            return "The number " + number + " occured " + numberCount + " time(s).";
+        }
+
+        function testCNO() {
+            jsConsole.writeLine("Function ran with no array and no value(expect error): " + countNumberOccurences());
+            jsConsole.writeLine("Function ran with array [] and no value(expect error): " + countNumberOccurences([]));
+            jsConsole.writeLine("Function ran with array [] and 1 as value: " + countNumberOccurences([], 1));
+            jsConsole.writeLine("Function ran with array [1, 2, 3, 4] and 1 as value: " + countNumberOccurences([1, 2, 3, 4], 1));
+            jsConsole.writeLine("Function ran with array [1, 2, 3, 4] and 4 as value: " + countNumberOccurences([1, 2, 3, 4], 4));
+            jsConsole.writeLine("Function ran with array [1] and 1 as value: " + countNumberOccurences([1], 1));
+            jsConsole.writeLine("Function ran with array [1, 2, 3, 4] and 5 as value: " + countNumberOccurences([1, 2, 3, 4], 5));
+        }
+    </script>
+</body>
+</html>

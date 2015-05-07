@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Snake</title>
+</head>
+<body>
+    <script>
+        // The game is not finished, I will probably get back to it later
+        // TODO: scoreboard, play again, option for changing colors, option for changing speeds
+        var canvas = document.createElement("canvas");
+        canvas.width = 640;
+        canvas.height = 480;
+        canvas.style.border = "15px solid black";
+
+        var ctx = canvas.getContext("2d");
+        document.body.appendChild(canvas);
+
+        ctx.strokeRect(0, 0, canvas.width, canvas.height);
+
+        var initializeSnake = function (length) {
+            var snake = [];
+
+            // Create the snake at the top left
+            // Reversed numbers so we get the head as first item
+            for (var i = length - 1; i >= 0; i--) {
+                var position = {
+                    x: i,
+                    y: 0
+                };
+
+                snake.push(position);
+            }
+
+            return snake;
+        };
+
+        var generateFood = function () {
+            food = {
+                x: Math.round(Math.random()
+                    * ((canvas.width / sizeOfCell) - 1)),
+                y: Math.round(Math.random()
+                    * ((canvas.height / sizeOfCell) - 1))
+            };
+        };
+
+        var onFood = function (headX, headY) {
+            if (food.x === headX && food.y === headY) {
+                return true;
+            }
+
+            return false;
+        };
+
+        var resetCanvas = function () {
+            ctx.fillStyle = "#fff";
+            ctx.strokeStyle = "#000";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.strokeRect(0, 0, canvas.width, canvas.height);
+        };
+
+        var drawCell = function (x, y, sizeOfCell) {
+            ctx.fillStyle = "#000";
+            ctx.fillRect(x * sizeOfCell,
+                y * sizeOfCell, sizeOfCell, sizeOfCell);
+
+            ctx.strokeStyle = "#fff";
+            ctx.strokeRect(x * sizeOfCell,
+                y * sizeOfCell, sizeOfCell, sizeOfCell);
+        };
+
+        var drawSnake = function (snake, sizeOfCell) {
+            for (var i = 0; i < snake.length; i++) {
+                var current = snake[i];
+                drawCell(current.x, current.y, sizeOfCell);
+            }
+        };
+
+        var showScore = function (snake) {
+            var text = "Score: " + snake.length;
+            ctx.fillStyle = "#000";
+            ctx.font = "bold 15px Consolas";
+            var textWidth = ctx.measureText(text);
+            ctx.fillText(text, canvas.width - textWidth.width - 5, 15);
+        };
+
+        var render = function (snake, sizeOfCell) {
+            resetCanvas();
+            drawCell(food.x, food.y, sizeOfCell);
+            drawSnake(snake, sizeOfCell);
+            showScore(snake);
+        };
+
+        var changeDirection = function (currentDirection) {
+            // Handle keyboard controls
+            // 37-left, 38-up, 39-right, 40-down
+            if (37 in keysDown && currentDirection !== "right") {
+                currentDirection = "left";
+            }
+
+            if (38 in keysDown && currentDirection !== "down") {
+                currentDirection = "up";
+            }
+
+            if (39 in keysDown && currentDirection !== "left") {
+                currentDirection = "right";
+            }
+
+            if (40 in keysDown && currentDirection !== "up") {
+                currentDirection = "down";
+            }
+
+            return currentDirection;
+        };
+
+        var getNewHeadPosition = function (snake, currentDirection) {
+            var headX = snake[0].x;
+            var headY = snake[0].y;
+
+            // Handle keyboard controls
+            // 37-left, 38-up, 39-right, 40-down
+            if (currentDirection === "left") {
+                headX--;
+            }
+
+            if (currentDirection === "up") {
+                headY--;
+            }
+
+            if (currentDirection === "right") {
+                headX++;
+            }
+
+            if (currentDirection === "down") {
+                headY++;
+            }
+
+            return [headX, headY];
+        };
+
+        var move = function (snake, headX, headY) {
+            var tail;
+
+            if (onFood(headX, headY)) {
+                // If on food create new head and don't touch the tail
+                tail = {
+                    x: headX,
+                    y: headY
+                };
+
+                generateFood();
+            }
+            else {
+                // Put the tail infront of the old head
+                tail = snake.pop();
+                tail.x = headX;
+                tail.y = headY;
+            }
+       
+            snake.unshift(tail);
+        };
+
+        var collided = function (x, y, snake) {
+            if (x < 0 || x >= canvas.width / sizeOfCell
+                    || y < 0 || y >= canvas.height / sizeOfCell) {
+                return true;
+            }
+
+            for (var i = 0; i < snake.length; i++) {
+                if (x === snake[i].x && y === snake[i].y) {
+                    return true;
+                }
+            }
+
+            return false;
+        };
+
+        var showEndGameScreen = function (snake) {
+            var endScreenW = 150;
+            var endScreenH = 100;
+            var endScreenX = (canvas.width - endScreenW) / 2;
+            var endScreenY = (canvas.height - endScreenH) / 2;
+
+            ctx.fillStyle = "#000";
+            ctx.fillRect(endScreenX, endScreenY, endScreenW, endScreenH);
+
+            ctx.fillStyle = "#fff";
+            ctx.font = "20px solid Consolas";
+            ctx.fillText("Score: " + snake.length, endScreenX + 5, endScreenY + 20);
+        };
+
+        var update = function (snake) {
+            // The logic of the game is: change/get direction
+            // then get the position of the new head, then
+            // check if the snake has crashed, if so end the game
+            // if not, move the snake depending whether it's on food
+            // generate new food if the old one has been eaten and
+            // finally render everything
+            currentDirection = changeDirection(currentDirection);
+            var newHeadPosition = getNewHeadPosition(snake, currentDirection);
+
+            if (collided(newHeadPosition[0], newHeadPosition[1], snake)) {
+                showEndGameScreen(snake);
+                clearInterval(loop);
+                return;
+            }
+
+            move(snake, newHeadPosition[0], newHeadPosition[1]);
+            render(snake, sizeOfCell);
+        };
+
+        var initializeGame = function () {
+            // All of the iniatial actions and vars we need
+            sizeOfCell = 10;
+            currentDirection = "right"; // default
+            var snake = initializeSnake(5);
+            generateFood();
+            render(snake, sizeOfCell);
+
+            loop = setInterval(function () {
+                update(snake);
+            }, 80);
+        };
+
+        // Input handlers
+        var keysDown = {};
+
+        addEventListener("keydown", function (e) {
+            keysDown[e.keyCode] = true; // the key is pushed
+        }, false);
+
+        addEventListener("keyup", function (e) {
+            delete keysDown[e.keyCode]; // the key is up
+        }, false);
+
+        initializeGame();
+    </script>
+</body>
+</html>

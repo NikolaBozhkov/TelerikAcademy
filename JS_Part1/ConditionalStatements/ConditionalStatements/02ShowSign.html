@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ShowSign</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="numberA" placeholder="Enter number A:" />
+    <input type="text" id="numberB" placeholder="Enter number B:" />
+    <input type="text" id="numberC" placeholder="Enter number C:" />
+    <button onclick="ShowSignOfProduct()">Show sign</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function ShowSignOfProduct() {
+            var numberA = jsConsole.readInteger("#numberA");
+            var numberB = jsConsole.readInteger("#numberB");
+            var numberC = jsConsole.readInteger("#numberC");
+
+            if (!isNaN(numberA) && !isNaN(numberB) && !isNaN(numberC)) {
+                var preResult = "The sign of " + numberA + "*" + numberB + "*" + numberC + " is ";
+
+                // Checking the combinations of "+++" and "--+" everything else is negative("---" and "-++")
+                if ((numberA >= 0 && numberB >= 0 && numberC >= 0)
+                    || (numberA < 0 && numberB < 0 && numberC >= 0)
+                    || (numberB < 0 && numberC < 0 && numberA >= 0)
+                    || (numberA < 0 && numberC < 0 && numberB >= 0)) {
+                    jsConsole.writeLine(preResult + "+");
+                }
+                else {
+                    jsConsole.writeLine(preResult + "-");
+                }
+            }
+            else {
+                jsConsole.writeLine("Please enter numbers A, B and C.");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunnersHomePage", "RunnersHomePage\RunnersHomePage.csproj", "{1C814982-805C-49F3-B1D2-F653B9647C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedListsPage", "NestedListsPage\NestedListsPage.csproj", "{6A9A95BB-AB45-43A3-9634-4244ECE42CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeSocialNetwork", "DogeSocialNetwork\DogeSocialNetwork.csproj", "{F41CF6CB-BB2F-4E58-9346-C178988B283F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C814982-805C-49F3-B1D2-F653B9647C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C814982-805C-49F3-B1D2-F653B9647C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C814982-805C-49F3-B1D2-F653B9647C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C814982-805C-49F3-B1D2-F653B9647C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9A95BB-AB45-43A3-9634-4244ECE42CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9A95BB-AB45-43A3-9634-4244ECE42CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9A95BB-AB45-43A3-9634-4244ECE42CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9A95BB-AB45-43A3-9634-4244ECE42CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41CF6CB-BB2F-4E58-9346-C178988B283F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41CF6CB-BB2F-4E58-9346-C178988B283F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41CF6CB-BB2F-4E58-9346-C178988B283F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41CF6CB-BB2F-4E58-9346-C178988B283F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

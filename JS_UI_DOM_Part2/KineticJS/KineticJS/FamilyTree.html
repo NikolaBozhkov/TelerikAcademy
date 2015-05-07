@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Family Tree</title>
+</head>
+<body>
+    <div id="kinetic-container"></div>
+    <script src="kineticjs/kinetic-v5.1.0.min.js"></script>
+    <script>
+        // The first homework that I just can't finish, I don't know how to draw and connect everything
+        var stage = Kinetic.Stage({
+            container: "kinetic-container",
+            width: 2000,
+            height: 2000
+        });
+
+        var layer = new Kinetic.Layer();
+
+        var createNameBox = function (x, y, width, height, cornerRadius, name) {
+            var nameBox = new Kinetic.Label({
+                x: x,
+                y: y,
+                width: width,
+                height: height,
+                cornerRadius: cornerRadius,
+                fill: 'white',
+                stroke: 'yellowgreen',
+                draggable: true
+            });
+
+            nameBox.add(new Kinetic.Text({
+                text: name,
+                fontSize: 15,
+                padding: 10,
+                fill: 'black'
+            }));
+
+            return nameBox;
+        };
+
+        var createJoint = function (startX, startY, endX, endY) {
+            return new Kinetic.Line({
+                points: [startX, startY, endX, endY],
+                stroke: 'yellowgreen',
+                strokeWidth: 2
+            });
+        };
+
+        var createFamilyTree = function (familyMembers) {
+            var addedMembers = [];
+            var addedBoxes = [];
+            var drawYLevel = stage.height - 100;
+
+            for (var i = 0; i < familyMembers.length; i++) {
+                var drawXLevel = 10;
+                var currentFamily = familyMembers[i];
+                var mother = currentFamily[mother];
+                var father = currentFamily[father];
+                var children = currentFamily.hasProperty(children) ? currentFamily[children] : null; // A family can be without children
+
+                if (children !== null) {
+                    for (var j = 0; j < children.length; j++) {
+                        var cornerRadius = children[j].charAt(children[j].length - 1) === 'a' ? 15 : 5;
+
+                        if (!(children[j] in addedMembers)) {
+                            var nameBox = createNameBox(drawXLevel, drawYLevel, 50, 20, cornerRadius, children[j]);
+                            addedBoxes.push(nameBox);
+                            addedMembers.push(children[j]);
+                            layer.add(nameBox);
+                            drawXLevel += 80;
+                        }
+                    }
+
+                    drawYLevel += 100;
+                }
+
+                drawXLevel = 10;
+                nameBox = createNameBox(drawXLevel, drawYLevel, 50, 20, mother.charAt(mother.length - 1) === 'a' ? 15 : 5, mother);
+                addedBoxes.push(nameBox);
+                addedMembers.push(mother);
+                layer.add(nameBox);
+                drawXLevel += 80;
+            }
+        };
+
+        var familyMembers = [{
+            mother: 'Maria Petrova',
+            father: 'Georgi Petrov',
+            children: ['Teodora Petrova', 'Peter Petrov']
+        }, {
+            mother: 'Petra Stamatova',
+            father: 'Todor Stamatov',
+            children: ['Maria Petrova']
+        }];
+    </script>
+</body>
+</html>

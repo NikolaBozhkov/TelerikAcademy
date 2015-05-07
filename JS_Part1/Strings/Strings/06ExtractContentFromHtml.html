@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ExtractContentFromHtml</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function extractContentFromHtml(html) {
+            var matches = [];
+            var pattern = />(.*?)</g;
+
+            var match = pattern.exec(html);
+            while (match !== null) {
+                matches.push(match[1]);
+
+                match = pattern.exec(html);
+            }
+
+            return matches.join(" ");
+        }
+
+        var html = "<html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html>";
+        jsConsole.writeLine(extractContentFromHtml(html));
+    </script>
+</body>
+</html>

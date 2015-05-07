@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bouncing Ball</title>
+</head>
+<body>
+    <script>
+        var canvas = document.createElement("canvas");
+        canvas.width = 1440;
+        canvas.height = 800;
+
+        var ctx = canvas.getContext("2d");
+        document.body.appendChild(canvas);
+
+        // velX and velY are pixel per second values
+        var createBall = function (x, y, radius, velX, velY, color) {
+            var ball = {
+                x: x,
+                y: y,
+                radius: radius,
+                velX: velX,
+                velY: velY,
+                color: color,
+                draw: function () {
+                    ctx.beginPath();
+                    ctx.fillStyle = this.color;
+                    ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI, false);
+                    ctx.fill();
+                }
+            }
+
+            return ball;
+        };
+
+        var checkCollision = function (ball) {
+            if ((ball.x <= ball.radius && ball.velX < 0)
+                    || (ball.x >= canvas.width - ball.radius && ball.velX > 0)) {
+                ball.velX = -ball.velX;
+            }
+
+            if ((ball.y <= ball.radius && ball.velY < 0)
+                    || (ball.y >= canvas.height - ball.radius && ball.velY > 0)) {
+                ball.velY = -ball.velY;
+            }
+        };
+
+        var move = function (ball, modifier) {
+            ball.x += ball.velX * modifier;
+            ball.y += ball.velY * modifier;
+
+            checkCollision(ball);
+        };
+
+        var render = function (ball) {
+            ctx.fillStyle = "#F68920";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ball.draw();
+        };
+
+        var showFps = function (fps) {
+            ctx.fillStyle = "black";
+            ctx.font = "20px Consolas";
+            var text = "Current fps: " + fps.toPrecision(3);
+            var width = ctx.measureText(text);
+            ctx.fillText(text, canvas.width - width.width, 20);
+        };
+
+        // "then" should be passed as Date.now()
+        var update = function (ball, then) {
+            var now = Date.now();
+
+            // Here we get the time that has passed during the last execution
+            var delta = now - then;
+            then = now;
+
+            // We ensure a constant speed(independant of fps) by our modifier
+            render(ball);
+            showFps(1000 / delta);
+
+            move(ball, delta / 1000);
+
+            requestAnimationFrame(function () {
+                update(ball, then);
+            });
+        };
+
+        var ball = createBall(canvas.width / 2, canvas.height / 2, 15, 500, 350, "#114C98");
+        update(ball, Date.now());
+    </script>
+</body>
+</html>

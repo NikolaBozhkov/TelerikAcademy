@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TagCloud</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var countOccurences = function (elements) {
+            var occurencesCount = {};
+
+            for (var i = 0; i < elements.length; i++) {
+                var currWord = elements[i].toLowerCase();
+                if (!occurencesCount[currWord]) {
+                    occurencesCount[currWord] = 0;
+                }
+                
+                occurencesCount[currWord]++;
+            }
+
+            return occurencesCount;
+        };
+
+        var generateTagCloud = function (tags, minFontSize, maxFontSize) {
+            var container = document.createElement('div');
+            container.style.width = '200px';
+            container.style.border = '2px solid black';
+            container.style.padding = '5px';
+
+            var wordsCount = countOccurences(tags);
+
+            var minOccurs = Number.MAX_VALUE;
+            var maxOccurs = Number.MIN_VALUE;
+
+            for (var word in wordsCount) {
+                if (wordsCount[word] > maxOccurs) {
+                    maxOccurs = wordsCount[word];
+                }
+                if (wordsCount[word] < minOccurs) {
+                    minOccurs = wordsCount[word];
+                }
+            }
+
+            var dfrag = document.createDocumentFragment();
+
+            for (word in wordsCount) {
+                var fontSize;
+                if (wordsCount[word] === minOccurs) {
+                    fontSize = minFontSize;
+                }
+                else if (wordsCount[word] === maxOccurs) {
+                    fontSize = maxFontSize;
+                }
+                else {
+                    fontSize = minFontSize + ((maxFontSize - minFontSize) / (maxOccurs - wordsCount[word] + 1));
+                }
+                
+                var tag = document.createElement('a');
+                tag.style.fontSize = fontSize + 'px';
+                tag.style.wordWrap = 'break-word';
+                tag.innerHTML = word + ' ';
+                tag.href = '#';
+
+                dfrag.appendChild(tag);
+            }
+
+            container.appendChild(dfrag);
+            return container;
+        };
+
+        var tags = ["cms", "javascript", "js", "ASP.NET MVC",
+            ".net", ".net", "css", "wordpress", "xaml",
+            "js", "http", "web", "asp.net", "asp.net MVC",
+            "ASP.NET MVC", "wp", "javascript", "js", "cms",
+            "html", "javascript", "http", "http", "CMS",
+            "ASP.NET MVC", "wp", "javascript", "js", "cms",
+            "html", "javascript", "http", "http", "CMS",
+        ];
+
+        var tagCloud = generateTagCloud(tags, 17, 42);
+        document.body.appendChild(tagCloud);
+    </script>
+</body>
+</html>

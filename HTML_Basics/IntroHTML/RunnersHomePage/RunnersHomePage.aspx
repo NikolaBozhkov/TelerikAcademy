@@ -1,0 +1,29 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RunnersHomePage.aspx.cs" Inherits="RunnersHomePage.RunnersHomePage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Runners Home&#8482;</title>
+</head>
+<body>
+    <p>Hello, Stranger!</p>
+    <h1>
+        <!-- <sup>TM</sup> can be used too-->
+        Welcome to Runners Home&#8482;
+    </h1>
+    <div>
+        <h2>
+            Runners Home&#8482; is dedicated to provide you with:
+        </h2>
+        <ul type="disc">
+            <li>the most up-to-date information on running races.</li>
+            <li>the best resources for runners.</li>
+        </ul>
+    </div>
+    <footer>
+        <hr />
+        <div>&copy; Runners Home. All rights reserved.</div>
+    </footer>
+</body>
+</html>

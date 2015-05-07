@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Nested Lists</title>
+	</head>
+	<body>
+		<div>Preceding Text</div>
+		<ol type="I">
+			<li>
+				&ensp;&ensp;&nbsp;List Item 1
+				<ol type="a">
+					<li>&ensp;Nested Items 1.1</li>
+					<li>&ensp;Nested Items 1.2</li>
+				</ol>
+			</li>
+			<li>
+				&ensp;&ensp;&nbsp;List Item 2
+				<ol type="1">
+					<li>&ensp;Nested Items 2.1</li>
+					<li>
+						&ensp;Nested Items 2.2
+						<ul type="circle">
+							<li>&emsp;Nested Items 2.2.1</li>
+							<li>
+								&emsp;Nested Items 2.2.2
+								<ul type="disc">
+									<li>&emsp;&ensp;Nested Items 2.2.2.1</li>
+									<li>&emsp;&ensp;Nested Items 2.2.2.2</li>
+								</ul>
+							</li>
+							<li>&emsp;&nbsp;Nested Item 2.2.3</li>
+						</ul>
+					</li>
+					<li>&ensp;&nbsp;Nested Item 2.3</li>
+				</ol>
+			</li>
+			<li>
+				&emsp;&ensp;List Item 3
+				<ul type="disc">
+					<li>&ensp;&nbsp;Nested Item 3.1</li>
+					<li>&ensp;&nbsp;Nested Item 3.2</li>
+					<li>&ensp;&nbsp;Nested Item 3.3</li>
+				</ul>
+			</li>
+		</ol>
+		<footer>
+			<hr />
+			<div>Copyright &copy; My Site. All rights reserved.</div>
+		</footer>
+	</body>
+</html>

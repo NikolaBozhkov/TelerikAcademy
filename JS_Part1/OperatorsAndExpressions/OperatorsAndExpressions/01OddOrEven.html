@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Odd or Even</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="textBox" placeholder="Type the number:" />
+    <button onclick="Check()">Check It</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function Check() {
+            var number = jsConsole.readInteger("#textBox");
+
+            if (!isNaN(number)) {
+                if (number % 2 == 0) {
+                    jsConsole.writeLine("The number " + number + " is even.");
+                }
+                else {
+                    jsConsole.writeLine("The number " + number + " is odd.");
+                }
+            }
+            else {
+                jsConsole.writeLine("Please enter a number.");
+            }
+        }
+    </script>
+</body>
+</html>

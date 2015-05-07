@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>NumberInWords</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="number" placeholder="Enter a number:" />
+    <button onclick="NumberInWords()">Translate</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function NumberInWords() {
+            var number = jsConsole.readInteger("#number");
+
+            if (!isNaN(number) && number < 1000 && number >= 0) {
+                var digits = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+                var middle = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
+                var fulls = ["twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"];
+                var numInWords;
+
+                if (number < 10) {
+                    numInWords = digits[number].uppercaseFirst();
+                }
+                else if (number < 20) {
+                    numInWords = middle[number - 10].uppercaseFirst();
+                }
+                else if (number < 100) {
+                    if (number % 10 == 0) {
+                        numInWords = fulls[Math.floor(number / 10) - 2].uppercaseFirst();
+                    }
+                    else {
+                        numInWords = fulls[Math.floor(number / 10) - 2].uppercaseFirst() + " " + digits[number % 10];
+                    }
+                }
+                else {
+                    numInWords = digits[Math.floor(number / 100)].uppercaseFirst() + " hundred";
+
+                    if (number % 100 == 0) {
+                        numInWords = numInWords; // Just an empty if so we don't step in bottom ones 
+                    }
+                    else if (number % 10 == 0) {
+                        numInWords += " and " + fulls[Math.floor((number % 100) / 10) - 2];
+                    }
+                    else if (number % 100 < 10) {
+                        numInWords += " and " + digits[number % 10];
+                    }
+                    else if (number % 100 < 20) {
+                        numInWords += " and " + middle[(number % 100) - 10];
+                    }
+                    else {
+                        numInWords += " " + fulls[Math.floor((number % 100) / 10) - 2] + " " + digits[number % 10];
+                    }
+                }
+
+                jsConsole.writeLine(numInWords);
+            }
+            else {
+                jsConsole.writeLine("Please enter a number [0; 999].");
+            }
+        }
+        
+        // Again doing some extending
+        String.prototype.uppercaseFirst = function () {
+            return this.charAt(0).toUpperCase() + this.slice(1);
+        }
+    </script>
+</body>
+</html>

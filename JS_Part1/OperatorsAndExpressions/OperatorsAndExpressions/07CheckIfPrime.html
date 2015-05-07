@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CheckIfPrime</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="number" placeholder="Type the number:" />
+    <button onclick="CheckIfPrime()">Check It</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function CheckIfPrime() {
+            var number = jsConsole.readInteger("#number");       
+
+            if (!isNaN(number) && number <= 100) {
+                var checkToNumber = Math.ceil(Math.sqrt(number)); // Narrow the test cases
+                var isPrime = true; // The var that is going to be changed if the number is prime
+
+                for (var i = 2; i <= checkToNumber; i++) {
+                    if (number % i == 0) {
+                        isPrime = false;
+                        break; // The number is not prime, no need to check further
+                    }
+                }
+
+                if (isPrime) {
+                    jsConsole.writeLine("The number " + number + " is prime.");
+                }
+                else {
+                    jsConsole.writeLine("The number " + number + " is not prime.");
+                }
+            }
+            else {
+                jsConsole.writeLine("Please enter a number n <= 100.");
+            }
+        }
+    </script>
+</body>
+</html>

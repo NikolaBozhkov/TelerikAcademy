@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>GetValueFromInputText</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="inputText" />
+    <button id="printValue">Print Value</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function getValueFromInputText() {
+            var input = document.querySelector("input[type='text']");
+            var value = input.value;
+            return value;
+        }
+
+        var printButton = document.querySelector("#printValue");
+        printButton.addEventListener("click", function () {
+            jsConsole.writeLine(getValueFromInputText());
+        });
+    </script>
+</body>
+</html>

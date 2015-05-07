@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Canvas shapes demo</title>
+</head>
+<body>
+    <script src="scripts/canvasShapes.js"></script>
+    <script>
+        var canvas,
+            ctx,
+            rect,
+            circle,
+            line;
+
+        canvas = document.createElement('canvas');
+        canvas.width = 1200;
+        canvas.height = 800;
+        document.body.appendChild(canvas);
+        ctx = canvas.getContext('2d');
+
+        rect = new canvasShapes.Rect(100, 100, 200, 200);
+        circle = new canvasShapes.Circle(150, 200, 70);
+        line = new canvasShapes.Line(10, 50, 500, 250);
+
+        rect.draw(ctx);
+        circle.draw(ctx);
+        line.draw(ctx);
+    </script>
+</body>
+</html>

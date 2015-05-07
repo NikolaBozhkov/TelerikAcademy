@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DynamicSelect</title>
+</head>
+<body>
+    <script id="dynamic-select" type="text/x-handlebars-template">
+        <select>
+            {{#each items}}
+                <option value="{{value}}">{{text}}</option>
+            {{/each}}
+        </select>
+    </script>
+
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script src="scripts/handlebars-v1.3.0.js"></script>
+    <script>
+        function createItem(value, text) {
+            return {
+                value: value,
+                text: text
+            };
+        }
+
+        var items = [
+            createItem(1, 'One'),
+            createItem(2, 'Two'),
+            createItem(3, 'Three'),
+            createItem(4, 'Four'),
+            createItem(5, 'Five'),
+            createItem(6, 'Six'),
+            createItem(7, 'Seven')
+        ];
+
+        var template = Handlebars.compile($('#dynamic-select').html());
+
+        var dynamicSelectHtml = template({
+            items: items
+        });
+
+        document.body.innerHTML += dynamicSelectHtml;
+    </script>
+</body>
+</html>

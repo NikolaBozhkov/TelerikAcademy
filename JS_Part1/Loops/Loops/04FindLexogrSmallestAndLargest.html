@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FindLexogrSmallestAndLargest</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <button onclick="findLexogrSmallestAndLargest()">Find</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function findLexogrSmallestAndLargest() {
+            // I am using the same extensions as before
+            Array.prototype.largestLexogr = function () {
+                return this.reduce(function (a, b) {
+                    return (a > b ? a : b);
+                });
+            };
+
+            Array.prototype.smallestLexogr = function () {
+                return this.reduce(function (a, b) {
+                    return (a < b ? a : b);
+                });
+            }
+
+            var docProp = [];
+            var windowProp = [];
+            var navProp = [];
+
+            for (var property in document) {
+                docProp.push(property);
+            }
+
+            for (property in window) {
+                windowProp.push(property);
+            }
+
+            for (property in navigator) {
+                navProp.push(property);
+            }
+
+            jsConsole.writeLine("The smallest of the properties in document is: " + docProp.smallestLexogr() + " and the largest: " + docProp.largestLexogr());
+            jsConsole.writeLine("The smallest of the properties in window is: " + windowProp.smallestLexogr() + " and the largest: " + windowProp.largestLexogr());
+            jsConsole.writeLine("The smallest of the properties in navigator is: " + navProp.smallestLexogr() + " and the largest: " + navProp.largestLexogr());
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Courses Table</title>
+    <style>
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 2px;
+        }
+
+        .titleCell {
+            text-align: left;
+        }
+
+        table thead {
+            background-color: #aaa;
+            color: #fff;
+        }
+
+        table tr:nth-child(2n) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <script id="courses-table-template" type="text/x-handlebars-template">
+        <table>
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Title</th>
+                    <th>Date #1</th>
+                    <th>Date #2</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each courses}}
+                    <tr>
+                        <td>{{@index}}</td>
+                        <td class="titleCell">{{title}}</td>
+                        <td>{{firstDate}}</td>
+                        <td>{{secondDate}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </script>
+
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script src="scripts/handlebars-v1.3.0.js"></script>
+    <script>
+        function createCourse(title, firstDate, secondDate) {
+            return {
+                title: title,
+                firstDate: firstDate,
+                secondDate: secondDate
+            };
+        }
+
+        var courses = [
+            createCourse('Course Introduction', 'Wed 18:00, 28-May-2014', 'Thu 14:00, 29-May-2014'),
+            createCourse('Document Object Model', 'Wed 18:00, 28-May-2014', 'Thu 14:00, 29-May-2014'),
+            createCourse('HTML5 Canvas', 'Thu 18:00, 29-May-2014', 'Fri 14:00, 30-May-2014'),
+            createCourse('Kinetic JS Overview', 'Thu 18:00, 29-May-2014', 'Fri 14:00, 30-May-2014'),
+            createCourse('SVG and RaphaelJS', 'Wed 18:00, 04-Jun-2014', 'Thu 14:00, 05-Jun-2014'),
+            createCourse('Animations with Canvas and SVG', 'Wed 18:00, 04-Jun-2014', 'Thu 14:00, 05-Jun-2014'),
+            createCourse('DOM operations', 'Thu 18:00, 05-Jun-2014', 'Fri 14:00, 06-Jun-2014'),
+            createCourse('Event model', 'Thu 18:00, 05-Jun-2014', 'Fri 14:00, 06-Jun-2014'),
+            createCourse('jQuery Overview', 'Wed 18:00, 11-Jun-2014', 'Thu 14:00, 12-Jun-2014'),
+            createCourse('HTML templates', 'Wed 18:00, 11-Jun-2014', 'Thu 14:00, 12-Jun-2014'),
+            createCourse('Exam preparation', 'Thu 18:00, 12-Jun-2014', 'Fri 14:00, 13-Jun-2014'),
+            createCourse('Exam', 'Tue 10:00, 17-Jun-2014', 'Tue 16:30, 17-Jun-2014'),
+            createCourse('Teamwork Defense', 'Thu 10:00, 19-Jun-2014', 'Thu 10:00, 19-Jun-2014')
+        ];
+
+        var template = Handlebars.compile($('#courses-table-template').html());
+
+        var coursesHtml = template({
+            courses: courses
+        });
+
+        document.body.innerHTML += coursesHtml;
+    </script>
+</body>
+</html>

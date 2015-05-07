@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Random Divs</title>
+</head>
+<body>
+    <script>
+        function getRandomNumber(min, max) {
+            return random = Math.round(Math.random() * max + min);
+        }
+
+        function getRandomColor() {
+            var red = getRandomNumber(0, 255),
+                green = getRandomNumber(0, 255),
+                blue = getRandomNumber(0, 255);
+
+            return 'rgb(' + red + ', ' + green + ', ' + blue + ')';
+        }
+
+        function createRandomDiv() {
+            var div = document.createElement('div');
+
+            div.style.width = getRandomNumber(20, 100) + 'px';
+
+            div.style.backgroundColor = getRandomColor();
+            div.style.font = getRandomColor();
+
+            div.style.position = 'absolute';
+            div.style.left = getRandomNumber(0, window.innerWidth) + 'px';
+            div.style.top = getRandomNumber(0, window.innerHeight) + 'px';
+
+            var strongElem = document.createElement('strong');
+            strongElem.innerHTML = 'div';
+            div.appendChild(strongElem);
+
+            div.style.borderRadius = getRandomNumber(5, 25);
+            div.style.borderColor = getRandomColor();
+            div.style.borderWidth = getRandomNumber(1, 20) + 'px';
+
+            return div;
+        }
+
+        function appendDivsToDom(count) {
+            var dfrag = document.createDocumentFragment();
+
+            for (var i = 0; i < count; i++) {
+                var div = createRandomDiv();
+                dfrag.appendChild(div);
+            }
+
+            document.body.appendChild(dfrag);
+        }
+
+        appendDivsToDom(20);
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ParseUrlAddress</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function parseAndExtractUrlAddress(address) {
+            /* Using simple regular expression pattern to get
+               the matches in 3 groups, which I later use to
+               assign as a value to our object */
+            var pattern = /(.*?):\/\/(.*?)(\/.*)/g;
+            var match = pattern.exec(address);
+
+            var addressObj = {
+                protocol: match[1],
+                server: match[2],
+                resource: match[3]
+            }
+
+            return addressObj;
+        }
+
+        var address = "http://www.devbg.org/forum/index.php";
+        var addressObj = parseAndExtractUrlAddress(address);
+
+        jsConsole.writeLine("protocol: " + addressObj.protocol
+            + ", server: " + addressObj.server
+            + ", resource: " + addressObj.resource);
+    </script>
+</body>
+</html>

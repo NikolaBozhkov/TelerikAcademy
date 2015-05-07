@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Graphics</title>
+</head>
+<body>
+    <script>
+        // Sorry that so little from this task is solved, but I don't have the time to play with it
+        // I know how every function works, I think that was the point of this.
+        var canvas = document.createElement("canvas");
+        canvas.width = 1440;
+        canvas.height = 800;
+        
+        var ctx = canvas.getContext("2d");
+        document.body.appendChild(canvas);
+        
+        ctx.strokeRect(0, 0, canvas.width, canvas.height);
+
+        var drawHead = function () {
+            drawNose();
+
+            drawEye();
+            ctx.save();
+            ctx.translate(42, 0);
+            drawEye();
+            ctx.restore();
+
+            drawMouth();
+            drawHat();
+        };
+
+        var drawEye = function () {
+            ctx.save();
+            ctx.scale(1.5, 1);
+            ctx.beginPath();
+            ctx.arc(45, 186, 5, 0, 2 * Math.PI, false);
+            ctx.stroke();
+            ctx.restore();
+            ctx.save();
+            ctx.scale(0.5, 1);
+            ctx.beginPath();
+            ctx.arc(130, 186, 4, 0, 2 * Math.PI, false);
+            ctx.fillStyle = "black";
+            ctx.fill();
+            ctx.restore();
+        };
+
+        var drawNose = function () {
+            ctx.beginPath();
+            ctx.fillStyle = "#90CAD7";
+            ctx.strokeStyle = "#22545F";
+            ctx.arc(100, 200, 50, 0, 2 * Math.PI, false);
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.moveTo(90, 210);
+            ctx.lineTo(80, 210);
+            ctx.lineTo(90, 185);
+            ctx.stroke();
+        };
+
+        var drawMouth = function () {
+            ctx.save();
+            ctx.scale(2.5, 1);
+            ctx.rotate(15 * Math.PI / 180);
+            ctx.beginPath();
+            ctx.arc(95, 210, 8, 0, 2 * Math.PI, false);
+            ctx.stroke();
+            ctx.restore();
+        };
+
+        var drawHat = function () {
+            ctx.fillStyle = "#396693";
+            ctx.strokeStyle = "#262626";
+            ctx.save();
+            ctx.scale(5.5, 1);
+            ctx.beginPath();
+            ctx.arc(18, 155, 10, 0, 2 * Math.PI, false);
+            ctx.fill();
+            ctx.stroke();
+            ctx.restore();
+
+            ctx.save();
+            ctx.scale(4, 1);
+            ctx.beginPath();
+            ctx.arc(25, 146, 7, 0, Math.PI, false);
+            ctx.stroke();
+
+            ctx.translate(0, -50);
+            ctx.beginPath();
+            ctx.arc(25, 146, 7, 0, 2 * Math.PI, false);
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.lineTo(32, 196);
+
+            ctx.lineTo(18, 196);
+            ctx.lineTo(18, 146);
+            ctx.stroke();
+            ctx.closePath();
+            ctx.fill();
+            ctx.restore();
+        };
+
+        drawHead();
+    </script>
+</body>
+</html>

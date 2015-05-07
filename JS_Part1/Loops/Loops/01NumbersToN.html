@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>NumbersToN</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="toNumber" placeholder="Enter N:" />
+    <button onclick="printNumbers()">Print</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function printNumbers() {
+            var toNumber = jsConsole.readInteger("#toNumber");
+            for (var i = 1; i <= toNumber; i++) {
+                jsConsole.writeLine(i);
+            }
+        }
+    </script>
+</body>
+</html>

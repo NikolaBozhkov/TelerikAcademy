@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.canvasHolder {
+  padding: 10px;
+  padding-bottom: 5px;
+  background: #3F8630; }
+
+.centerCanvas {
+  position: absolute;
+  left: 50%;
+  margin-top: 45px;
+  margin-left: -266px; }
+
