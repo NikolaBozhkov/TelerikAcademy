@@ -1,0 +1,9 @@
+Formatted the code, all vars are taken to the top, functions are separated logically,
+if-else statements are formatted as shown in https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
+if () {
+	// Code...
+} else {
+	// Code...
+}
+eval() is replaced by JSON.parse() for number of reasons again on the above address
+That's pretty much it.

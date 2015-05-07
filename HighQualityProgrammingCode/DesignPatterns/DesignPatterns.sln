@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{989F9B36-BA16-43D1-A4F1-DBF86E84F22E}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\nikolaset\Desktop\AbstractFactoryUML.gif = C:\Users\nikolaset\Desktop\AbstractFactoryUML.gif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{599C9C39-5601-40DD-842A-5FB0BA1D10E7}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\nikolaset\Desktop\DecoratorUML.jpg = C:\Users\nikolaset\Desktop\DecoratorUML.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural", "Behavioural", "{93A53C99-8A78-4603-80D6-67D410429330}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\nikolaset\Desktop\VisitorUML.jpg = C:\Users\nikolaset\Desktop\VisitorUML.jpg
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{1BD3C326-6C14-4720-B1C4-95A21983400E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{7AC8F33E-E6C5-44FF-823E-F700755D4D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{219B9F56-C6D3-436B-9844-D6D046CC537C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{405E8A57-326B-4724-8FB6-4BDEEC0BE55A}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD3C326-6C14-4720-B1C4-95A21983400E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD3C326-6C14-4720-B1C4-95A21983400E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD3C326-6C14-4720-B1C4-95A21983400E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD3C326-6C14-4720-B1C4-95A21983400E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC8F33E-E6C5-44FF-823E-F700755D4D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC8F33E-E6C5-44FF-823E-F700755D4D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC8F33E-E6C5-44FF-823E-F700755D4D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC8F33E-E6C5-44FF-823E-F700755D4D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219B9F56-C6D3-436B-9844-D6D046CC537C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219B9F56-C6D3-436B-9844-D6D046CC537C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219B9F56-C6D3-436B-9844-D6D046CC537C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219B9F56-C6D3-436B-9844-D6D046CC537C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BD3C326-6C14-4720-B1C4-95A21983400E} = {989F9B36-BA16-43D1-A4F1-DBF86E84F22E}
+		{7AC8F33E-E6C5-44FF-823E-F700755D4D9B} = {599C9C39-5601-40DD-842A-5FB0BA1D10E7}
+		{219B9F56-C6D3-436B-9844-D6D046CC537C} = {93A53C99-8A78-4603-80D6-67D410429330}
+	EndGlobalSection
+EndGlobal

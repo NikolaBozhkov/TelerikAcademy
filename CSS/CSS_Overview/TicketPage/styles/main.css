@@ -1,0 +1,44 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#tableSection {
+    width: 25%;
+    background-color: #808080;
+    color: #bfbfbf;
+    font-family: Helvetica, Arial, sans-serif;
+}
+th, td {
+    padding: 0.55em;
+}
+td:first-child {
+    font-style: italic;
+    color: #fff;
+}
+#name:before {
+    content: ' ';
+    background: mediumseagreen;
+    margin-right: 6px;
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 90%;
+    display: inline-block;
+}
+a {
+    color: #ede2a4;
+    text-decoration: none;
+}
+#redSpan {
+    color: red;
+    font-weight: bold;
+}
+#ticketID {
+    font-weight: 100;
+    text-align: left;
+    font-size: 1.55em;
+}
+#orangeData {
+    color: darkorange;
+    font-weight: bold;
+}

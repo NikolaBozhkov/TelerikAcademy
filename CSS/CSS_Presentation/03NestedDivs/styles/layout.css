@@ -1,0 +1,14 @@
+﻿body {
+    font-size: 10px;
+}
+
+    body > div {
+        width: 50% !important;
+    }
+
+    body div {
+        width: 95%;
+        border: 0.1em solid red;
+        border-radius: 6em;
+        background-color: black;
+    }

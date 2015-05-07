@@ -1,0 +1,27 @@
+﻿ul {    
+    margin: 0;
+    padding-left: 0.5em;
+    list-style: none;
+}
+
+    ul.mainList li a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    ul.subList {
+        display: none;
+    }
+
+        ul.subList li a {
+            color: #888;
+        }
+
+    ul li a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+        ul li a:hover + ul, ul.mainList li a + ul:hover {
+            display: block;
+        }

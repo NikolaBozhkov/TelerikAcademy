@@ -1,0 +1,192 @@
+@mixin border($radius, $width: 1px, $color: #000, $side: "") {
+	border#{$side}: $width solid $color;
+	border-radius: $radius;
+}
+
+@mixin bg-gradient($from-color, $to-color, $from-pos, $to-pos) {
+	background: $from-color; /* Old browsers */
+	background: -moz-linear-gradient(top,  $from-color $from-pos, $to-color $to-pos, $to-color 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop($from-pos,$from-color), color-stop($to-pos,$to-color), color-stop(100%,$to-color)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  $from-color $from-pos,$to-color $to-pos, $to-color 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  $from-color $from-pos,$to-color $to-pos, $to-color 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  $from-color $from-pos,$to-color $to-pos, $to-color 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  $from-color $from-pos,$to-color $to-pos, $to-color 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$from-color}', endColorstr='#{$to-color}',GradientType=0 ); /* IE6-9 */
+	background-attachment: fixed;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	padding: 1em;
+	color: #fff;
+	@include bg-gradient(#D593FF, #9215F2, 0%, 17%);
+
+	& > footer {
+		text-align: center;
+		vertical-align: bottom;
+		font-weight: bold;
+	}
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+#logo-container {
+	@extend .inline-block;
+	margin-bottom: 2em;
+}
+
+#reg-form-container {
+	float: right;
+    position: relative;
+    right: 5%;
+    top: 50%;
+
+	div {
+		text-align: right;
+
+		label {
+			width: 50px;
+            margin: 5px;
+		}
+
+		input {
+			width: 130px;
+            border: 1px solid #603382;
+            border-radius: 10px;
+            padding: 2px 5px;
+            margin: 5px;
+            background-color: #B35EF3;
+		}
+	}
+
+	button {
+		margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+        border: 1px solid #603382;
+        border-style: outset;
+        border-radius: 10px;
+        padding: 5px 8px;
+        background-color: #B35EF3;
+        color: white;
+	}
+}
+
+.nav-list {
+	list-style: none;
+
+	a {
+		white-space: nowrap;
+		color: #fff;
+	}
+
+	.sub-nav-list {
+		display: none;
+		position: absolute;
+	}
+
+	li:hover {
+		& > a {
+			text-decoration: underline;
+		}
+
+		& > ul {
+			display: block;
+		}
+	}
+}
+
+#main-nav-list {
+	@include border(15px);
+	width: 60em;
+	margin-left: 1em;
+	font-size: 1.15em;
+
+	li {
+		padding: 0.6em 0.4em;
+		position: relative;
+	}
+
+	& > li {
+		@extend .inline-block;
+	}
+
+	 & > li:first-of-type {
+		margin-left: 0.4em;
+	}
+}
+
+section {
+	margin: 2.5em 0;
+	@extend .inline-block;
+
+	article {
+		padding: 1em;
+		margin-bottom: 1.5em;
+		width: 80em;
+		font-size: 0.8em;
+		@include border(15px);
+
+		header {
+			font-size: 1.2em;
+			margin-left: 0.3em;
+			margin-bottom: 0.2em;
+		}
+
+		footer {
+			margin: 0.4em;
+			text-align: right;
+			font-size: 1.1em;
+
+			a {
+				color: #D0A3F7;
+			}
+		}
+	}
+}
+
+aside {
+	font-size: 0.8em;
+	float: right;
+	width: 22em;
+	vertical-align: top;
+	margin: 3em;
+
+	ul {
+		list-style: none;
+
+		h2 {
+			font-size: 1.1em;
+			margin-bottom: 0.2em;
+		}
+
+		ul {
+			padding-left: 0.8em;
+			margin-top: 0.8em;
+			li {
+				background: url(../../images/li-dot.png) no-repeat;
+				padding-left: 2em;
+				margin: 0.2em 0;
+			}
+		}
+	}
+
+	& > ul {
+		 & > li {
+			@include border(5px);
+			padding: 1em;
+			padding-bottom: 2em;
+			margin-bottom: 1.3em;
+		}
+	}
+}

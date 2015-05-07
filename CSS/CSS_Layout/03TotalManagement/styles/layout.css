@@ -1,0 +1,75 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 1.5em 2em;
+    width: 663px;  
+    border: 1px solid #925945;
+    border-radius: 5px;
+    background-color: #3b3b3b;  
+}
+
+header {
+    height: 70px;
+    border-radius: 5px;
+    background: url(../images/3_3pc.png) no-repeat 0.6em 0.5em;
+    background-color: #3B3B3B;
+    box-shadow: inset 0 0 15px 0 #171717;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+form {
+    float: right;
+    font-weight: bold;
+    font-size: 1.3em;  
+}
+
+.loginWrapper {
+    margin-top: 0.8em;
+    margin-right: 0.5em;
+    border: none;
+}
+
+    .loginWrapper legend, .loginWrapper input {
+       float: left;
+       margin-left: 25px;
+       height: 1.6em;
+    }
+
+    .loginWrapper input[type="text"], .loginWrapper input[type="email"] {
+        padding-left: 0.5em;
+        border: 1px solid #829BBA;
+    }
+
+    .loginWrapper input[type="submit"] {
+        width: 56px;
+        height: 28px;
+        border: none;
+        background: url(../images/btn.png) no-repeat;
+        color: #fff;
+    }
+
+article {
+    padding: 0 0.6em 0.6em 0.6em;
+    width: 570px;
+    color: #9D9D9D;
+    font-size: 0.93em;
+    font-family: sans-serif;
+}
+
+    article h1 {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        color: #FDD417;
+        font-weight: normal;
+        font-size: 1.75em;
+        font-family: Georgia, "Times New Roman", serif;
+    }
+
+    article strong {
+        color: #fff;
+        font-weight: normal;
+    }

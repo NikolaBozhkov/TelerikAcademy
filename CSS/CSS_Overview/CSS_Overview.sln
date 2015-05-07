@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01TicketPage", "TicketPage\01TicketPage.csproj", "{51819C93-CEF7-45DD-AB63-BD7B475E1CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02ContactsTablePage", "ContactsTablePage\02ContactsTablePage.csproj", "{6D86EED7-14A3-464D-A106-6A013C7E1110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03TaskNumber3", "03TaskNumber3\03TaskNumber3.csproj", "{C9A570E5-B888-42ED-8CDF-AAB4D6263FC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51819C93-CEF7-45DD-AB63-BD7B475E1CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51819C93-CEF7-45DD-AB63-BD7B475E1CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51819C93-CEF7-45DD-AB63-BD7B475E1CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51819C93-CEF7-45DD-AB63-BD7B475E1CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D86EED7-14A3-464D-A106-6A013C7E1110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D86EED7-14A3-464D-A106-6A013C7E1110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D86EED7-14A3-464D-A106-6A013C7E1110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D86EED7-14A3-464D-A106-6A013C7E1110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A570E5-B888-42ED-8CDF-AAB4D6263FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A570E5-B888-42ED-8CDF-AAB4D6263FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A570E5-B888-42ED-8CDF-AAB4D6263FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A570E5-B888-42ED-8CDF-AAB4D6263FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

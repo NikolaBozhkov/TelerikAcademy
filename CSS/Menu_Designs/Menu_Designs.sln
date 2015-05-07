@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackWithBorder", "BlackNoBorder\BlackWithBorder.csproj", "{7122467B-46BC-4854-9D18-157FE81275BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackWithOutBorder", "BlackWithOutBorder\BlackWithOutBorder.csproj", "{0EE643D4-F19E-4FC4-913F-3BA82592029F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7122467B-46BC-4854-9D18-157FE81275BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7122467B-46BC-4854-9D18-157FE81275BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7122467B-46BC-4854-9D18-157FE81275BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7122467B-46BC-4854-9D18-157FE81275BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE643D4-F19E-4FC4-913F-3BA82592029F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE643D4-F19E-4FC4-913F-3BA82592029F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE643D4-F19E-4FC4-913F-3BA82592029F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE643D4-F19E-4FC4-913F-3BA82592029F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

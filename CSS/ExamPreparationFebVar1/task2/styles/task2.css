@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+/* classes */
+.list, body #wrapper .select-list .all-items, body #wrapper .select-list .selected-items {
+  display: inline-block;
+  overflow-y: scroll;
+  height: 200px;
+  width: 150px;
+  border-radius: 5px;
+  background: #8168ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #8168ff 0%, white 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8168ff), color-stop(100%, white));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #8168ff 0%, white 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #8168ff 0%, white 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #8168ff 0%, white 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #8168ff 0%, white 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8168ff', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */ }
+  .list li, body #wrapper .select-list .all-items li, body #wrapper .select-list .selected-items li {
+    padding: 5px 15px;
+    border-bottom: 1px solid #000; }
+    .list li:last-of-type, body #wrapper .select-list .all-items li:last-of-type, body #wrapper .select-list .selected-items li:last-of-type {
+      border-bottom: none; }
+    .list li:first-letter, body #wrapper .select-list .all-items li:first-letter, body #wrapper .select-list .selected-items li:first-letter {
+      text-decoration: underline; }
+    .list li.selected, body #wrapper .select-list .all-items li.selected, body #wrapper .select-list .selected-items li.selected {
+      background-color: #6C4EFF; }
+
+body {
+  font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+  font-size: 16px; }
+  body #wrapper {
+    width: 960px; }
+    body #wrapper .select-list {
+      margin-top: 25px;
+      margin-left: 25px; }
+      body #wrapper .select-list a {
+        display: inline-block;
+        position: relative;
+        top: -80px; }
+

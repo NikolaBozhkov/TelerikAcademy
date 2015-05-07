@@ -1,0 +1,87 @@
+/* The solution is re-did, not copied, I just liked the idea */
+$numPhotos: 6;
+$width: 860px;
+$aspectRatio: 16 / 10;
+$spacing: 10px;
+
+$thumbnailWidth: ($width - ($spacing * ($numPhotos - 1))) / $numPhotos;
+$thumbnailHeight: $thumbnailWidth / $aspectRatio;
+
+$photoWidth: $width;
+$photoHeight: $width / $aspectRatio;
+
+// General
+@mixin transition($time) {
+	-webkit-transition: opacity $time ease-in-out;
+	-moz-transition: opacity $time ease-in-out;
+	-o-transition: opacity $time ease-in-out;
+	transition: opacity $time ease-in-out;
+}
+
+body, ul, li, a {
+	margin: 0;
+	padding: 0;
+}
+
+.inline-list {
+	list-style: none;
+	overflow: hidden;
+
+	li {
+		float: left;
+	}
+}
+
+// Layout
+.gallery {
+	@extend .inline-list;
+	position: relative;
+	width: $width;
+	height: $thumbnailHeight + $spacing + $photoHeight;
+	margin: $spacing auto 0;
+
+	.photo-holder {
+		margin-bottom: $spacing;
+
+		&:not(:last-child) {
+			margin-right: $spacing;
+		}
+
+		&:target {
+			.thumbnail {
+				opacity: 1;
+			}
+
+			.photo {
+				opacity: 1;
+				z-index: 1;
+			}
+		}
+	}
+}
+
+.thumbnail {
+	opacity: 0.5;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	& img {
+		width: $thumbnailWidth;
+		height: $thumbnailHeight;
+	}
+}
+
+.photo {
+	@include transition(1s);
+	position: absolute;
+	top: $thumbnailHeight + $spacing;
+	left: 0;
+	opacity: 0;
+
+	& img {
+		width: $photoWidth;
+		height: $photoHeight;
+	}
+}

@@ -1,0 +1,90 @@
+﻿body {
+    font-family: Arial;
+}
+
+ul, li, input, button {
+    margin: 0;
+    padding: 0;
+    border-radius: 0.15em;
+    list-style: none;
+    overflow: hidden;
+}
+
+.calculator {
+    width: 25.5em;
+    border: 0.1em solid #98A3AF;
+    border-radius: 0.07em;
+    background: rgb(249,249,249); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(249,249,249,1) 16%, rgba(217,228,241,1) 41%, rgba(217,228,241,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(16%,rgba(249,249,249,1)), color-stop(41%,rgba(217,228,241,1)), color-stop(100%,rgba(217,228,241,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(249,249,249,1) 16%,rgba(217,228,241,1) 41%,rgba(217,228,241,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(249,249,249,1) 16%,rgba(217,228,241,1) 41%,rgba(217,228,241,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(249,249,249,1) 16%,rgba(217,228,241,1) 41%,rgba(217,228,241,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(249,249,249,1) 16%,rgba(217,228,241,1) 41%,rgba(217,228,241,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#d9e4f1',GradientType=0 ); /* IE6-9 */
+}
+
+div.optionBar {
+    height: 1.1em;
+    border-bottom: 0.08em solid #C1C6D3;
+    background: rgb(254,254,254); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(254,254,254,1) 19%, rgba(211,218,237,1) 42%, rgba(227,232,248,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(19%,rgba(254,254,254,1)), color-stop(42%,rgba(211,218,237,1)), color-stop(100%,rgba(227,232,248,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 19%,rgba(211,218,237,1) 42%,rgba(227,232,248,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(254,254,254,1) 19%,rgba(211,218,237,1) 42%,rgba(227,232,248,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(254,254,254,1) 19%,rgba(211,218,237,1) 42%,rgba(227,232,248,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(254,254,254,1) 19%,rgba(211,218,237,1) 42%,rgba(227,232,248,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e3e8f8',GradientType=0 ); /* IE6-9 */
+}
+
+a.optionBar {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    font-size: 0.75em;
+    border-style: none;
+    background-color: none;
+    text-decoration: none;
+    color: #3D2532;
+    height: 100%;
+    vertical-align: middle;
+}
+
+    a.optionBar span {
+        text-decoration: underline;
+    }
+
+input.writeBox {
+    font-size: 1.45em;
+    height: 1.7em;
+    width: 100%;
+    vertical-align: baseline;
+    padding-top: 0.35em;
+    text-align: right;
+    border: 0.08em solid #98A3AF;
+    background: rgb(236,240,243); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(236,240,243,1) 0%, rgba(254,254,255,1) 92%, rgba(254,254,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,240,243,1)), color-stop(92%,rgba(254,254,255,1)), color-stop(100%,rgba(254,254,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(236,240,243,1) 0%,rgba(254,254,255,1) 92%,rgba(254,254,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(236,240,243,1) 0%,rgba(254,254,255,1) 92%,rgba(254,254,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(236,240,243,1) 0%,rgba(254,254,255,1) 92%,rgba(254,254,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(236,240,243,1) 0%,rgba(254,254,255,1) 92%,rgba(254,254,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecf0f3', endColorstr='#fefeff',GradientType=0 ); /* IE6-9 */
+}
+
+.frameMargin {
+    padding: 0.7em 0.86em 0.7em 0.7em;
+}
+
+.consolas {
+    font-family: Consolas, monospace;
+}
+
+.binary {
+    border: 0.08em solid #98A3AF;
+    background-color: transparent;
+}
+
+.bitValue {
+    width: 100%;
+}
+

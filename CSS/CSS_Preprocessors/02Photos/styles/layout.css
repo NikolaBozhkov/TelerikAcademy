@@ -1,0 +1,47 @@
+/* The solution is re-did, not copied, I just liked the idea */
+body, ul, li, a {
+  margin: 0;
+  padding: 0; }
+
+.inline-list, .gallery {
+  list-style: none;
+  overflow: hidden; }
+  .inline-list li, .gallery li {
+    float: left; }
+
+.gallery {
+  position: relative;
+  width: 860px;
+  height: 631.875px;
+  margin: 10px auto 0; }
+  .gallery .photo-holder {
+    margin-bottom: 10px; }
+    .gallery .photo-holder:not(:last-child) {
+      margin-right: 10px; }
+    .gallery .photo-holder:target .thumbnail {
+      opacity: 1; }
+    .gallery .photo-holder:target .photo {
+      opacity: 1;
+      z-index: 1; }
+
+.thumbnail {
+  opacity: 0.5; }
+  .thumbnail:hover {
+    opacity: 0.8; }
+  .thumbnail img {
+    width: 135px;
+    height: 84.375px; }
+
+.photo {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  top: 94.375px;
+  left: 0;
+  opacity: 0; }
+  .photo img {
+    width: 860px;
+    height: 537.5px; }
+

@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.border, body #wrapper div, body #wrapper div .messages-list li {
+  border: 1px solid #000;
+  border-radius: 15px; }
+
+.clearfix, body #wrapper div .messages-list:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both; }
+
+body {
+  font: 16px Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+  color: #555555; }
+  body #wrapper {
+    width: 960px; }
+    body #wrapper div {
+      width: 350.36496px;
+      margin: 30px;
+      padding: 5px 15px;
+      background: #eeeeee;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #aaaaaa));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, #eeeeee 0%, #aaaaaa 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#aaaaaa',GradientType=0 );
+      /* IE6-9 */ }
+      body #wrapper div h1 {
+        font-size: 1.8em;
+        text-align: center;
+        margin: 10px auto; }
+      body #wrapper div input {
+        border: none;
+        width: 70%;
+        border-radius: 5px;
+        padding: 5px 15px;
+        background-color: #EEEEEE;
+        line-height: 25px;
+        display: block; }
+      body #wrapper div button {
+        border: none;
+        padding: 5px 15px;
+        font-size: 1.1em;
+        float: right;
+        margin-top: -35px;
+        border-radius: 5px;
+        background: #aaaaaa;
+        background: -moz-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #aaaaaa));
+        background: -webkit-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
+        background: -o-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
+        background: -ms-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
+        background: linear-gradient(to bottom, #eeeeee 0%, #aaaaaa 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#aaaaaa', GradientType=0); }
+      body #wrapper div .messages-list {
+        list-style: none;
+        zoom: 1; }
+        body #wrapper div .messages-list li {
+          width: 200.20855px;
+          margin-bottom: 5px;
+          padding: 5px 15px; }
+          body #wrapper div .messages-list li span:first-of-type {
+            font-size: 1.1em;
+            font-weight: bold; }
+          body #wrapper div .messages-list li .date {
+            font: 0.8em Consolas;
+            display: block; }
+        body #wrapper div .messages-list .me-item {
+          float: right;
+          background: #29edff;
+          /* Old browsers */
+          background: -moz-linear-gradient(top, #29edff 0%, #c0faff 100%);
+          /* FF3.6+ */
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #29edff), color-stop(100%, #c0faff));
+          /* Chrome,Safari4+ */
+          background: -webkit-linear-gradient(top, #29edff 0%, #c0faff 100%);
+          /* Chrome10+,Safari5.1+ */
+          background: -o-linear-gradient(top, #29edff 0%, #c0faff 100%);
+          /* Opera 11.10+ */
+          background: -ms-linear-gradient(top, #29edff 0%, #c0faff 100%);
+          /* IE10+ */
+          background: linear-gradient(to bottom, #29edff 0%, #c0faff 100%);
+          /* W3C */
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#29edff', endColorstr='#c0faff',GradientType=0 );
+          /* IE6-9 */ }
+          body #wrapper div .messages-list .me-item .date {
+            text-align: right; }
+        body #wrapper div .messages-list .toshko-item {
+          float: left;
+          background: #dfffd2;
+          /* Old browsers */
+          background: -moz-linear-gradient(top, #dfffd2 0%, #6fff3b 100%);
+          /* FF3.6+ */
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dfffd2), color-stop(100%, #6fff3b));
+          /* Chrome,Safari4+ */
+          background: -webkit-linear-gradient(top, #dfffd2 0%, #6fff3b 100%);
+          /* Chrome10+,Safari5.1+ */
+          background: -o-linear-gradient(top, #dfffd2 0%, #6fff3b 100%);
+          /* Opera 11.10+ */
+          background: -ms-linear-gradient(top, #dfffd2 0%, #6fff3b 100%);
+          /* IE10+ */
+          background: linear-gradient(to bottom, #dfffd2 0%, #6fff3b 100%);
+          /* W3C */
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfffd2', endColorstr='#6fff3b',GradientType=0 );
+          /* IE6-9 */ }
+          body #wrapper div .messages-list .toshko-item span:first-of-type {
+            display: block;
+            text-align: right; }
+

@@ -1,0 +1,22 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+public class <#@ this.className #>
+{
+	private string myString = this.myStringValue;
+	private int myInt = this.myIntValue;
+
+	public this.className(string myString, int myInt)
+	{
+		this.myString = myString;
+		this.myInt = myInt;
+	}
+}
+<#+
+string className = "SimpleClass";
+string myStringValue = "myString";
+int myIntValue = "myInt";
+#>

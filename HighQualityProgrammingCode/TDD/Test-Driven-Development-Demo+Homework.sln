@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker", "Poker.csproj", "{28FE6BA3-4622-406E-81C4-419B0D2368F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EABA644-957B-49F3-923E-DFC2B305A018}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Test-Driven-Development-Demo+Homework.vsmdi = Test-Driven-Development-Demo+Homework.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTest", "PokerTest\PokerTest.csproj", "{3D231A59-4DCB-46F7-9A6C-8B61D2D5DFB0}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Test-Driven-Development-Demo+Homework.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D231A59-4DCB-46F7-9A6C-8B61D2D5DFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D231A59-4DCB-46F7-9A6C-8B61D2D5DFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D231A59-4DCB-46F7-9A6C-8B61D2D5DFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D231A59-4DCB-46F7-9A6C-8B61D2D5DFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

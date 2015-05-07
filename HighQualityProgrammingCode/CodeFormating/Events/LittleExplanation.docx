@@ -1,0 +1,3 @@
+Everything is moved into separate classes, reformatted, added Wintellect namespace,
+it is not implemented, but thats not important. I used StyleCop to find the mistakes.
+Also usings are moved into the namespace.
