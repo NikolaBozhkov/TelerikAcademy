@@ -1,0 +1,15 @@
+﻿<Window x:Class="TicketClient.MoviesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Movies showing" Height="400" Width="480" MinHeight="400" MinWidth="480">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition>
+            </RowDefinition>
+            <RowDefinition Height="30">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <TabControl x:Name="Movie_Tabs" Grid.Row="0" Margin="5"></TabControl>
+        <Button x:Name="Close_Button" Click="Close_Button_Click" Grid.Row="1" ToolTip="Close this window." Width="100" HorizontalAlignment="Right" Margin="5">Close</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+﻿[
+	{
+		"Hall Name" : "Deluxe",
+		"Income" : "60.00",
+		"Movie Title" : "Twixt",
+		"Screening Time" : "09/02/2014 16:28:53",
+		"Sold Tickets" : "8"
+	},
+	{
+		"Hall Name" : "Deluxe",
+		"Income" : "120.00",
+		"Movie Title" : "The Shawshank Redemption",
+		"Screening Time" : "09/02/2014 19:30:00",
+		"Sold Tickets" : "12"
+	},
+	{
+		"Hall Name" : "Ultimate",
+		"Income" : "24.00",
+		"Movie Title" : "The Shawshank Redemption",
+		"Screening Time" : "09/03/2014 10:30:00",
+		"Sold Tickets" : "2"
+	},
+	{
+		"Hall Name" : "Gorata",
+		"Income" : "12.00",
+		"Movie Title" : "The Shawshank Redemption",
+		"Screening Time" : "09/03/2014 10:30:00",
+		"Sold Tickets" : "1"
+	},
+	{
+		"Hall Name" : "Enterprise",
+		"Income" : "21.00",
+		"Movie Title" : "Twixt",
+		"Screening Time" : "09/03/2014 16:30:00",
+		"Sold Tickets" : "3"
+	}
+]

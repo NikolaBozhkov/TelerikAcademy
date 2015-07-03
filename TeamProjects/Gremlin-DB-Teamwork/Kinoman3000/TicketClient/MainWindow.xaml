@@ -1,0 +1,62 @@
+﻿<Window x:Class="TicketClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinoman 3000 Ticket Client" MinHeight="480" Width="640" Height="480" MinWidth="640" Closing="Window_Closing">
+    <Grid>
+        <!--Row definitions-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60px">
+            </RowDefinition>
+            <RowDefinition Height="auto">
+            </RowDefinition>
+            <RowDefinition Height="*">
+            </RowDefinition>
+            <RowDefinition Height="25px">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#CFE2EB">
+        </Rectangle>
+        <Image Grid.Row="0" Source="Images/header.png" HorizontalAlignment="Left" Width="632"/>
+        <Button x:Name="MoviesShowing_Button" Click="MoviesShowing_Button_Click" Background="#66F5F5F5"  Width="130" Margin="10" HorizontalAlignment="Right">
+            Movies showing
+        </Button>
+        <ToolBarTray Background="WhiteSmoke" Grid.Row="1">
+            <ToolBar Band="0" BandIndex="1" Background="WhiteSmoke">
+                <Button Click="NewTicked_Button_Click" ToolTip="Create a new ticket." MouseLeave="MouseOut" MouseEnter="MouseOver" HorizontalAlignment="Left" x:Name="NewTicked_Button">
+                    <StackPanel Orientation="Horizontal">
+                        <Image  Width="15" Source="Images/clear.png"></Image>
+                        <Label>New ticket</Label>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="DoReports_Button" ToolTip="Submit reports for the cinema activity." MouseLeave="MouseOut" MouseEnter="MouseOver" Click="DoReports_Button_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image  Width="15" Source="Images/check.png"></Image>
+                        <Label>Submit reports</Label>
+                    </StackPanel>
+                </Button>
+                <Button ToolTip="Exit the application." MouseLeave="MouseOut" MouseEnter="MouseOver" x:Name="Exit_Button" Click="Exit_Button_Click" >
+                    <StackPanel Orientation="Horizontal">
+                        <Image  Width="19" Source="Images/close.png"></Image>
+                        <Label>Exit</Label>
+                    </StackPanel>
+                </Button>
+            </ToolBar>            
+        </ToolBarTray>
+        <Rectangle Grid.Row="2" Fill="WhiteSmoke"/>
+        <Rectangle  Margin="5" Grid.Row="2" Stroke="LightGray"/>
+        <ScrollViewer Margin="6" Grid.Row="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel Background="White" Orientation="Vertical">
+                <!--new ticket container-->
+                <StackPanel Orientation="Vertical" x:Name="NewTicket_Container"></StackPanel>
+                <!--tickets list here-->
+                <StackPanel Orientation="Vertical" x:Name="Tickets_List"></StackPanel>                
+            </StackPanel>
+        </ScrollViewer>
+        <StatusBar Grid.Row="3">
+            <StatusBarItem x:Name="ToolTip_Bar"></StatusBarItem>
+            <StatusBarItem x:Name="Loading_Bar">
+                <StackPanel Width="100" Height="20" x:Name="Loading_Bar_Progress"></StackPanel>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

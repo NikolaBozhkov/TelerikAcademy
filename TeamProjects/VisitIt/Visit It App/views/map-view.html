@@ -1,0 +1,43 @@
+<div data-role="view" id="map-view" data-id="map-view" data-layout="main-layout" data-title="Map"
+     data-init="app.googleMaps.initialize">
+    <div id="map"></div>
+</div>
+
+<div data-role="modalview" id="location-properties-modalview" data-id="location-properties-modalview" 
+	 data-layout="main-layout" data-model="app.viewmodels.addReminder" style="width: 100%">
+    <div data-role="header">
+        <div data-role="navbar">
+            <span>Properties</span>
+            <a data-click="app.googleMaps.cancelMarkerAddition" data-role="button" data-align="right">Cancel</a>
+        </div>
+    </div>
+	<ul data-role="listview" data-style="inset">
+		<li>
+            <label>Longitude:
+				<span id="longitude" data-bind="text: location.longitude"></span>
+			</label>
+		</li>
+		<li>
+            <label>Latitude:
+				<span id="latitude" data-bind="text: location.latitude"></span>
+			</label>
+		</li>
+		<li>
+			<label>Title
+				<input data-bind="value: text" type="text" />
+			</label>
+		</li>
+		<li>
+			<label>Date
+				<input id="datepicker" data-bind="value: remindDate" type="datetime-local" />
+			</label>
+		</li>
+		<li>
+			<label>Select mode
+				<select id="dropdown" data-bind="source: modes, value: mode"></select>
+    		</label>
+		</li>
+	</ul>
+	
+	<button data-role="button" data-bind="events: {click: saveReminder}" class="create-button">Create</button>
+</div>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<ss:Workbook xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+  <ss:Styles>
+    <ss:Style ss:ID="General" />
+    <ss:Style ss:ID="Number">
+      <ss:NumberFormat ss:Format="General Number" />
+    </ss:Style>
+    <ss:Style ss:ID="DateTime">
+      <ss:NumberFormat ss:Format="General Date" />
+    </ss:Style>
+    <ss:Style ss:ID="Currency">
+      <ss:NumberFormat ss:Format="Currency" />
+    </ss:Style>
+    <ss:Style ss:ID="ShortDate">
+      <ss:NumberFormat ss:Format="Short Date" />
+    </ss:Style>
+  </ss:Styles>
+  <ss:Worksheet ss:Name="day_expenses">
+    <ss:Table>
+      <ss:Row>
+        <ss:Cell>
+          <ss:Data ss:Type="String">id</ss:Data>
+        </ss:Cell>
+        <ss:Cell>
+          <ss:Data ss:Type="String">expense</ss:Data>
+        </ss:Cell>
+        <ss:Cell>
+          <ss:Data ss:Type="String">Date</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell ss:StyleID="Number">
+          <ss:Data ss:Type="Number">1</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="Currency">
+          <ss:Data ss:Type="Number">67</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="General">
+          <ss:Data ss:Type="String">2014/08/02</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell ss:StyleID="Number">
+          <ss:Data ss:Type="Number">2</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="Currency">
+          <ss:Data ss:Type="Number">74</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="General">
+          <ss:Data ss:Type="String">2014/08/03</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell ss:StyleID="Number">
+          <ss:Data ss:Type="Number">3</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="Currency">
+          <ss:Data ss:Type="Number">85</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="General">
+          <ss:Data ss:Type="String">2014/08/04</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell ss:StyleID="Number">
+          <ss:Data ss:Type="Number">4</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="Currency">
+          <ss:Data ss:Type="Number">65</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="General">
+          <ss:Data ss:Type="String">2014/08/05</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell ss:StyleID="Number">
+          <ss:Data ss:Type="Number">5</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="Currency">
+          <ss:Data ss:Type="Number">78</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="General">
+          <ss:Data ss:Type="String">2014/08/06</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell ss:StyleID="Number">
+          <ss:Data ss:Type="Number">6</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="Currency">
+          <ss:Data ss:Type="Number">75</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="General">
+          <ss:Data ss:Type="String">2014/08/07</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell ss:StyleID="Number">
+          <ss:Data ss:Type="Number">7</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="Currency">
+          <ss:Data ss:Type="Number">69</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="General">
+          <ss:Data ss:Type="String">2014/08/08</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell ss:StyleID="Number">
+          <ss:Data ss:Type="Number">8</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="Currency">
+          <ss:Data ss:Type="Number">58</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="General">
+          <ss:Data ss:Type="String">2014/08/09</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell ss:StyleID="Number">
+          <ss:Data ss:Type="Number">9</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="Currency">
+          <ss:Data ss:Type="Number">69</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="General">
+          <ss:Data ss:Type="String">2014/08/10</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+    </ss:Table>
+  </ss:Worksheet>
+</ss:Workbook>
